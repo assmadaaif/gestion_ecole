@@ -1,6 +1,7 @@
-<?php  include("../include/header.php");
- include("../include/menu.php"); 
+<?php  include("../../include/header.php");
+include("../../include/menu_admin.php"); 
 ?>
+
 
 <div class="content-wrapper">
 	<div class="container-full">
@@ -8,13 +9,13 @@
 		<div class="content-header">
 			<div class="d-flex align-items-center">
 				<div class="me-auto">
-					<h4 class="page-title">Ecole</h4>
+					<h4 class="page-title">Admin</h4>
 					<div class="d-inline-block align-items-center">
 						<nav>
 							<ol class="breadcrumb">
 								<li class="breadcrumb-item"><a href="#"><i class="mdi mdi-home-outline"></i></a></li>
-								<li class="breadcrumb-item" aria-current="page">Eleves</li>
-								<li class="breadcrumb-item active" aria-current="page">Liste des eleves</li>
+								<li class="breadcrumb-item" aria-current="page">Gerant</li>
+								<li class="breadcrumb-item active" aria-current="page">Liste des gerants</li>
 							</ol>
 						</nav>
 					</div>
@@ -27,45 +28,9 @@
 		<section class="content">
 			<div class="box">
 				<div class="box-body">
-					<div class="row my-5">
-						<div class="col-lg-2">
-							<div class="form-group">
-								<select class="form-select">
-									<option>Niveau</option>
-									<option>niveau1</option>
-									<option>niveau2</option>
-									<option>niveau3</option>
-									<option>niveau4</option>
-									<option>niveau5</option>
-								</select>
-							</div>
-						</div>
-						<div class="col-lg-2">
-							<div class="form-group">
-								<select class="form-select">
-									<option>classe</option>
-									<option>classe1</option>
-									<option>classe2</option>
-									<option>classe3</option>
-									<option>classe4</option>
-									<option>classe5</option>
-								</select>
-							</div>
-						</div>
-						<div class="col-lg-2">
-							<div class="form-group">
-								<select class="form-select">
-									<option>Annee scolaire</option>
-									<option>2022</option>
-
-								</select>
-							</div>
-						</div>
-						<div class="col-lg-2 mb-3">
-							<button type="button" class="btn btn-primary-light me-1">
-								<i class="fa fa-filter" aria-hidden="true"></i> filter
-							</button>
-						</div>
+					<div class="row my-5">					
+						
+	
 						<div class="col-lg-2 ms-auto">
 							<div class="form-group">
 								<div class="input-group">
@@ -84,7 +49,7 @@
 										<th>Nom</th>
 										<th>Email</th>
 										<th>Numearu de telephone</th>
-										<th>action</th>
+										<th>Action</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -96,10 +61,15 @@
 										</td>
 										<td>Sonu@gmail.com</td>
 										<td>0677665544</td>
-										<td class="table-action">
-											<a href="#" class="text-fade hover-primary"><i class="align-middle"
+										
+
+                                        <td class="table-action ">
+                                           
+											<a href="modifier_gerant.php" class="text-fade text-success me-2"><i class="align-middle"
 													data-feather="edit-2"></i></a>
-											<a href="#" class="text-fade hover-primary"><i class="align-middle"
+                                                    <a href="ajouter_inscri_gerant.php" class="text-fade text-primary me-2"><i class="align-middle"
+													data-feather="plus"></i></a>
+											<a href="#" class="text-fade text-danger me-2"><i class="align-middle"
 													data-feather="trash"></i></a>
 										</td>
 									</tr>
@@ -109,10 +79,15 @@
 												class="bg-light rounded-circle me-2" alt="Avatar"> Bertha Martin</td>
 										<td>@gmail.com</td>
 										<td>0688985544</td>
-										<td class="table-action">
-											<a href="#" class="text-fade hover-primary"><i class="align-middle"
+                                      
+
+										<td class="table-action ">
+                                            
+											<a href="modifier_gerant.php" class="text-fade text-success me-2"><i class="align-middle"
 													data-feather="edit-2"></i></a>
-											<a href="#" class="text-fade hover-primary"><i class="align-middle"
+                                                    <a href="ajouter_inscri_gerant.php" class="text-fade text-primary me-2"><i class="align-middle"
+													data-feather="plus"></i></a>
+											<a href="#" class="text-fade text-danger me-2"><i class="align-middle"
 													data-feather="trash"></i></a>
 										</td>
 									</tr>
@@ -123,11 +98,16 @@
 												class="bg-light rounded-circle me-2" alt="Avatar"> Stacie Hall</td>
 										<td>@gmail.com</td>
 										<td>0798097687</td>
+                                        
 
-										<td class="table-action">
-											<a href="#" class="text-fade hover-primary"><i class="align-middle"
+                                        <td class="table-action ">
+                                            
+											<a href="modifier_gerant.php" class="text-fade text-success me-2"><i class="align-middle"
 													data-feather="edit-2"></i></a>
-											<a href="#" class="text-fade hover-primary"><i class="align-middle"
+											<a href="ajouter_inscri_gerant.php" class="text-fade text-primary me-2"><i class="align-middle"
+													data-feather="plus"></i></a>
+
+											<a href="#" class="text-fade text-danger me-2"><i class="align-middle"
 													data-feather="trash"></i></a>
 										</td>
 									</tr>
@@ -137,18 +117,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-2 ms-auto">
-					<a href="ajouter-eleve.php">
-						<button type="submit" class="btn btn-primary">
-							ajouter
-						</button></a>
-				</div>
-			</div>
+			
+		</section>
 	</div>
 </div>
-</section>
-<!-- /.content -->
-</div>
-</div>
-<?php include("../include/footer.php");  ?>
+
+
+<?php  include("../../include/footer.php"); 
+?>

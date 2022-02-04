@@ -33,7 +33,7 @@
 								<p class="mb-0 text-fade">Sign in to continue to edulearn.</p>							
 							</div>
 							<div class="p-40">
-								<form action="index.html" method="post">
+								<form action="../administrateur/index.php" method="post">
 									<div class="form-group">
 										<div class="input-group mb-3">
 											<span class="input-group-text bg-transparent"><i class="text-fade ti-user"></i></span>
