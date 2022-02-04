@@ -1,5 +1,5 @@
-<?php  include("../../include/header.php");?>
-<?php include("../../include/menu_admin.php"); 
+<?php  include("../include/header.php");?>
+<?php include("../include/menu_admin.php"); 
 ?>
 
 
@@ -15,8 +15,8 @@
                         <nav>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="#"><i class="mdi mdi-home-outline"></i></a></li>
-                                <li class="breadcrumb-item" aria-current="page">Parent</li>
-                                <li class="breadcrumb-item active" aria-current="page">Ajouter parent</li>
+                                <li class="breadcrumb-item" aria-current="page">Année scolaire</li>
+                                <li class="breadcrumb-item active" aria-current="page">Ajouter Année scolaire</li>
                             </ol>
                         </nav>
                     </div>
@@ -70,5 +70,5 @@
 
 
 
-<?php  include("../../include/footer.php"); 
+<?php  include("../include/footer.php"); 
 ?>

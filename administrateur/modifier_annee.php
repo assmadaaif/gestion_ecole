@@ -1,8 +1,6 @@
-<?php  include("../../include/header.php");
-include("../../include/menu_admin.php"); 
+<?php  include("../include/header.php");
+include("../include/menu_admin.php"); 
 ?>
-
-
 
 
 <div class="content-wrapper">
@@ -16,8 +14,8 @@ include("../../include/menu_admin.php");
                         <nav>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="#"><i class="mdi mdi-home-outline"></i></a></li>
-                                <li class="breadcrumb-item" aria-current="page">Langue</li>
-                                <li class="breadcrumb-item active" aria-current="page">Ajouter Langue</li>
+                                <li class="breadcrumb-item" aria-current="page">Année scolaire</li>
+                                <li class="breadcrumb-item active" aria-current="page">Ajouter Année scolaire</li>
                             </ol>
                         </nav>
                     </div>
@@ -35,17 +33,16 @@ include("../../include/menu_admin.php");
                         <form class="form">
                             <div class="box-body row">
                                 <div class="col-lg-6">
-                                <div class="form-group">
-                <label class="form-label"> Langue</label>
-                <div class="input-group mb-3">
-                    <span class="input-group-text"><i class="ti-map"></i></span>
-                    <select class="form-select">
-                        
-                        <option>Français</option>
-
-                    </select>
-                </div>
                                    
+                                  
+                                    <div class="form-group">
+                                        <label class="form-label">Année scolaire</label>
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text"><i class="ti-calendar"></i></span>
+                                            <input type="date" class="form-control" value="">
+                                        </div>
+                                    </div>
+                                    
                                    
 
                                 </div>
@@ -57,7 +54,7 @@ include("../../include/menu_admin.php");
                                     <i class="ti-trash"></i> Anuuler
                                 </button>
                                 <button type="submit" class="btn btn-primary">
-                                    <i class="ti-save-alt"></i> Ajouter
+                                    <i class="ti-save-alt"></i> Modifier
                                 </button>
                             </div>
                         </form>
@@ -72,6 +69,5 @@ include("../../include/menu_admin.php");
 
 
 
-
-<?php  include("../../include/footer.php"); 
+<?php  include("../include/footer.php"); 
 ?>

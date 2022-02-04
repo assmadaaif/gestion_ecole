@@ -1,5 +1,5 @@
-<?php  include("../../include/header.php");
-include("../../include/menu_admin.php"); 
+<?php  include("../include/header.php");
+include("../include/menu_admin.php"); 
 ?>
 
 
@@ -102,5 +102,4 @@ include("../../include/menu_admin.php");
 
 
 
-<?php  include("../../include/footer.php"); 
-?>
+<?php  include("../include/footer.php");?>

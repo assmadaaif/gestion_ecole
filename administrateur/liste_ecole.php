@@ -1,5 +1,5 @@
-<?php  include("../../include/header.php");
-include("../../include/menu_admin.php"); 
+<?php  include("../include/header.php");
+include("../include/menu_admin.php"); 
 ?>
 
 
@@ -14,8 +14,8 @@ include("../../include/menu_admin.php");
 						<nav>
 							<ol class="breadcrumb">
 								<li class="breadcrumb-item"><a href="#"><i class="mdi mdi-home-outline"></i></a></li>
-								<li class="breadcrumb-item" aria-current="page">Gerant</li>
-								<li class="breadcrumb-item active" aria-current="page">Liste des gerants</li>
+								<li class="breadcrumb-item" aria-current="page">Ecole</li>
+								<li class="breadcrumb-item active" aria-current="page">Liste des Ecoles</li>
 							</ol>
 						</nav>
 					</div>
@@ -48,7 +48,11 @@ include("../../include/menu_admin.php");
 										<th>#</th>
 										<th>Nom</th>
 										<th>Email</th>
-										<th>Numearu de telephone</th>
+										<th>Télephone</th>
+										<th>Ville</th>
+										<th>Pays</th>
+										<th>Status</th>
+
 										<th>Action</th>
 									</tr>
 								</thead>
@@ -56,57 +60,60 @@ include("../../include/menu_admin.php");
 									<tr>
 										<td>1</td>
 										<td>
-											<img src="../../../images/avatar/avatar-10.png" width="48" height="48"
-												class="bg-light rounded-circle me-2" alt="Avatar"> Carl Jenkins
+                                            Nom ecole
 										</td>
-										<td>Sonu@gmail.com</td>
+										<td>ecole@gmail.com</td>
 										<td>0677665544</td>
-										
+										<td>Safi</td>
+										<td>Maroc</td>
+										<td>Active</td>
 
                                         <td class="table-action ">
-                                           
-											<a href="modifier_gerant.php" class="text-fade text-success me-2"><i class="align-middle"
+                                            <a href="#" class="text-fade text-success me-2"><i class="align-middle"
+                                                    data-feather="check"></i></a>
+											<a href="modifier_ecole.php" class="text-fade text-primary me-2"><i class="align-middle"
 													data-feather="edit-2"></i></a>
-                                                    <a href="ajouter_inscri_gerant.php" class="text-fade text-primary me-2"><i class="align-middle"
-													data-feather="plus"></i></a>
 											<a href="#" class="text-fade text-danger me-2"><i class="align-middle"
 													data-feather="trash"></i></a>
 										</td>
 									</tr>
 									<tr>
 										<td>2</td>
-										<td><img src="../../../images/avatar/avatar-12.png" width="48" height="48"
-												class="bg-light rounded-circle me-2" alt="Avatar"> Bertha Martin</td>
-										<td>@gmail.com</td>
-										<td>0688985544</td>
-                                      
+                                        <td>
+                                            Nom ecole
+										</td>
+										<td>ecole@gmail.com</td>
+										<td>0677665544</td>
+										<td>Safi</td>
+										<td>Maroc</td>
+										<td>Inactive</td>
 
 										<td class="table-action ">
-                                            
-											<a href="modifier_gerant.php" class="text-fade text-success me-2"><i class="align-middle"
+                                            <a href="#" class="text-fade text-danger me-2"><i class="align-middle"
+                                                    data-feather="x"></i></a>
+											<a href="modifier_ecole.php" class="text-fade text-primary me-2"><i class="align-middle"
 													data-feather="edit-2"></i></a>
-                                                    <a href="ajouter_inscri_gerant.php" class="text-fade text-primary me-2"><i class="align-middle"
-													data-feather="plus"></i></a>
 											<a href="#" class="text-fade text-danger me-2"><i class="align-middle"
 													data-feather="trash"></i></a>
 										</td>
 									</tr>
 									<tr>
 										<td>3</td>
-										<td>
-											<img src="../../../images/avatar/avatar-15.png" width="48" height="48"
-												class="bg-light rounded-circle me-2" alt="Avatar"> Stacie Hall</td>
-										<td>@gmail.com</td>
-										<td>0798097687</td>
-                                        
+                                        <td>
+                                            Nom ecole
+										</td>
+										<td>ecole@gmail.com</td>
+										<td>0677665544</td>
+										<td>Safi</td>
+										<td>Maroc</td>
+										<td>Active</td>
+
 
                                         <td class="table-action ">
-                                            
-											<a href="modifier_gerant.php" class="text-fade text-success me-2"><i class="align-middle"
+                                            <a href="#" class="text-fade text-success me-2"><i class="align-middle"
+                                                    data-feather="check"></i></a>
+											<a href="modifier_ecole.php" class="text-fade text-primary me-2"><i class="align-middle"
 													data-feather="edit-2"></i></a>
-											<a href="ajouter_inscri_gerant.php" class="text-fade text-primary me-2"><i class="align-middle"
-													data-feather="plus"></i></a>
-
 											<a href="#" class="text-fade text-danger me-2"><i class="align-middle"
 													data-feather="trash"></i></a>
 										</td>
@@ -117,11 +124,18 @@ include("../../include/menu_admin.php");
 					</div>
 				</div>
 			</div>
-			
+			<div class="row">
+				<div class="col-lg-2 ms-auto">
+					<a href="ajouter_ecole.php">
+						<button type="submit" class="btn btn-primary">
+							ajouter
+						</button></a>
+				</div>
+			</div>
 		</section>
 	</div>
 </div>
 
 
-<?php  include("../../include/footer.php"); 
+<?php  include("../include/footer.php"); 
 ?>

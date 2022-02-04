@@ -1,6 +1,9 @@
-<?php  include("../../include/header.php");
-include("../../include/menu_admin.php"); 
+<?php  include("../include/header.php");
+include("../include/menu_admin.php"); 
 ?>
+
+
+
 
 
 
@@ -16,7 +19,7 @@ include("../../include/menu_admin.php");
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="#"><i class="mdi mdi-home-outline"></i></a></li>
                                 <li class="breadcrumb-item" aria-current="page">Ecole</li>
-                                <li class="breadcrumb-item active" aria-current="page">Ajouter ecole</li>
+                                <li class="breadcrumb-item active" aria-current="page">gerant</li>
                             </ol>
                         </nav>
                     </div>
@@ -41,17 +44,44 @@ include("../../include/menu_admin.php");
                                             <input type="text" class="form-control">
                                         </div>
                                     </div>
-
                                     <div class="form-group">
-                                        <label class="form-label">adresse1</label>
+                                        <label class="form-label">Prenom</label>
                                         <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-location-pin"></i></span>
+                                            <span class="input-group-text"><i class="ti-user"></i></span>
                                             <input type="text" class="form-control">
-
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="" class="form-label me-5">sexe</label>
+								  
+									  <input name="group1" type="radio" id="Option_1" >
+									  <label for="Option_1"> homme</label>                    
+								  
+								  
+									  <input name="group1" type="radio" id="Option_2">
+									  <label for="Option_2">femme</label>   
+								  
+								  
+								     </div>
+                                    <div class="form-group">
+                                        <label class="form-label">date de naissance</label>
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text"><i class="ti-calendar"></i></span>
+                                            <input type="date" class="form-control">
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label">adresse2</label>
+                                        <label class="form-label"> Photo</label>
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text"><i class="ti-image"></i></span>
+                                            <input type="file" class="form-control">
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="form-label">adresse</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-location-pin"></i></span>
                                             <input type="text" class="form-control">
@@ -65,66 +95,45 @@ include("../../include/menu_admin.php");
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label"> Utilisateurs</label>
+                                        <label class="form-label">teléphone</label>
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text"><i class="ti-mobile"></i></span>
+                                            <input type="tel" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label"> Password</label>
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text"><i class="ti-lock"></i></span>
+                                            <input type="password" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label"> type d'utlisateur</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-user"></i></span>
                                             <select class="form-select">
-                                                <option value="">utilisateur</option>
+                                            <option>gerant</option>
 
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <label class="form-label">Ville</label>
-                                        <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-calendar"></i></span>
-                                            <input type="text" class="form-control">
-                                        </div>
-                                    </div>
-
-
-                                    <div class="form-group">
-                                        <label class="form-label"> Pays</label>
-                                        <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-user"></i></span>
-                                            <select class="form-select">
-                                                <option>Pays</option>
-
-                                            </select>
+                                        </select>
                                         </div>
                                     </div>
                                    
-                                    <div class="form-group">
-                                        <label class="form-label">teléphone fixe</label>
-                                        <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-mobile"></i></span>
-                                            <input type="tel" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="form-label">teléphone portable</label>
-                                        <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-mobile"></i></span>
-                                            <input type="tel" class="form-control">
-                                        </div>
-                                    </div>
-
-
-
 
                                 </div>
 
                             </div>
                             <!-- /.box-body -->
                             <div class="box-footer">
-                                <button type="button" class="btn btn-primary-light me-1">
+                
+                                <button type="reset" class="btn btn-primary-light me-1">
                                     <i class="ti-trash"></i> Anuuler
                                 </button>
-                                <button type="submit" class="btn btn-primary">
-                                    <i class="ti-save-alt"></i> Sauvgarder
-                                </button>
+                                <a href="liste_gerant.php" class="btn btn-primary">
+                               
+                                    <i class="ti-save-alt"></i> modifier
+                                
+                            </a>
                             </div>
                         </form>
                     </div>
@@ -137,5 +146,5 @@ include("../../include/menu_admin.php");
 </div>
 
 
-<?php  include("../../include/footer.php"); 
+<?php  include("../include/footer.php"); 
 ?>

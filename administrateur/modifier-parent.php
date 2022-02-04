@@ -1,6 +1,10 @@
-<?php  include("../../include/header.php");
-include("../../include/menu_admin.php"); 
+<?php  include("../include/header.php");
+include("../include/menu_admin.php"); 
 ?>
+
+
+
+
 
 
 <div class="content-wrapper">
@@ -14,8 +18,8 @@ include("../../include/menu_admin.php");
                         <nav>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="#"><i class="mdi mdi-home-outline"></i></a></li>
-                                <li class="breadcrumb-item" aria-current="page">Ecole</li>
-                                <li class="breadcrumb-item active" aria-current="page">gerant</li>
+                                <li class="breadcrumb-item" aria-current="page">Parent</li>
+                                <li class="breadcrumb-item active" aria-current="page">Modifier parent</li>
                             </ol>
                         </nav>
                     </div>
@@ -73,7 +77,16 @@ include("../../include/menu_admin.php");
                                             <input type="file" class="form-control">
                                         </div>
                                     </div>
-                                   
+                                    <div class="form-group">
+                                        <label class="form-label"> Eleve</label>
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text"><i class="ti-user"></i></span>
+                                            <select class="form-select">
+                                            <option>Eleve</option>
+
+                                        </select>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group">
@@ -105,13 +118,10 @@ include("../../include/menu_admin.php");
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label"> type d'utlisateur</label>
+                                        <label class="form-label"> type parent</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-user"></i></span>
-                                            <select class="form-select">
-                                            <option>gerant</option>
-
-                                        </select>
+                                            <input type="text" class="form-control">
                                         </div>
                                     </div>
                                    
@@ -121,15 +131,12 @@ include("../../include/menu_admin.php");
                             </div>
                             <!-- /.box-body -->
                             <div class="box-footer">
-                
-                                <button type="reset" class="btn btn-primary-light me-1">
+                                <button type="button" class="btn btn-primary-light me-1">
                                     <i class="ti-trash"></i> Anuuler
                                 </button>
-                                <a href="liste_gerant.php" class="btn btn-primary">
-                               
-                                    <i class="ti-save-alt"></i> inscrire
-                                
-                            </a>
+                                <button type="submit" class="btn btn-success">
+                                    <i class="ti-save-alt"></i> Modifier
+                                </button>
                             </div>
                         </form>
                     </div>
@@ -142,5 +149,6 @@ include("../../include/menu_admin.php");
 </div>
 
 
-<?php  include("../../include/footer.php"); 
+
+<?php  include("../include/footer.php"); 
 ?>

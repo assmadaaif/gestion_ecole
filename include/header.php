@@ -7,12 +7,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
 	<!------------------- Style------------------->  
-    <link rel="icon" href="../../images/favicon.ico">
-    <link rel="stylesheet" href="../../src/css/vendors_css.css"> 
+    <link rel="icon" href="..images/favicon.ico">
+    <link rel="stylesheet" href="../src/css/vendors_css.css"> 
 	
 	
-	<link rel="stylesheet" href="../../src/css/style.css">
-	<link rel="stylesheet" href="../../src/css/skin_color.css">
+	<link rel="stylesheet" href="../src/css/style.css">
+	<link rel="stylesheet" href="../src/css/skin_color.css">
 	<!-------------------end-style------------------->  
     </head>
 <body class="hold-transition light-skin sidebar-mini theme-primary fixed">

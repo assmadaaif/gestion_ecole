@@ -1,7 +1,11 @@
-<?php  include("../../include/header.php");
-
- include("../../include/menu_admin.php"); 
+<?php  include("../include/header.php");
+include("../include/menu_admin.php"); 
 ?>
+
+
+
+
+
 
 <div class="content-wrapper">
 	<div class="container-full">
@@ -40,68 +44,73 @@
 							</div>
 						</div>
 					</div>
-				<div class="row">
-                    <div class="col-md-8 mx-auto">
+					<div class="row">
 						<div class="table-responsive">
 							<table class="text-fade table">
 								<thead class="bg-success">
 									<tr>
 										<th>#</th>
-										<th>Année scolaire</th>
-									
-										<th>Année status</th>
+										<th>Nom</th>
+										<th>Email</th>
+										<th>Numearu de telephone</th>
+										<th>Type parent</th>
+										<th>Eleve</th>
 										<th>Action</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-									
-                                        <td>1</td>
-										<td>2019-2020</td>
-										<td>Inactive</td>
-
-                                        
-										
+										<td>1</td>
+										<td>
+											<img src="../../../images/avatar/avatar-10.png" width="48" height="48"
+												class="bg-light rounded-circle me-2" alt="Avatar"> Carl Jenkins
+										</td>
+										<td>Sonu@gmail.com</td>
+										<td>0677665544</td>
+										<td>Mére</td>
+										<td>Eleve1</td>
 
                                         <td class="table-action ">
+                                            <a href="#" class="text-fade text-success me-2"><i class="align-middle"
+                                                    data-feather="check"></i></a>
+											<a href="modifier-parent.php" class="text-fade text-primary me-2"><i class="align-middle"
+													data-feather="edit-2"></i></a>
+											<a href="#" class="text-fade text-danger me-2"><i class="align-middle"
+													data-feather="trash"></i></a>
+										</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td><img src="../../../images/avatar/avatar-12.png" width="48" height="48"
+												class="bg-light rounded-circle me-2" alt="Avatar"> Bertha Martin</td>
+										<td>@gmail.com</td>
+										<td>0688985544</td>
+                                        <td>Mére</td>
+										<td>Eleve1</td>
+
+										<td class="table-action ">
                                             <a href="#" class="text-fade text-danger me-2"><i class="align-middle"
                                                     data-feather="x"></i></a>
-											<a href="modifier_annee.php" class="text-fade text-primary me-2"><i class="align-middle"
+											<a href="modifier-parent.php" class="text-fade text-primary me-2"><i class="align-middle"
 													data-feather="edit-2"></i></a>
 											<a href="#" class="text-fade text-danger me-2"><i class="align-middle"
 													data-feather="trash"></i></a>
 										</td>
 									</tr>
 									<tr>
-									
-                                        <td>2</td>
-										<td>2020-2021</td>
-										<td>Active</td>
-
-                                        
-										
-
-                                        <td class="table-action ">
-                                            <a href="#" class="text-fade text-success me-2"><i class="align-middle"
-                                                    data-feather="check"></i></a>
-											<a href="modifier_annee.php" class="text-fade text-primary me-2"><i class="align-middle"
-													data-feather="edit-2"></i></a>
-											<a href="#" class="text-fade text-danger me-2"><i class="align-middle"
-													data-feather="trash"></i></a>
-										</td>
-									</tr>
-									<tr>
-										
 										<td>3</td>
-										<td>2021-2022</td>
-										<td>Par defaut</td>
-                                        
-										
+										<td>
+											<img src="../../../images/avatar/avatar-15.png" width="48" height="48"
+												class="bg-light rounded-circle me-2" alt="Avatar"> Stacie Hall</td>
+										<td>@gmail.com</td>
+										<td>0798097687</td>
+                                        <td>Mére</td>
+										<td>Eleve1</td>
 
                                         <td class="table-action ">
                                             <a href="#" class="text-fade text-success me-2"><i class="align-middle"
                                                     data-feather="check"></i></a>
-											<a href="modifier_annee.php" class="text-fade text-primary me-2"><i class="align-middle"
+											<a href="modifier-parent.php" class="text-fade text-primary me-2"><i class="align-middle"
 													data-feather="edit-2"></i></a>
 											<a href="#" class="text-fade text-danger me-2"><i class="align-middle"
 													data-feather="trash"></i></a>
@@ -113,9 +122,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="row mb-5">
+			<div class="row">
 				<div class="col-lg-2 ms-auto">
-					<a href="ajouter_annee.php">
+					<a href="ajouter-parent.php">
 						<button type="submit" class="btn btn-primary">
 							ajouter
 						</button></a>
@@ -126,8 +135,5 @@
 </div>
 
 
-
-
-
-<?php  include("../../include/footer.php"); 
+<?php  include("../include/footer.php"); 
 ?>
