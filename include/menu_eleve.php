@@ -6,7 +6,7 @@
                 <!-- sidebar menu-->
                 <ul class="sidebar-menu" data-widget="tree">
                     <li>
-                        <a href="../eleve/index.php"><i data-feather="home"></i><span>back Office</span></a>
+                        <a href="<?php dirname(__FILE__) ?> /eleve/index.php"><i data-feather="home"></i><span>back Office</span></a>
                     </li>
                     <li class="treeview">
                         <a href="#">
@@ -17,11 +17,11 @@
                             </span>
                         </a>
                         <ul class="treeview-menu">
-                            <li><a href="../eleve/liste_formateurs.php"><i class="icon-Commit"><span
+                            <li><a href="<?php dirname(__FILE__) ?> /eleve/liste_formateurs.php"><i class="icon-Commit"><span
                                             class="path1"></span><span class="path2"></span></i>Formateurs </a></li>
-                            <li><a href="../eleve/liste_matieres.php"><i class="icon-Commit"><span
+                            <li><a href="<?php dirname(__FILE__) ?> /eleve/liste_matieres.php"><i class="icon-Commit"><span
                                             class="path1"></span><span class="path2"></span></i>Matières </a></li>
-                            <li><a href="../eleve/liste_parents.php"><i class="icon-Commit"><span
+                            <li><a href="<?php dirname(__FILE__) ?> /eleve/liste_parents.php"><i class="icon-Commit"><span
                                             class="path1"></span><span class="path2"></span></i>Parents </a></li>
                         </ul>
                     </li>
@@ -35,9 +35,9 @@
                             </span>
                         </a>
                         <ul class="treeview-menu">
-                            <li><a href="../eleve/absences.php"><i class="icon-Commit"><span class="path1"></span><span
+                            <li><a href="<?php dirname(__FILE__) ?> /eleve/absences.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i>Absences </a></li>
-                            <li><a href="../eleve/retards.php"><i class="icon-Commit"><span class="path1"></span><span
+                            <li><a href="<?php dirname(__FILE__) ?> /eleve/retards.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i>Retards </a></li>
                         </ul>
                     </li>
@@ -50,20 +50,20 @@
                                     </span>
                                 </a>
                                 <ul class="treeview-menu">
-                                    <li><a href="../messagerie/liste_messageries.php"><i class="icon-Commit"><span class="path1"></span><span
+                                    <li><a href="<?php dirname(__FILE__) ?> /messagerie/liste_messageries.php"><i class="icon-Commit"><span class="path1"></span><span
                                                     class="path2"></span></i>liste des messages </a></li>
-                                    <li><a href="../messagerie/nouveau_message.php"><i class="icon-Commit"><span class="path1"></span><span
+                                    <li><a href="<?php dirname(__FILE__) ?> /messagerie/nouveau_message.php"><i class="icon-Commit"><span class="path1"></span><span
                                                     class="path2"></span></i>Nouveau message</a></li>
                                 </ul>
                             </li>
                     <li>
-                        <a href="../parametre.php"><i data-feather="settings"></i><span>Parametre</span></a>
+                        <a href="<?php dirname(__FILE__) ?> /parametre.php"><i data-feather="settings"></i><span>Parametre</span></a>
                     </li>
                 </ul>
                 <div class="sidebar-widgets">
                     <div class="mx-25 mb-30 pb-20 side-bx bg-primary-light rounded20 ">
                         <div class="text-center">
-                            <img src="../../images/svg-icon/color-svg/custom-24.svg" class="sideimg p-5 mt-5" alt="">
+                            <img src="<?php dirname(__FILE__) ?> /images/svg-icon/color-svg/custom-24.svg" class="sideimg p-5 mt-5" alt="">
                             <h4 class="title-bx text-primary">Best Education Admin</h4>
                         </div>
                     </div>

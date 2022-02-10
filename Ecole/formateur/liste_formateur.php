@@ -59,7 +59,7 @@
                                     <tr>
                                         <td>1</td>
                                         <td>
-											<img src="../images/avatar/avatar-10.png" width="48" height="48"
+											<img src="<?php dirname(__FILE__) ?> /images/avatar/avatar-10.png" width="48" height="48"
 												class="bg-light rounded-circle me-2" alt="Avatar"> formateur1
 										</td>
                                         <td>formateur@gmail.com</td>
@@ -79,7 +79,7 @@
                                     <tr>
                                         <td>2</td>
                                         <td>
-											<img src="../images/avatar/avatar-10.png" width="48" height="48"
+											<img src="<?php dirname(__FILE__) ?> /images/avatar/avatar-10.png" width="48" height="48"
 												class="bg-light rounded-circle me-2" alt="Avatar"> formateur2
 										</td>
                                         <td>formateur@gmail.com</td>
@@ -100,7 +100,7 @@
                                     <tr>
                                         <td>3</td>
                                         <td>
-											<img src="../images/avatar/avatar-10.png" width="48" height="48"
+											<img src="<?php dirname(__FILE__) ?> /images/avatar/avatar-10.png" width="48" height="48"
 												class="bg-light rounded-circle me-2" alt="Avatar"> formateur3
 										</td>
                                         <td>formateur@gmail.com</td>
