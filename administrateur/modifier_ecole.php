@@ -1,6 +1,6 @@
-<?php  include("../include/header.php");
-include("../include/menu_admin.php"); 
-?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/include/header.php"; ?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/include/menu_admin.php"; ?>
+
 
 
 
@@ -110,6 +110,13 @@ include("../include/menu_admin.php");
                                             <input type="tel" class="form-control">
                                         </div>
                                     </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Date d'inscription</label>
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text"><i class="ti-calendar"></i></span>
+                                            <input type="date" class="form-control">
+                                        </div>
+                                    </div>
 
 
 
@@ -137,5 +144,5 @@ include("../include/menu_admin.php");
 </div>
 
 
-<?php  include("../include/footer.php"); 
-?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/include/footer.php"; ?>
+

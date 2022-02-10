@@ -6,7 +6,7 @@
 				<!-- sidebar menu-->
 				<ul class="sidebar-menu" data-widget="tree">
 					<li>
-						<a href="../index.php"><i data-feather="home"></i><span>back Office</span></a>
+						<a href="../administrateur/index.php"><i data-feather="home"></i><span>back Office</span></a>
 					</li>
 					<li>
 						<a href="../administrateur/ajouter_langue.php"><i data-feather="map"></i><span>Langue</span></a>
@@ -15,13 +15,31 @@
 						<a href="../administrateur/list_annee.php"><i data-feather="calendar"></i><span>Année
 								scolaire</span></a>
 					</li>
-					<li>
-						<a href="../administrateur/liste-parent.php"><i data-feather="users"></i><span> parent</span></a>
+
+
+					<li class="treeview">
+						<a href="#">
+							<i data-feather="users"></i>
+							<span>Parent</span>
+							<span class="pull-right-container">
+								<i class="fa fa-angle-right pull-right"></i>
+							</span>
+						</a>
+						<ul class="treeview-menu">
+							<li><a href="../administrateur/liste-parent.php"><i class="icon-Commit"><span
+											class="path1"></span><span class="path2"></span></i>liste des
+									parents</a></li>
+							<li><a href="../administrateur/ajouter-parent.php"><i class="icon-Commit"><span
+											class="path1"></span><span class="path2"></span></i>ajouter un
+									parent</a></li>
+
+						</ul>
 					</li>
 
 					<li class="treeview">
 						<a href="#">
-							<i data-feather="book-open"><span class="path1"></span><span class="path2"></span></i>Ecole
+							<i data-feather="book-open"></i>
+							<span>Ecole</span>
 							<span class="pull-right-container">
 								<i class="fa fa-angle-right pull-right"></i>
 							</span>
@@ -40,16 +58,16 @@
 							</li>
 						</ul>
 					</li>
-				<li>
-					<a href="../administrateur/parametre.php">
-						<i data-feather="settings"></i>
-						<span>Parametrage</span>
+					<li>
+						<a href="../parametre.php">
+							<i data-feather="settings"></i>
+							<span>Parametrage</span>
 
-					</a>
+						</a>
 
-				</li>
+					</li>
 				</ul>
-				
+
 
 
 

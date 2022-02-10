@@ -1,6 +1,5 @@
-<?php  include("../include/header.php");
-include("../include/menu_admin.php"); 
-?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/include/header.php"; ?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/include/menu_admin.php"; ?>
 
 
 
@@ -71,24 +70,42 @@ include("../include/menu_admin.php");
                                         </div>
                                     </div>
                                     <div class="form-group">
+                                        <label class="form-label ">Date d'inscription</label>
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text"><i class="ti-calendar"></i></span>
+                                            <input type="date" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Année scolaire</label>
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text"><i class="ti-user"></i></span>
+                                            <select class="selectpicker form-select">
+                                            <option>2021-2022</option>
+
+                                        </select>
+                                        </div>
+                                    </div>
+                                   
+                                    <div class="form-group">
                                         <label class="form-label"> Photo</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-image"></i></span>
                                             <input type="file" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="form-group">
+                                </div>
+                                <div class="col-lg-6">
+                                <div class="form-group">
                                         <label class="form-label"> Eleve</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-user"></i></span>
-                                            <select class="form-select">
+                                            <select class="selectpicker form-select">
                                             <option>Eleve</option>
 
                                         </select>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-6">
                                     <div class="form-group">
                                         <label class="form-label">adresse</label>
                                         <div class="input-group mb-3">
@@ -124,6 +141,7 @@ include("../include/menu_admin.php");
                                             <input type="text" class="form-control">
                                         </div>
                                     </div>
+                                  
                                    
 
                                 </div>
@@ -134,7 +152,7 @@ include("../include/menu_admin.php");
                                 <button type="button" class="btn btn-primary-light me-1">
                                     <i class="ti-trash"></i> Anuuler
                                 </button>
-                                <button type="submit" class="btn btn-success">
+                                <button type="submit" class="btn btn-primary">
                                     <i class="ti-save-alt"></i> Modifier
                                 </button>
                             </div>
@@ -149,6 +167,4 @@ include("../include/menu_admin.php");
 </div>
 
 
-
-<?php  include("../include/footer.php"); 
-?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/include/footer.php"; ?>

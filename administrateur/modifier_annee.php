@@ -1,6 +1,7 @@
-<?php  include("../include/header.php");
-include("../include/menu_admin.php"); 
-?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/include/header.php"; ?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/include/menu_admin.php"; ?>
+
+
 
 
 <div class="content-wrapper">
@@ -69,5 +70,4 @@ include("../include/menu_admin.php");
 
 
 
-<?php  include("../include/footer.php"); 
-?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/include/footer.php"; ?>

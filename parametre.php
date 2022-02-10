@@ -1,6 +1,5 @@
-<?php  include("../include/header.php");
-include("../include/menu_admin.php"); 
-?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/include/header.php"; ?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/include/menu_admin.php"; ?>
 
 
 
@@ -12,7 +11,7 @@ include("../include/menu_admin.php");
 		<div class="content-header">
 			<div class="d-flex align-items-center">
 				<div class="me-auto">
-					<h4 class="page-title">Admin</h4>
+					<h4 class="page-title">Parent</h4>
 					<div class="d-inline-block align-items-center">
 						<nav>
 							<ol class="breadcrumb">
@@ -69,8 +68,4 @@ include("../include/menu_admin.php");
 		</section>
 	</div>
 </div>
-
-
-
-<?php  include("../include/footer.php"); 
-?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/include/footer.php"; ?>

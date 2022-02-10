@@ -1,6 +1,5 @@
-<?php  include("../include/header.php");
-include("../include/menu_admin.php"); 
-?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/include/header.php"; ?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/include/menu_admin.php"; ?>
 
 
 
@@ -16,7 +15,7 @@ include("../include/menu_admin.php");
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="#"><i class="mdi mdi-home-outline"></i></a></li>
                                 <li class="breadcrumb-item" aria-current="page">Ecole</li>
-                                <li class="breadcrumb-item active" aria-current="page">gerant</li>
+                                <li class="breadcrumb-item active" aria-current="page"> ajouter l'inscription de gerant</li>
                             </ol>
                         </nav>
                     </div>
@@ -102,4 +101,4 @@ include("../include/menu_admin.php");
 
 
 
-<?php  include("../include/footer.php");?>
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/include/footer.php"; ?>
