@@ -1,6 +1,5 @@
-
 <?php
-include('../../config.php');
+include('../config.php');
 ?>
 <!-------------------------script ---------------->
 		<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /src/js/vendors.min.js"></script>
