@@ -1,28 +1,32 @@
+
+<?php
+include('../../config.php');
+?>
 <!-------------------------script ---------------->
-		<script src="<?php dirname(__FILE__) ?> /src/js/vendors.min.js"></script>
-		<script src="<?php dirname(__FILE__) ?> /src/js/pages/chat-popup.js"></script>
-		<script src="<?php dirname(__FILE__) ?> /assets/icons/feather-icons/feather.min.js"></script>
+		<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /src/js/vendors.min.js"></script>
+		<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /src/js/pages/chat-popup.js"></script>
+		<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /assets/icons/feather-icons/feather.min.js"></script>
 			
-		<script src="<?php dirname(__FILE__) ?> /assets/vendor_components/apexcharts-bundle/dist/apexcharts.js"></script>
-		<script src="<?php dirname(__FILE__) ?> /assets/vendor_components/moment/min/moment.min.js"></script>
-		<script src="<?php dirname(__FILE__) ?> /assets/vendor_components/bootstrap-daterangepicker/daterangepicker.js"></script>	
+		<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /assets/vendor_components/apexcharts-bundle/dist/apexcharts.js"></script>
+		<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /assets/vendor_components/moment/min/moment.min.js"></script>
+		<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /assets/vendor_components/bootstrap-daterangepicker/daterangepicker.js"></script>	
 			
 			<!-- edulearn App -->
-		<script src="<?php dirname(__FILE__) ?> /src/js/demo.js"></script>
-		<script src="<?php dirname(__FILE__) ?> /src/js/template.js"></script>
-		<script src="<?php dirname(__FILE__) ?> /src/js/pages/dashboard.js"></script>
-	<script src="<?php dirname(__FILE__) ?> /assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
-	<script src="<?php dirname(__FILE__) ?> /src/js/pages/form-compose.js"></script>
-	<script src="<?php dirname(__FILE__) ?> /src/js/pages/advanced-form-element.js"></script>
-<script src="<?php dirname(__FILE__) ?> /assets/vendor_components/bootstrap-select/dist/js/bootstrap-select.js"></script>
-	<script src="<?php dirname(__FILE__) ?> /assets/vendor_components/bootstrap-tagsinput/dist/bootstrap-tagsinput.js"></script>
+		<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /src/js/demo.js"></script>
+		<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /src/js/template.js"></script>
+		<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /src/js/pages/dashboard.js"></script>
+	<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+	<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /src/js/pages/form-compose.js"></script>
+	<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /src/js/pages/advanced-form-element.js"></script>
+<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /assets/vendor_components/bootstrap-select/dist/js/bootstrap-select.js"></script>
+	<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /assets/vendor_components/bootstrap-tagsinput/dist/bootstrap-tagsinput.js"></script>
     <script src="
-    <?php dirname(__FILE__) ?> /assets/vendor_components/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"></script>
-	<script src="<?php dirname(__FILE__) ?> /assets/vendor_components/select2/dist/js/select2.full.js"></script>
-	<script src="<?php dirname(__FILE__) ?> /assets/vendor_plugins/input-mask/jquery.inputmask.js"></script>
-	<script src="<?php dirname(__FILE__) ?> /assets/vendor_plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
-	<script src="<?php dirname(__FILE__) ?> /assets/vendor_plugins/input-mask/jquery.inputmask.extensions.js"></script>
-    <script src="<?php dirname(__FILE__) ?> /assets/vendor_plugins/iCheck/icheck.min.js"></script>
+    <?php  $_SERVER["DOCUMENT_ROOT"] ?> /assets/vendor_components/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"></script>
+	<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /assets/vendor_components/select2/dist/js/select2.full.js"></script>
+	<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /assets/vendor_plugins/input-mask/jquery.inputmask.js"></script>
+	<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /assets/vendor_plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
+	<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /assets/vendor_plugins/input-mask/jquery.inputmask.extensions.js"></script>
+    <script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /assets/vendor_plugins/iCheck/icheck.min.js"></script>
 
 
 
@@ -52,7 +56,7 @@
 			</div>
             <div>
                 <div class="d-flex flex-row">
-                    <div class=""><img src="<?php dirname(__FILE__) ?> /images/avatar/avatar-13.png" alt="user" class="rounded bg-danger-light w-150" width="100"></div>
+                    <div class=""><img src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /images/avatar/avatar-13.png" alt="user" class="rounded bg-danger-light w-150" width="100"></div>
                     <div class="ps-20">
                         <h5 class="mb-0">Nil Yeager</h5>
                         <p class="my-5 text-fade">Manager</p>
@@ -215,7 +219,7 @@
           <div class="media-list media-list-hover mt-20">
 			<div class="media py-10 px-0">
 			  <a class="avatar avatar-lg status-success" href="#">
-				<img src="<?php dirname(__FILE__) ?> /images/avatar/1.jpg" alt="...">
+				<img src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /images/avatar/1.jpg" alt="...">
 			  </a>
 			  <div class="media-body">
 				<p class="fs-16">
@@ -228,7 +232,7 @@
 
 			<div class="media py-10 px-0">
 			  <a class="avatar avatar-lg status-danger" href="#">
-				<img src="<?php dirname(__FILE__) ?> /images/avatar/2.jpg" alt="...">
+				<img src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /images/avatar/2.jpg" alt="...">
 			  </a>
 			  <div class="media-body">
 				<p class="fs-16">
@@ -241,7 +245,7 @@
 
 			<div class="media py-10 px-0">
 			  <a class="avatar avatar-lg status-warning" href="#">
-				<img src="<?php dirname(__FILE__) ?> /images/avatar/3.jpg" alt="...">
+				<img src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /images/avatar/3.jpg" alt="...">
 			  </a>
 			  <div class="media-body">
 				<p class="fs-16">
@@ -254,7 +258,7 @@
 
 			<div class="media py-10 px-0">
 			  <a class="avatar avatar-lg status-primary" href="#">
-				<img src="<?php dirname(__FILE__) ?> /images/avatar/4.jpg" alt="...">
+				<img src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /images/avatar/4.jpg" alt="...">
 			  </a>
 			  <div class="media-body">
 				<p class="fs-16">
@@ -267,7 +271,7 @@
 			
 			<div class="media py-10 px-0">
 			  <a class="avatar avatar-lg status-success" href="#">
-				<img src="<?php dirname(__FILE__) ?> /images/avatar/1.jpg" alt="...">
+				<img src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /images/avatar/1.jpg" alt="...">
 			  </a>
 			  <div class="media-body">
 				<p class="fs-16">
@@ -280,7 +284,7 @@
 
 			<div class="media py-10 px-0">
 			  <a class="avatar avatar-lg status-danger" href="#">
-				<img src="<?php dirname(__FILE__) ?> /images/avatar/2.jpg" alt="...">
+				<img src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /images/avatar/2.jpg" alt="...">
 			  </a>
 			  <div class="media-body">
 				<p class="fs-16">
@@ -293,7 +297,7 @@
 
 			<div class="media py-10 px-0">
 			  <a class="avatar avatar-lg status-warning" href="#">
-				<img src="<?php dirname(__FILE__) ?> /images/avatar/3.jpg" alt="...">
+				<img src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /images/avatar/3.jpg" alt="...">
 			  </a>
 			  <div class="media-body">
 				<p class="fs-16">
@@ -306,7 +310,7 @@
 
 			<div class="media py-10 px-0">
 			  <a class="avatar avatar-lg status-primary" href="#">
-				<img src="<?php dirname(__FILE__) ?> /images/avatar/4.jpg" alt="...">
+				<img src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /images/avatar/4.jpg" alt="...">
 			  </a>
 			  <div class="media-body">
 				<p class="fs-16">

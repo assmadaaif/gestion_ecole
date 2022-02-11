@@ -1,4 +1,7 @@
-<?php include $_SERVER["DOCUMENT_ROOT"] . "/include/header.php"; ?>
+<?php 
+
+include('../../config.php');
+include $_SERVER["DOCUMENT_ROOT"] . "/include/header.php"; ?>
 <?php include $_SERVER["DOCUMENT_ROOT"] . "/include/menu_admin.php"; ?>
 
 
@@ -60,7 +63,7 @@
 									<tr>
 										<td>1</td>
 										<td>
-											<img src="../images/avatar/avatar-10.png" width="48" height="48"
+											<img src="<?php dirname(__FILE__) ?> /images/avatar/avatar-10.png" width="48" height="48"
 												class="bg-light rounded-circle me-2" alt="Avatar"> Carl Jenkins
 										</td>
 										<td>Sonu@gmail.com</td>
@@ -79,7 +82,7 @@
 									</tr>
 									<tr>
 										<td>2</td>
-										<td><img src="../images/avatar/avatar-12.png" width="48" height="48"
+										<td><img src="<?php dirname(__FILE__) ?> /images/avatar/avatar-12.png" width="48" height="48"
 												class="bg-light rounded-circle me-2" alt="Avatar"> Bertha Martin</td>
 										<td>@gmail.com</td>
 										<td>0688985544</td>
@@ -98,7 +101,7 @@
 									<tr>
 										<td>3</td>
 										<td>
-											<img src="../images/avatar/avatar-15.png" width="48" height="48"
+											<img src="<?php dirname(__FILE__) ?> /images/avatar/avatar-15.png" width="48" height="48"
 												class="bg-light rounded-circle me-2" alt="Avatar"> Stacie Hall</td>
 										<td>@gmail.com</td>
 										<td>0798097687</td>

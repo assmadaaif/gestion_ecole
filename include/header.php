@@ -1,3 +1,6 @@
+<?php
+include('../../config.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,10 +13,10 @@
 	
 
 	<!------------------- Style------------------->
-    <link rel='icon'  href="<?php dirname(__FILE__) ?> /images/favicon.ico">
-	<link rel='stylesheet'  href="<?php dirname(__FILE__) ?>/src/css/vendors_css.css">
-	<link rel='stylesheet'  href='<?php dirname(__FILE__) ?>/src/css/style.css'>
-	<link rel='stylesheet'  href='<?php dirname(__FILE__) ?>/src/css/skin_color.css'>
+    <link rel='icon' href="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /images/favicon.ico">
+	<link rel='stylesheet'  href="<?php  $_SERVER["DOCUMENT_ROOT"] ?>/src/css/vendors_css.css">
+	<link rel='stylesheet'  href='<?php  $_SERVER["DOCUMENT_ROOT"] ?>/src/css/style.css'>
+	<link rel='stylesheet'  href='<?php  $_SERVER["DOCUMENT_ROOT"] ?>/src/css/skin_color.css'>
 	
 	<!-------------------end-style------------------->
 </head>
@@ -27,12 +30,12 @@
 				<a href="index.html" class="logo">
 					<!-- logo-->
 					<div class="logo-mini w-30">
-						<span class="light-logo"><img src="<?php dirname(__FILE__) ?> /images/logo-letter.png" alt="logo"></span>
-						<span class="dark-logo"><img src="<?php dirname(__FILE__) ?> /images/logo-letter-white.png" alt="logo"></span>
+						<span class="light-logo"><img src="<?php  $_SERVER["DOCUMENT_ROOT"] ?>/images/logo-letter.png" alt="logo"></span>
+						<span class="dark-logo"><img src="<?php  $_SERVER["DOCUMENT_ROOT"] ?>/images/logo-letter-white.png" alt="logo"></span>
 					</div>
 					<div class="logo-lg">
-						<span class="light-logo"><img src="<?php dirname(__FILE__) ?> /images/logo-dark-text.png" alt="logo"></span>
-						<span class="dark-logo"><img src="<?php dirname(__FILE__) ?> /images/logo-light-text.png" alt="logo"></span>
+						<span class="light-logo"><img src="<?php  $_SERVER["DOCUMENT_ROOT"] ?>/images/logo-dark-text.png" alt="logo"></span>
+						<span class="dark-logo"><img src="<?php  $_SERVER["DOCUMENT_ROOT"] ?>/images/logo-light-text.png" alt="logo"></span>
 					</div>
 				</a>
 			</div>
@@ -159,19 +162,19 @@
 							<a href="#"
 								class="waves-effect waves-light nav-link btn-primary-light svg-bt-icon dropdown-toggle"
 								data-bs-toggle="dropdown">
-								<img class="rounded-circle" src="<?php dirname(__FILE__) ?> /images/svg-icon/usa.svg" alt="">
+								<img class="rounded-circle" src="<?php  $_SERVER["DOCUMENT_ROOT"] ?>/images/svg-icon/usa.svg" alt="">
 							</a>
 							<div class="dropdown-menu">
 								<a class="dropdown-item my-5" href="#"><img class="w-20 rounded me-10"
-										src="<?php dirname(__FILE__) ?> /images/svg-icon/usa.svg" alt=""> English</a>
+										src="<?php  $_SERVER["DOCUMENT_ROOT"] ?>/images/svg-icon/usa.svg" alt=""> English</a>
 								<a class="dropdown-item my-5" href="#"><img class="w-20 rounded me-10"
-										src="<?php dirname(__FILE__) ?> /images/svg-icon/spain.svg" alt=""> Spanish</a>
+										src="<?php  $_SERVER["DOCUMENT_ROOT"] ?>/images/svg-icon/spain.svg" alt=""> Spanish</a>
 								<a class="dropdown-item my-5" href="#"><img class="w-20 rounded me-10"
-										src="<?php dirname(__FILE__) ?> /images/svg-icon/ger.svg" alt=""> German</a>
+										src="<?php  $_SERVER["DOCUMENT_ROOT"] ?>/images/svg-icon/ger.svg" alt=""> German</a>
 								<a class="dropdown-item my-5" href="#"><img class="w-20 rounded me-10"
-										src="<?php dirname(__FILE__) ?> /images/svg-icon/jap.svg" alt=""> Japanese</a>
+										src="<?php  $_SERVER["DOCUMENT_ROOT"] ?>/images/svg-icon/jap.svg" alt=""> Japanese</a>
 								<a class="dropdown-item my-5" href="#"><img class="w-20 rounded me-10"
-										src="<?php dirname(__FILE__) ?> /images/svg-icon/fra.svg" alt=""> French</a>
+										src="<?php  $_SERVER["DOCUMENT_ROOT"] ?>/images/svg-icon/fra.svg" alt=""> French</a>
 							</div>
 						</li>
 
@@ -193,7 +196,7 @@
 										<p class="pt-5 fs-14 mb-0 fw-700">Nil Yeager</p>
 										<small class="fs-10 mb-0 text-uppercase text-mute">Admin</small>
 									</div>
-									<img src="<?php dirname(__FILE__) ?> /images/avatar/avatar-13.png"
+									<img src="<?php  $_SERVER["DOCUMENT_ROOT"] ?>/images/avatar/avatar-13.png"
 										class="avatar rounded-circle bg-primary-light h-40 w-40" alt="" />
 								</div>
 							</a>
