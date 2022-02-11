@@ -1,6 +1,5 @@
-<?php
-include('../config.php');
-?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 

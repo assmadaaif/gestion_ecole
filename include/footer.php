@@ -1,6 +1,4 @@
-<?php
-include('../config.php');
-?>
+
 <!-------------------------script ---------------->
 		<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /src/js/vendors.min.js"></script>
 		<script src="<?php  $_SERVER["DOCUMENT_ROOT"] ?> /src/js/pages/chat-popup.js"></script>
