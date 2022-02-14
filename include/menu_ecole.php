@@ -5,9 +5,44 @@
             <div class="multinav-scroll" style="height: 97%;">
                 <!-- sidebar menu-->
                 <ul class="sidebar-menu" data-widget="tree">
-                <li>
-						<a href="<?php dirname(__FILE__) ?> /ecole/index.php"><i data-feather="home"></i><span>back Office</span></a>
-					</li>
+                    <li>
+                        <a href="index.php"><i data-feather="home"></i><span>Acceuil</span></a>
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i data-feather="message-circle"></i>
+                            <span>Communication</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-right pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="communication_notificaion_recus.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Notifications Reçues </a>
+                            </li>
+                         
+                            <li>
+                                <a href="communication_mes_notification.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i> Mes Notifications </a>
+                            </li>
+                            <li>
+                                <a href="communication_creer_nouvelle_notification.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Créer nouvelle notification </a>
+                            </li>
+                            <li>
+                                <a href="communication_chat.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Chat</a>
+                            </li>
+                         
+                        
+                         
+                          
+                           
+
+
+                        </ul>
+                    </li>
                     <li class="treeview">
                         <a href="#">
                             <i data-feather="book-open"></i>
@@ -17,81 +52,33 @@
                             </span>
                         </a>
                         <ul class="treeview-menu">
-                            <li class="treeview">
-                                <a href="">
-                                    <i class="icon-Commit"><span class="path1"></span><span
-                                            class="path2"></span></i>eleve
-                                    <span class="pull-right-container">
-                                        <i class="fa fa-angle-right pull-right"></i>
-                                    </span>
-                                </a>
-                                <ul class="treeview-menu">
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/eleve/liste_eleve.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>liste des 
-                                            eleves</a></li>
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/eleve/ajouter_eleve.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>ajouter un
-                                            eleve</a></li>
-                                    
-
-                                </ul>
+                            <li>
+                                <a href="ecole_ecole_liste_eleve.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Elèves</a>
                             </li>
-                            <li class="treeview">
-                                <a href="">
-                                    <i class="icon-Commit"><span class="path1"></span><span
-                                            class="path2"></span></i>parents
-                                    <span class="pull-right-container">
-                                        <i class="fa fa-angle-right pull-right"></i>
-                                    </span>
-                                </a>
-                                <ul class="treeview-menu">
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/parent/liste_parent.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>liste des 
-                                            parents</a></li>
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/parent/ajouter_parent.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>ajouter un
-                                            parent</a></li>
-
-                                </ul>
+                         
+                            <li>
+                                <a href="ecole_ecole_liste_parent.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Parents</a>
                             </li>
-                            <li class="treeview">
-                                <a href="">
-                                    <i class="icon-Commit"><span class="path1"></span><span
-                                            class="path2"></span></i>formateurs
-                                    <span class="pull-right-container">
-                                        <i class="fa fa-angle-right pull-right"></i>
-                                    </span>
-                                </a>
-                                <ul class="treeview-menu">
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/formateur/liste_formateur.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>liste des 
-                                            formateurs</a></li>
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/formateur/ajouter_formateur.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>ajouter un
-                                            formateur</a></li>
-                                </ul>
+                            <li>
+                                <a href="ecole_ecole_liste_formateur.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Formateurs</a>
                             </li>
-                            <li class="treeview">
-                                <a href="">
-                                    <i class="icon-Commit"><span class="path1"></span><span
-                                            class="path2"></span></i>staffs
-                                    <span class="pull-right-container">
-                                        <i class="fa fa-angle-right pull-right"></i>
-                                    </span>
-                                </a>
-                                <ul class="treeview-menu">
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/staff/liste_staff.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>liste des 
-                                            staffs</a></li>
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/staff/ajouter_staff.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>ajouter un
-                                            staff</a></li>
-                                    
-
-                                </ul>
+                            <li>
+                                <a href="ecole_ecole_liste_staff.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Staff</a>
                             </li>
-                            
+                         
+                            <li>
+                                <a href="ecole_ecole_liste_classe.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Classes</a>
+                            </li>
+                         
+                          
                            
+
+
                         </ul>
                     </li>
                     <li class="treeview">
@@ -103,127 +90,54 @@
                             </span>
                         </a>
                         <ul class="treeview-menu">
-                        <li>
-						<a href="<?php dirname(__FILE__) ?> /Ecole/langue.php"><i class="icon-Commit"><span class="path1"></span><span
-                                            class="path2"></span></i>langue</a>
-					</li>
-                            <li class="treeview">
-                                <a href="">
-                                    <i class="icon-Commit"><span class="path1"></span><span
-                                            class="path2"></span></i>Cycles
-                                    <span class="pull-right-container">
-                                        <i class="fa fa-angle-right pull-right"></i>
-                                    </span>
-                                </a>
-                                <ul class="treeview-menu">
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/cycle/liste_cycle.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>liste des 
-                                            cycles</a></li>
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/cycle/ajouter_cycle.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>ajouter un
-                                            cycle</a></li>
-                                    
-
-                                </ul>
+                            <li>
+                                <a href="parametre_langue.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Langue</a>
                             </li>
-                            <li class="treeview">
-                                <a href="">
-                                    <i class="icon-Commit"><span class="path1"></span><span
-                                            class="path2"></span></i>Niveaux
-                                    <span class="pull-right-container">
-                                        <i class="fa fa-angle-right pull-right"></i>
-                                    </span>
-                                </a>
-                                <ul class="treeview-menu">
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/niveau/liste_niveau.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>liste des 
-                                            niveaux</a></li>
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/niveau/ajouter_niveau.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>ajouter un
-                                            niveau</a></li>
-
-                                </ul>
+                            <li>
+                                <a href="ecole_parametrage_liste_cycle.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Cycles</a>
                             </li>
-                            <li class="treeview">
-                                <a href="">
-                                    <i class="icon-Commit"><span class="path1"></span><span
-                                            class="path2"></span></i>Séries 
-                                    <span class="pull-right-container">
-                                        <i class="fa fa-angle-right pull-right"></i>
-                                    </span>
-                                </a>
-                                <ul class="treeview-menu">
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/serie/liste_serie.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>liste des 
-                                            Séries </a></li>
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/serie/ajouter_serie.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>ajouter un
-                                                    Série</a></li>
-                                    
-
-                                </ul>
+                            <li>
+                                <a href="ecole_parametrage_liste_niveau.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Niveaux</a>
                             </li>
-                            <li class="treeview">
-                                <a href="">
-                                    <i class="icon-Commit"><span class="path1"></span><span
-                                            class="path2"></span></i>Filières 
-                                    <span class="pull-right-container">
-                                        <i class="fa fa-angle-right pull-right"></i>
-                                    </span>
-                                </a>
-                                <ul class="treeview-menu">
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/filiere/liste_filiere.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>liste des 
-                                            Filières </a></li>
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/filiere/ajouter_filiere.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>ajouter un
-                                                    Filière</a></li>
-
-                                </ul>
+                            <li>
+                                <a href="ecole_parametrage_liste_serie.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Séries</a>
                             </li>
-                            <li class="treeview">
-                                <a href="">
-                                    <i class="icon-Commit"><span class="path1"></span><span
-                                            class="path2"></span></i>Matières 
-                                    <span class="pull-right-container">
-                                        <i class="fa fa-angle-right pull-right"></i>
-                                    </span>
-                                </a>
-                                <ul class="treeview-menu">
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/matiere/liste_matiere.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>liste des 
-                                            Matières </a></li>
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/matiere/ajouter_matiere.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>ajouter un
-                                                    Matière</a></li>
-
-                                </ul>
+                            <li>
+                                <a href="ecole_parametrage_liste_filiere.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Filières</a>
                             </li>
-                            <li class="treeview">
-                                <a href="">
-                                    <i class="icon-Commit"><span class="path1"></span><span
-                                            class="path2"></span></i>Messagerie 
-                                    <span class="pull-right-container">
-                                        <i class="fa fa-angle-right pull-right"></i>
-                                    </span>
-                                </a>
-                                <ul class="treeview-menu">
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/messagerie/categories_message.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>Catégories</a></li>
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/messagerie/ajouter_categorie_message.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>ajouter un
-                                                    catégorie</a></li>
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/messagerie/status_message.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>Status</a></li>
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/messagerie/ajouter_statu_message.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>ajouter un
-                                                    Statu</a></li>
-                                    <li><a href="<?php dirname(__FILE__) ?> /Ecole/messagerie/creation_envoie_message.php"><i class="icon-Commit"><span
-                                                    class="path1"></span><span class="path2"></span></i>Gestion des droits </a></li>
-
-                                </ul>
+                            <li>
+                                <a href="ecole_parametrage_liste_matiere.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Matières</a>
                             </li>
+                            <li>
+                                <a href="ecole_parametrage_type_message.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Types des messages  </a>
+                            </li>
+                            <li>
+                                <a href="ecole_parametrage_statut_message.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Statuts des messages </a>
+                            </li>
+                            
+                            <li>
+                                <a href="ecole_parametrage_notifications.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Notifications  </a>
+                            </li>
+                            <li>
+                                <a href="ecole_parametrage_chat.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Chat  </a>
+                            </li>
+                          
                            
+                           
+                           
+                          
+                          
+
                         </ul>
                     </li>
 
@@ -235,7 +149,7 @@
                 <div class="sidebar-widgets">
                     <div class="mx-25 mb-30 pb-20 side-bx bg-primary-light rounded20 ">
                         <div class="text-center">
-                            <img src="<?php dirname(__FILE__) ?> /images/svg-icon/color-svg/custom-24.svg" class="sideimg p-5 mt-5" alt="">
+                            <img src="images/svg-icon/color-svg/custom-24.svg" class="sideimg p-5 mt-5" alt="">
                             <h4 class="title-bx text-primary">Best Education Admin</h4>
                         </div>
                     </div>

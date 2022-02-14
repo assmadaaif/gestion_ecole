@@ -6,60 +6,50 @@
 				<!-- sidebar menu-->
 				<ul class="sidebar-menu" data-widget="tree">
 					<li>
-						<a href="<?php dirname(__FILE__) ?> /administrateur/index.php"><i data-feather="home"></i><span>back Office</span></a>
-					</li>
-					<li>
-						<a href="<?php dirname(__FILE__) ?> /administrateur/langue/ajouter_langue.php"><i data-feather="map"></i><span>Langue</span></a>
-					</li>
-					<li>
-						<a href="<?php dirname(__FILE__) ?> /administrateur/annee_scolaire/list_annee.php"><i data-feather="calendar"></i><span>Année
-								scolaire</span></a>
-					</li>
-
-
-					<li class="treeview">
+						<a href="index.php"><i data-feather="home"></i><span>Acceuil</span></a>
+					    <li class="treeview">
+                                <a href="#">
+                                    <i data-feather="message-circle"></i>
+                                    <span>Communication</span>
+                                    <span class="pull-right-container">
+                                        <i class="fa fa-angle-right pull-right"></i>
+                                    </span>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="communication_notificaion_recus.php"><i class="icon-Commit"><span class="path1"></span><span
+                                                    class="path2"></span></i>Notifications Reçues </a></li>
+                                    <li><a href="communication_mes_notification.php"><i class="icon-Commit"><span class="path1"></span><span
+                                                    class="path2"></span></i>Mes notifications</a></li>
+                                    <li><a href="communication_creer_nouvelle_notification.php"><i class="icon-Commit"><span class="path1"></span><span
+                                                    class="path2"></span></i>Créer nouvelle notification</a></li>
+                                    <li><a href="communication_chat.php"><i class="icon-Commit"><span class="path1"></span><span
+                                                    class="path2"></span></i>Chat</a></li>
+                                </ul>
+                            </li>
+                    <li>
+						<li class="treeview">
 						<a href="#">
 							<i data-feather="users"></i>
-							<span>Parent</span>
+							<span>Administration</span>
 							<span class="pull-right-container">
 								<i class="fa fa-angle-right pull-right"></i>
 							</span>
 						</a>
 						<ul class="treeview-menu">
-							<li><a href="<?php dirname(__FILE__) ?> /administrateur/parent/liste-parent.php"><i class="icon-Commit"><span
-											class="path1"></span><span class="path2"></span></i>liste des
-									parents</a></li>
-							<li><a href="<?php dirname(__FILE__) ?> /administrateur/parent/ajouter-parent.php"><i class="icon-Commit"><span
-											class="path1"></span><span class="path2"></span></i>ajouter un
-									parent</a></li>
+							<li><a href="administrateur_administration_ajouter_langue.php"><i class="icon-Commit"><span
+											class="path1"></span><span class="path2"></span></i>Langues</a></li>
+							<li><a href="administrateur_administration_liste_annees.php"><i class="icon-Commit"><span
+											class="path1"></span><span class="path2"></span></i>Années scolaires </a>
+							</li>
+							<li><a href="administrateur_administration_liste_parent.php"><i class="icon-Commit"><span
+											class="path1"></span><span class="path2"></span></i>Types parents </a></li>
+							<li><a href="administrateur_administration_ecole.php"><i class="icon-Commit"><span
+											class="path1"></span><span class="path2"></span></i>Ecole</a></li>
 
-						</ul>
-					</li>
-
-					<li class="treeview">
-						<a href="#">
-							<i data-feather="book-open"></i>
-							<span>Ecole</span>
-							<span class="pull-right-container">
-								<i class="fa fa-angle-right pull-right"></i>
-							</span>
-						</a>
-						<ul class="treeview-menu">
-							<li><a href="<?php dirname(__FILE__) ?> /administrateur/ecole/ajouter_ecole.php"><i class="icon-Commit"><span
-											class="path1"></span><span class="path2"></span></i>Ajouter école</a></li>
-							<li><a href="<?php dirname(__FILE__) ?> /administrateur/ecole/liste_ecole.php"><i class="icon-Commit"><span
-											class="path1"></span><span class="path2"></span></i>Liste des écoles</a>
-							</li>
-							<li><a href="<?php dirname(__FILE__) ?> /administrateur/ecole/ajouter_gerant.php"><i class="icon-Commit"><span
-											class="path1"></span><span class="path2"></span></i>ajouter gerant</a>
-							</li>
-							<li><a href="<?php dirname(__FILE__) ?> /administrateur/ecole/ecole_langue.php"><i class="icon-Commit"><span
-											class="path1"></span><span class="path2"></span></i>ecole langue</a>
-							</li>
 						</ul>
 					</li>
 					<li>
-						<a href="<?php dirname(__FILE__) ?> /parametre.php">
+						<a href="parametre_langue.php">
 							<i data-feather="settings"></i>
 							<span>Parametrage</span>
 
@@ -74,7 +64,8 @@
 				<div class="sidebar-widgets">
 					<div class="mx-25 mb-30 pb-20 side-bx bg-primary-light rounded20 ">
 						<div class="text-center">
-							<img src="<?php dirname(__FILE__) ?> /images/svg-icon/color-svg/custom-24.svg" class="sideimg p-5 mt-5" alt="">
+							<img src="images/svg-icon/color-svg/custom-24.svg"
+								class="sideimg p-5 mt-5" alt="">
 							<h4 class="title-bx text-primary">Best Education Admin</h4>
 						</div>
 					</div>

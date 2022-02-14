@@ -7,7 +7,8 @@
                 <ul class="sidebar-menu" data-widget="tree">
                     <li>
                         <a href="index.php"><i data-feather="home"></i><span>Acceuil</span></a>
-                        <li class="treeview">
+                    </li>
+                    <li class="treeview">
                         <a href="#">
                             <i data-feather="message-circle"></i>
                             <span>Communication</span>
@@ -42,7 +43,6 @@
 
                         </ul>
                     </li>
-                    <li>
                     <li class="treeview">
                         <a href="#">
                             <i data-feather="book-open"></i>
@@ -52,24 +52,41 @@
                             </span>
                         </a>
                         <ul class="treeview-menu">
-                            <li><a href="parent_ecole_liste_eleve.php"><i class="icon-Commit"><span
-                                            class="path1"></span><span class="path2"></span></i>Elève </a></li>
+                            <li>
+                                <a href="formateur_ecole_mes_classes.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Classes </a>
+                            </li>
+                            <li>
+                                <a href="formateur_ecole_mes_matieres.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Matières  </a>
+                            </li>
+                            <li>
+                                <a href="formateur_ecole_mes_eleves.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i>Elèves</a>
+                            </li>
+                         
+                          
+                         
+                          
+                           
+
+
                         </ul>
                     </li>
                     <li>
-                        <a href="parametre_langue.php">
-                            <i data-feather="settings"></i>
-                            <span>Parametrage</span>
-
-                        </a>
-
+                        <a href="parametre_langue.php"><i data-feather="settings"></i><span>Parametre</span></a>
                     </li>
+                   
+
                 </ul>
+
+
+
+
                 <div class="sidebar-widgets">
                     <div class="mx-25 mb-30 pb-20 side-bx bg-primary-light rounded20 ">
                         <div class="text-center">
-                            <img src="images/svg-icon/color-svg/custom-24.svg"
-                                class="sideimg p-5 mt-5" alt="">
+                            <img src="images/svg-icon/color-svg/custom-24.svg" class="sideimg p-5 mt-5" alt="">
                             <h4 class="title-bx text-primary">Best Education Admin</h4>
                         </div>
                     </div>
