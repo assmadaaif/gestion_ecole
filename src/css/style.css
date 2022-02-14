@@ -83,19 +83,19 @@ Waves
 /*Body*/
 @import url(color_theme.css);
 @import url(style_rtl.css);
-@import url(../../../../assets/icons/font-awesome/css/font-awesome.css);
-@import url(../../../../assets/icons/Ionicons/css/ionicons.css);
-@import url(../../../../assets/icons/themify-icons/themify-icons.css);
-@import url(../../../../assets/icons/linea-icons/linea.css);
-@import url(../../../../assets/icons/glyphicons/glyphicon.css);
-@import url(../../../../assets/icons/flag-icon-css/css/flag-icon.css);
-@import url(../../../../assets/icons/material-design-iconic-font/css/materialdesignicons.css);
-@import url(../../../../assets/icons/simple-line-icons/css/simple-line-icons.css);
-@import url(../../../../assets/icons/cryptocoins-master/cryptocoins.css);
-@import url(../../../../assets/icons/weather-icons/css/weather-icons.min.css);
-@import url(../../../../assets/icons/iconsmind/style.css);
-@import url(../../../../assets/icons/icomoon/style.css);
-@import url(../../../../assets/vendor_components/animate/animate.css);
+@import url(../../assets/icons/font-awesome/css/font-awesome.css);
+@import url(../../assets/icons/Ionicons/css/ionicons.css);
+@import url(../../assets/icons/themify-icons/themify-icons.css);
+@import url(../../assets/icons/linea-icons/linea.css);
+@import url(../../assets/icons/glyphicons/glyphicon.css);
+@import url(../../assets/icons/flag-icon-css/css/flag-icon.css);
+@import url(../../assets/icons/material-design-iconic-font/css/materialdesignicons.css);
+@import url(../../assets/icons/simple-line-icons/css/simple-line-icons.css);
+@import url(../../assets/icons/cryptocoins-master/cryptocoins.css);
+@import url(../../assets/icons/weather-icons/css/weather-icons.min.css);
+@import url(../../assets/icons/iconsmind/style.css);
+@import url(../../assets/icons/icomoon/style.css);
+@import url(../../assets/vendor_components/animate/animate.css);
 html {
   height: 100%;
   font-size: 13px; }
@@ -21472,7 +21472,7 @@ body .main-header .navbar .nav > li.search-box > a:hover, body .main-header .nav
   height: 100vh;
   z-index: 999999;
   overflow: visible;
-  background: #fff url("../../../../images/preloaders/1.gif") no-repeat center center; }
+  background: #fff url("../../images/preloaders/1.gif") no-repeat center center; }
 
 .skin-toggle .switch {
   line-height: 24px; }
@@ -21776,7 +21776,7 @@ body .main-header .navbar .nav > li.search-box > a:hover, body .main-header .nav
   position: relative;
   width: 100%;
   padding: 10px 0 10px;
-  background-image: url(../../../../images/user-info.jpg); }
+  background-image: url(../../images/user-info.jpg); }
   .user-panel:before, .user-panel:after {
     content: " ";
     display: table; }
