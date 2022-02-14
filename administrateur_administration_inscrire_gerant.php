@@ -80,7 +80,7 @@
                                 <button type="reset" class="btn btn-primary-light me-1">
                                     <i class="ti-trash"></i> Anuuler
                                 </button>
-                                <a href="liste_gerant.php" class="btn btn-primary">
+                                <a href="" class="btn btn-primary">
                                
                                     <i class="ti-save-alt"></i> ajouter
                                 
