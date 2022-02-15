@@ -8,7 +8,7 @@
         <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Parametre</h4>
+                    <h4 class="page-title">Paramètre</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                             <ol class="breadcrumb">
@@ -40,16 +40,16 @@
                                             <div class="demo-checkbox ">
                                                 <input type="checkbox" id="md_checkbox_21"
                                                     class="filled-in chk-col-primary" checked="">
-                                                <label for="md_checkbox_21">Touts</label>
+                                                <label for="md_checkbox_21">Tous</label>
                                                 <input type="checkbox" id="md_checkbox_23"
                                                     class="filled-in chk-col-success" checked>
-                                                <label for="md_checkbox_23">Ecole</label>
+                                                <label for="md_checkbox_23">École</label>
                                                 <input type="checkbox" id="md_checkbox_24"
                                                     class="filled-in chk-col-info" checked>
                                                 <label for="md_checkbox_24">Professeurs</label>
                                                 <input type="checkbox" id="md_checkbox_27"
                                                     class="filled-in chk-col-warning" checked>
-                                                <label for="md_checkbox_27">Elèves</label>
+                                                <label for="md_checkbox_27">Élèves</label>
                                                 <input type="checkbox" id="md_checkbox_29"
                                                     class="filled-in chk-col-danger" checked>
                                                 <label for="md_checkbox_29">Parents</label>
@@ -66,16 +66,16 @@
                                             <div class="demo-checkbox ">
                                                 <input type="checkbox" id="md_checkbox_30"
                                                     class="filled-in chk-col-primary" >
-                                                <label for="md_checkbox_30">Touts</label>
+                                                <label for="md_checkbox_30">Tous</label>
                                                 <input type="checkbox" id="md_checkbox_32"
                                                     class="filled-in chk-col-success" checked="">
-                                                <label for="md_checkbox_32">Ecole</label>
+                                                <label for="md_checkbox_32">École</label>
                                                 <input type="checkbox" id="md_checkbox_31"
                                                     class="filled-in chk-col-info" checked="">
                                                 <label for="md_checkbox_31">Autres Professeurs</label>
                                                 <input type="checkbox" id="md_checkbox_33"
                                                     class="filled-in chk-col-warning" checked="">
-                                                <label for="md_checkbox_33">Elèves</label>
+                                                <label for="md_checkbox_33">Élèves</label>
                                                 <input type="checkbox" id="md_checkbox_35"
                                                     class="filled-in chk-col-danger" checked="">
                                                 <label for="md_checkbox_35">Parents</label>
@@ -92,16 +92,16 @@
                                             <div class="demo-checkbox ">
                                                 <input type="checkbox" id="md_checkbox_37"
                                                     class="filled-in chk-col-primary" >
-                                                <label for="md_checkbox_37">Touts</label>
+                                                <label for="md_checkbox_37">Tous</label>
                                                 <input type="checkbox" id="md_checkbox_39"
                                                     class="filled-in chk-col-success" checked="">
-                                                <label for="md_checkbox_39">Ecole</label>
+                                                <label for="md_checkbox_39">École</label>
                                                 <input type="checkbox" id="md_checkbox_44"
                                                     class="filled-in chk-col-info" checked="">
                                                 <label for="md_checkbox_44">Professeurs</label>
                                                 <input type="checkbox" id="md_checkbox_43"
                                                     class="filled-in chk-col-warning">
-                                                <label for="md_checkbox_43">Elèves</label>
+                                                <label for="md_checkbox_43">Élèves</label>
                                                 <input type="checkbox" id="md_checkbox_41"
                                                     class="filled-in chk-col-danger">
                                                 <label for="md_checkbox_41">Parents</label>
@@ -113,21 +113,21 @@
                               </div>
                                 <div class="col-md-3">
                                     <div class="form-group ">
-                                        <label class="form-label">Elèves<span class="text-danger">*</span></label>
+                                        <label class="form-label">Élèves<span class="text-danger">*</span></label>
                                         <div class="controls">
                                             <div class="demo-checkbox ">
                                                 <input type="checkbox" id="md_checkbox_36"
                                                     class="filled-in chk-col-primary" >
-                                                <label for="md_checkbox_36">Touts</label>
+                                                <label for="md_checkbox_36">Tous</label>
                                                 <input type="checkbox" id="md_checkbox_46"
                                                     class="filled-in chk-col-success" checked="">
-                                                <label for="md_checkbox_46">Ecole</label>
+                                                <label for="md_checkbox_46">École</label>
                                                 <input type="checkbox" id="md_checkbox_40"
                                                     class="filled-in chk-col-info"checked="">
                                                 <label for="md_checkbox_40">Professeurs</label>
                                                 <input type="checkbox" id="md_checkbox_51"
                                                     class="filled-in chk-col-warning">
-                                                <label for="md_checkbox_51">Elèves</label>
+                                                <label for="md_checkbox_51">Élèves</label>
                                                 <input type="checkbox" id="md_checkbox_29"
                                                     class="filled-in chk-col-danger"checked="">
                                                 <label for="md_checkbox_29">Parents</label>
@@ -150,7 +150,7 @@
                             <!-- /.box-body -->
                             <div class="box-footer">
                                 <button type="submit" class="btn btn-primary">
-                                    <i class="ti-save-alt"></i> sauvgarder
+                                    <i class="ti-save-alt"></i> Sauvgarder
                                 </button>
                             </div>
                         </form>

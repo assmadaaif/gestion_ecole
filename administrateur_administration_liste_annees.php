@@ -35,7 +35,7 @@
 									<tr>
 										<th>#</th>
 										<th>Année scolaire</th>
-										<th>Action</th>
+										<th>Actions</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -116,10 +116,10 @@
 				</div>
 			</div>
 			<div class="row mb-5">
-				<div class="col-lg-2 ms-auto">
-					<a href="administrateur_administration_ajouter_annee.php">
-						<button type="submit" class="btn btn-primary">
-							ajouter
+				<div class="col-lg-2 ms-auto ">
+					<a href="administrateur_administration_ajouter_annee.php ">
+						<button type="submit" class="btn btn-primary ms-3 mb-3"> <i class="fa fa-plus" aria-hidden="true"></i>
+							Ajouter
 						</button></a>
 				</div>
 			</div>

@@ -10,7 +10,7 @@
         <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Ecole</h4>
+                    <h4 class="page-title">École</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                             <ol class="breadcrumb">
@@ -19,7 +19,7 @@
                                 <li class="breadcrumb-item" aria-current="page"><a
                                         href="ecole_ecole_liste_staff.php">Staff</a></li>
                                 <li class="breadcrumb-item active" aria-current="page"><a
-                                        href="ecole_ecole_modifier_staff.php">Modifier staff</a></li>
+                                        href="ecole_ecole_modifier_staff.php">Modifier un staff</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -52,21 +52,21 @@
                                         </div>
                                     </div>
                                     <div class="form-group  ">
-                                        <label for="" class="form-label ">sexe</label>
+                                        <label for="" class="form-label ">Sexe</label>
 
 
                                         <div class="input-group mb-3">
                                             <input name="group1" type="radio" id="Option_1">
-                                            <label for="Option_1"> homme</label>
+                                            <label for="Option_1"> Homme</label>
 
 
                                             <input name="group1" type="radio" id="Option_2">
-                                            <label for="Option_2">femme</label>
+                                            <label for="Option_2">Femme</label>
                                         </div>
 
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label">adresse</label>
+                                        <label class="form-label">Adresse</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-location-pin"></i></span>
                                             <input type="text" class="form-control">
@@ -80,13 +80,12 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label">teléphone</label>
+                                        <label class="form-label">Teléphone</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-mobile"></i></span>
                                             <input type="tel" class="form-control">
                                         </div>
                                     </div>
-
                                     <div class="form-group">
                                         <label class="form-label"> Photo</label>
                                         <div class="input-group mb-3">
@@ -94,60 +93,78 @@
                                             <input type="file" class="form-control">
                                         </div>
                                     </div>
-
-
-
+                                  
+                                    <div class="form-group">
+                                        <label class="form-label"> Type de parent</label>
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text"><i class="ti-user"></i></span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                  
+                                  
                                 </div>
-
+                                
                                 <div class="col-lg-6">
-
-                                    <div class="form-group">
-                                        <label class="form-label mt-3">Date d'inscription</label>
+                                <div class="form-group">
+                                        <label class="form-label">Date d'inscription</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-calendar"></i></span>
                                             <input type="date" class="form-control">
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label mt-3">date de naissance</label>
+                                        <label class="form-label">Date de naissance</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-calendar"></i></span>
                                             <input type="date" class="form-control">
                                         </div>
                                     </div>
-
-
+                                  
+                                   
                                     <div class="form-group">
-                                        <label class="form-label mt-3"> type utilisateur</label>
+                                        <label class="form-label"> Type d'utilisateur</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-user"></i></span>
                                             <select class="selectpicker form-select">
-                                                <option>Elève</option>
+                                            <option>Élève</option>
 
-                                            </select>
+                                        </select>
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label mt-3">Année scolaire</label>
+                                        <label class="form-label">Année scolaire</label>
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text"><i class="ti-calendar"></i></span>
+                                            <select class="selectpicker form-select">
+                                            <option>2021-2022</option>
+
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Élève</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-user"></i></span>
-                                            <select class="selectpicker form-select">
-                                                <option>2021-2022</option>
+                                            <select class="selectpicker form-select" multiple>
+                                            <option>Sara MHAMDI</option>
+                                            <option>Moad NACIRI</option>
+                                            <option>Reda LKHALDI</option>
 
-                                            </select>
+                                        </select>
                                         </div>
                                     </div>
-
+                                    
                                     <div class="form-group">
-                                        <label class="form-label"> Mot de pass</label>
+                                        <label class="form-label"> Mot de passe</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-lock"></i></span>
                                             <input type="password" class="form-control">
                                         </div>
                                     </div>
-
-
-
+                                    
+                                   
+                                   
 
                                 </div>
 

@@ -13,7 +13,7 @@
                                 <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a>
                                 </li>
                                 <li class="breadcrumb-item" aria-current="page"><a
-                                        href="administrateur_administration_ecole.php">paramtere</a> </li>
+                                        href="administrateur_administration_ecole.php">Paramètrage</a> </li>
 
                             </ol>
                         </nav>
@@ -65,8 +65,8 @@
                             </div>
                             <div class="row">
                                 <div class="col-lg-2 ">
-                                    <button type="submit" class="btn btn-primary">
-                                        valider
+                                    <button type="submit" class="btn btn-primary"> <i class="fa fa-check" aria-hidden="true"></i>
+                                        Valider
                                     </button>
                                 </div>
                             </div>

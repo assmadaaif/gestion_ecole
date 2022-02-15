@@ -10,7 +10,7 @@
         <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Paremetre</h4>
+                    <h4 class="page-title">Paramètre</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                             <ol class="breadcrumb">
@@ -40,7 +40,7 @@
                                     <div class="form-group">
                                         <label class="form-label mb-2">Nom de Série</label>
                                         <div class="input-group mb-3">
-                                            <span class="input-group-text">Nom</span>
+                                            <span class="input-group-text"><i class="ti-book"></i></span>
                                             <input type="text" class="form-control ">
                                         </div>
                                     </div>
@@ -48,7 +48,7 @@
 
 
                                     <div class="form-group">
-                                        <label class="form-label"> Ecole</label>
+                                        <label class="form-label"> École</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-book"></i></span>
                                             <select class="selectpicker form-select">
@@ -60,7 +60,7 @@
                                     <div class="form-group">
                                         <label class="form-label"> Niveau</label>
                                         <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-book"></i></span>
+                                            <span class="input-group-text"><i class="fa fa-edit"></i></span>
                                             <select class="selectpicker form-select">
                                                 <option></option>
                                                 <option>2ème Bac</option>

@@ -10,7 +10,7 @@
         <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Paremetre</h4>
+                    <h4 class="page-title">Paramètre</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                             <ol class="breadcrumb">
@@ -19,7 +19,7 @@
                                 <li class="breadcrumb-item" aria-current="page"><a
                                         href="ecole_parametrage_liste_filiere.php">Filières</a></li>
                                 <li class="breadcrumb-item active" aria-current="page"><a
-                                        href="ecole_parametrage_ajouter_filiere.php">Ajouter Filière</a></li>
+                                        href="ecole_parametrage_ajouter_filiere.php">Ajouter un Filière</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -40,7 +40,7 @@
                                     <div class="form-group">
                                         <label class="form-label mb-2">Nom de Filière</label>
                                         <div class="input-group mb-3">
-                                            <span class="input-group-text">Nom</span>
+                                            <span class="input-group-text"><i><span class="ti-book"></span></i></span>
                                             <input type="text" class="form-control">
                                         </div>
                                     </div>
@@ -48,7 +48,7 @@
 
 
                                     <div class="form-group">
-                                        <label class="form-label"> Ecole</label>
+                                        <label class="form-label"> École</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-book"></i></span>
                                             <select class="selectpicker form-select">

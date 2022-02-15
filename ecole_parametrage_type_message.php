@@ -8,7 +8,7 @@
         <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Parametre</h4>
+                    <h4 class="page-title">Paramètre</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                             <ol class="breadcrumb">
@@ -48,7 +48,7 @@
                                 <tr>
                                     <th>#</th>
                                     <th>Catégorie</th>
-                                    <th>Action</th>
+                                    <th>Actions</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -62,7 +62,7 @@
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>rappel</td>
+                                    <td>Rappel</td>
                                     <td class="table-action ">
 
                                         <a href="#" class="text-fade text-danger me-2"><i class="align-middle"
@@ -71,7 +71,7 @@
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>observation</td>
+                                    <td>Observation</td>
 
                                     <td class="table-action ">
 
@@ -109,11 +109,9 @@
             <div class="row  ">
                 <div class=" d-flex flex-row justify-content-end ">
                     <a href="ecole_parametrage_ajouter_type_message.php">
-                        <button type="submit" class="btn btn-primary me-3">
-                            Ajouter
+                        <button type="submit" class="btn btn-primary mt-3 mx-3">
+                           <i class="fa fa-plus" aria-hidden="true"></i> Ajouter
                         </button></a>
-
-
                 </div>
 
             </div>

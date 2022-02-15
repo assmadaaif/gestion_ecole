@@ -9,10 +9,13 @@
                     <h4 class="page-title">Elève</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a></li>
-                                <li class="breadcrumb-item" aria-current="page">Elève</li>
-                                <li class="breadcrumb-item active" aria-current="page">Liste de mes matières</li>
+                        <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a>
+                                </li>
+                                <li class="breadcrumb-item" aria-current="page"><a
+                                        href="eleve_ecole_liste_matiere.php">École</a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><a
+                                        href="eleve_ecole_liste_matiere.php">Liste de mes matières</a></li>
                             </ol>
                         </nav>
                     </div>

@@ -6,7 +6,7 @@
 				<!-- sidebar menu-->
 				<ul class="sidebar-menu" data-widget="tree">
 					<li>
-						<a href="index.php"><i data-feather="home"></i><span>Acceuil</span></a>
+						<a href="index.php"><i data-feather="home"></i><span>Accueil</span></a>
 					    <li class="treeview">
                                 <a href="#">
                                     <i data-feather="message-circle"></i>
@@ -44,14 +44,14 @@
 							<li><a href="administrateur_administration_liste_parent.php"><i class="icon-Commit"><span
 											class="path1"></span><span class="path2"></span></i>Types parents </a></li>
 							<li><a href="administrateur_administration_ecole.php"><i class="icon-Commit"><span
-											class="path1"></span><span class="path2"></span></i>Ecole</a></li>
+											class="path1"></span><span class="path2"></span></i>École</a></li>
 
 						</ul>
 					</li>
 					<li>
 						<a href="parametre_langue.php">
 							<i data-feather="settings"></i>
-							<span>Parametrage</span>
+							<span>Paramétrage</span>
 
 						</a>
 

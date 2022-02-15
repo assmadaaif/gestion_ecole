@@ -8,16 +8,16 @@
         <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Ecole</h4>
+                    <h4 class="page-title">École</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a>
                                 </li>
                                 <li class="breadcrumb-item" aria-current="page"><a
-                                        href="ecole_ecole_liste_eleve.php">Elèves</a></li>
+                                        href="ecole_ecole_liste_eleve.php">Élèves</a></li>
                                 <li class="breadcrumb-item active" aria-current="page"><a
-                                        href="ecole_ecole_liste_eleve.php">Liste des elèves</a></li>
+                                        href="ecole_ecole_liste_eleve.php">Liste des élèves</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -34,157 +34,157 @@
 
                         <div class="row  ">
                             <div class=" d-flex flex-row  ">
-                            <div class="form-group">
-                                    <div class="btn btn-info btn-file ">
+                                <div class="form-group ">
+                                    <div class="btn btn-info btn-file  ">
                                         <i class="fa fa-paperclip"></i> Importer
                                         <input type="file" name="importer">
                                     </div>
                                 </div>
-                               
-                                
+
+
                             </div>
                         </div>
 
-                            <div class="row">
-                                <div class="table-responsive">
-                                    <table id ="example" class="text-fade table table-bordered display" style="width: 100%;">
-                                        <div id="example_wrapper"
-                                            class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer">
+                        <div class="row">
+                            <div class="table-responsive">
+                                <table id="example" class="text-fade table table-bordered display" style="width: 100%;">
+                                    <div id="example_wrapper"
+                                        class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer">
 
-                                            <thead class="bg-success">
-                                                <tr>
-                                                    <th>#</th>
-                                                    <th>Nom & Prenom</th>
-                                                    <th>Email</th>
-                                                    <th>Télephone</th>
-                                                    <th>Ville</th>
-                                                    <th>Action</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>1</td>
-                                                    <td>
-                                                        <img src="images/avatar/avatar-2.png" width="48" height="48"
-                                                            class="bg-light rounded-circle me-2" alt="Avatar"> Hassna
-                                                        ELAOUAI
-                                                    </td>
-                                                    <td>hassna_elaoui@gmail.com</td>
-                                                    <td>(+212) 0677665544</td>
-                                                    <td>Safi</td>
-
-
-                                                    <td class="table-action ">
-                                                        <a href="#" class="text-fade text-success "><i
-                                                                class="align-middle" data-feather="check"></i></a>
-                                                        <a href="ecole_ecole_modifier_eleve.php"
-                                                            class="text-fade text-primary "><i class="align-middle"
-                                                                data-feather="edit-2"></i></a>
-                                                        <a href="#" class="text-fade text-danger "><i
-                                                                class="align-middle" data-feather="trash"></i></a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>2</td>
-                                                    <td>
-                                                        <img src="images/avatar/avatar-10.png" width="48" height="48"
-                                                            class="bg-light rounded-circle me-2" alt="Avatar"> Salma
-                                                        RACHDI
-                                                    </td>
-                                                    <td>salma_rachdi@gmail.com</td>
-                                                    <td> (+212) 0677668643</td>
-                                                    <td>Casablanca</td>
+                                        <thead class="bg-success">
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Nom & Prenom</th>
+                                                <th>Email</th>
+                                                <th>Télephone</th>
+                                                <th>Ville</th>
+                                                <th>Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td class="d-flex align-items-center flex-wrap">
+                                                    <img src="images/avatar/avatar-2.png" width="48" height="48"
+                                                        class="bg-light rounded-circle me-2" alt="Avatar"> Hassna
+                                                    ELAOUAI
+                                                </td>
+                                                <td>hassna_elaoui@gmail.com</td>
+                                                <td>(+212) 0677665544</td>
+                                                <td>Safi</td>
 
 
-                                                    <td class="table-action ">
-                                                        <a href="#" class="text-fade text-danger "><i
-                                                                class="align-middle" data-feather="x"></i></a>
-                                                        <a href="ecole_ecole_modifier_eleve.php"
-                                                            class="text-fade text-primary "><i class="align-middle"
-                                                                data-feather="edit-2"></i></a>
-                                                        <a href="#" class="text-fade text-danger "><i
-                                                                class="align-middle" data-feather="trash"></i></a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3</td>
-                                                    <td>
-                                                        <img src="images/avatar/avatar-1.png" width="48" height="48"
-                                                            class="bg-light rounded-circle me-2" alt="Avatar">Mohamed
-                                                        NASIRI
-                                                    </td>
-                                                    <td>mohamed_naciri@gmail.com</td>
-                                                    <td>(+212) 0698346612</td>
-                                                    <td>Marakech</td>
-                                                    <td class="table-action ">
-                                                        <a href="#" class="text-fade text-success "><i
-                                                                class="align-middle" data-feather="check"></i></a>
-                                                        <a href="ecole_ecole_modifier_eleve.php"
-                                                            class="text-fade text-primary "><i class="align-middle"
-                                                                data-feather="edit-2"></i></a>
-                                                        <a href="#" class="text-fade text-danger "><i
-                                                                class="align-middle" data-feather="trash"></i></a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>4</td>
-                                                    <td>
-                                                        <img src="images/avatar/avatar-7.png" width="48" height="48"
-                                                            class="bg-light rounded-circle me-2" alt="Avatar">Ismail
-                                                        HADRI
-                                                    </td>
-                                                    <td>ismail_hadri@gmail.com</td>
-                                                    <td>(+212) 0695646610</td>
-                                                    <td>Tanger</td>
-                                                    <td class="table-action ">
-                                                        <a href="#" class="text-fade text-success "><i
-                                                                class="align-middle" data-feather="check"></i></a>
-                                                        <a href="ecole_ecole_modifier_eleve.php"
-                                                            class="text-fade text-primary "><i class="align-middle"
-                                                                data-feather="edit-2"></i></a>
-                                                        <a href="#" class="text-fade text-danger "><i
-                                                                class="align-middle" data-feather="trash"></i></a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>5</td>
-                                                    <td>
-                                                        <img src="images/avatar/avatar-5.png" width="48" height="48"
-                                                            class="bg-light rounded-circle me-2" alt="Avatar">Khadija
-                                                        SAADI
-                                                    </td>
-                                                    <td>khadija_saadi@gmail.com</td>
-                                                    <td>(+212) 0654213305</td>
-                                                    <td>EL jadida</td>
-                                                    <td class="table-action ">
-                                                        <a href="#" class="text-fade text-success "><i
-                                                                class="align-middle" data-feather="check"></i></a>
-                                                        <a href="ecole_ecole_modifier_eleve.php"
-                                                            class="text-fade text-primary "><i class="align-middle"
-                                                                data-feather="edit-2"></i></a>
-                                                        <a href="#" class="text-fade text-danger "><i
-                                                                class="align-middle" data-feather="trash"></i></a>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
+                                                <td class="table-action ">
+                                                    <a href="#" class="text-fade text-success "><i class="align-middle"
+                                                            data-feather="check"></i></a>
+                                                    <a href="ecole_ecole_modifier_eleve.php"
+                                                        class="text-fade text-primary "><i class="align-middle"
+                                                            data-feather="edit-2"></i></a>
+                                                    <a href="#" class="text-fade text-danger "><i class="align-middle"
+                                                            data-feather="trash"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td class="d-flex align-items-center flex-wrap">
+                                                    <img src="images/avatar/avatar-10.png" width="48" height="48"
+                                                        class="bg-light rounded-circle me-2" alt="Avatar"> Salma
+                                                    RACHDI
+                                                </td>
+                                                <td>salma_rachdi@gmail.com</td>
+                                                <td> (+212) 0677668643</td>
+                                                <td>Casablanca</td>
 
-                                    </table>
-                                </div>
+
+                                                <td class="table-action ">
+                                                    <a href="#" class="text-fade text-danger "><i class="align-middle"
+                                                            data-feather="x"></i></a>
+                                                    <a href="ecole_ecole_modifier_eleve.php"
+                                                        class="text-fade text-primary "><i class="align-middle"
+                                                            data-feather="edit-2"></i></a>
+                                                    <a href="#" class="text-fade text-danger "><i class="align-middle"
+                                                            data-feather="trash"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td class="d-flex align-items-center flex-wrap">
+                                                    <img src="images/avatar/avatar-1.png" width="48" height="48"
+                                                        class="bg-light rounded-circle me-2" alt="Avatar">Mohamed
+                                                    NASIRI
+                                                </td>
+                                                <td>mohamed_naciri@gmail.com</td>
+                                                <td>(+212) 0698346612</td>
+                                                <td>Marakech</td>
+                                                <td class="table-action ">
+                                                    <a href="#" class="text-fade text-success "><i class="align-middle"
+                                                            data-feather="check"></i></a>
+                                                    <a href="ecole_ecole_modifier_eleve.php"
+                                                        class="text-fade text-primary "><i class="align-middle"
+                                                            data-feather="edit-2"></i></a>
+                                                    <a href="#" class="text-fade text-danger "><i class="align-middle"
+                                                            data-feather="trash"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td class="d-flex align-items-center flex-wrap">
+                                                    <img src="images/avatar/avatar-7.png" width="48" height="48"
+                                                        class="bg-light rounded-circle me-2" alt="Avatar">Ismail
+                                                    HADRI
+                                                </td>
+                                                <td>ismail_hadri@gmail.com</td>
+                                                <td>(+212) 0695646610</td>
+                                                <td>Tanger</td>
+                                                <td class="table-action ">
+                                                    <a href="#" class="text-fade text-success "><i class="align-middle"
+                                                            data-feather="check"></i></a>
+                                                    <a href="ecole_ecole_modifier_eleve.php"
+                                                        class="text-fade text-primary "><i class="align-middle"
+                                                            data-feather="edit-2"></i></a>
+                                                    <a href="#" class="text-fade text-danger "><i class="align-middle"
+                                                            data-feather="trash"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>5</td>
+                                                <td class="d-flex align-items-center flex-wrap">
+                                                    <img src="images/avatar/avatar-5.png" width="48" height="48"
+                                                        class="bg-light rounded-circle me-2" alt="Avatar">Khadija
+                                                    SAADI
+                                                </td>
+                                                <td>khadija_saadi@gmail.com</td>
+                                                <td>(+212) 0654213305</td>
+                                                <td>EL jadida</td>
+                                                <td class="table-action ">
+                                                    <a href="#" class="text-fade text-success "><i class="align-middle"
+                                                            data-feather="check"></i></a>
+                                                    <a href="ecole_ecole_modifier_eleve.php"
+                                                        class="text-fade text-primary "><i class="align-middle"
+                                                            data-feather="edit-2"></i></a>
+                                                    <a href="#" class="text-fade text-danger "><i class="align-middle"
+                                                            data-feather="trash"></i></a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+
+                                </table>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row  ">
-                    <div class=" d-flex flex-row justify-content-end ">
-                        <a href="ecole_ecole_ajouter_eleve.php">
-                            <button type="submit" class="btn btn-primary me-3">
-                                Ajouter
-                            </button></a>
+            </div>
+            <div class="row  ">
+                <div class=" d-flex flex-row justify-content-end ">
+                    <a href="ecole_ecole_ajouter_eleve.php">
+                        <button type="submit" class="btn btn-primary mx-3 mt-3">
+                            <i class="fa fa-plus" aria-hidden="true"></i> Ajouter
+                        </button></a>
 
-                       
-                    </div>
 
                 </div>
+
+            </div>
         </section>
 
     </div>

@@ -12,8 +12,10 @@
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a>
                                 </li>
-                                <li class="breadcrumb-item" aria-current="page">Elève</li>
-                                <li class="breadcrumb-item active" aria-current="page">Liste de mes formateurs</li>
+                                <li class="breadcrumb-item" aria-current="page"><a
+                                        href="eleve_ecole_liste_formateur.php">École</a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><a
+                                        href="eleve_ecole_liste_formateur.php">Liste de mes formateurs</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -26,26 +28,27 @@
         <section class="content">
             <div class="box">
                 <div class="box-body">
-                    <div class="row my-5">
-
-                        <div class="col-lg-2 ms-3">
-                            <div class="form-group">
-                                <select class="selectpicker">
-                                    <option>Matière</option>
-                                    <option>Physique</option>
-                                    <option>Mathématique</option>
-                                    <option>Arabe</option>
-                                    <option>SVT</option>
-                                </select>
+                <form action="" method="">
+                         <div class=" d-flex flex-row  ">
+                                <div class="col-lg-2 me-3">
+                                    <div class="form-group">
+                                    <select class="selectpicker">
+                                        <option>Matière</option>
+                                        <option>Physique</option>
+                                        <option>Mathématique</option>
+                                        <option>Arabe</option>
+                                        <option>SVT</option>
+                                    </select>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-2">
-                            <button type="button" class="btn btn-primary-light me-1">
-                                <i class="fa fa-filter" aria-hidden="true"></i> filter
-                            </button>
-                        </div>
+                            <div class="col-lg-2">
+                                <button type="button" class="btn btn-primary-light me-1">
+                                    <i class="fa fa-filter" aria-hidden="true"></i> filter
+                                </button>
+                            </div>
 
-                    </div>
+                        </div>
+                    </form>
                     <div class="table-responsive">
                         <table id="complex_header" class="text-fade table table-bordered display" style="width:100%">
                             <thead class="bg-success">
@@ -55,70 +58,71 @@
                                     <th>Email</th>
                                     <th>Télephone</th>
                                     <th>Ville</th>
-                                   </tr>
+                                </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>
+                                    <td class="d-flex flex-wrap align-items-center">
                                         <img src="images/avatar/avatar-10.png" width="48" height="48"
                                             class="bg-light rounded-circle me-2" alt="Avatar"> Carl Jenkins
                                     </td>
                                     <td>CarlJenkins@gmail.com</td>
-                                    <td>+212677665544</td>
+                                    <td>(+212) 677665544</td>
                                     <td>Safi</td>
-                                   
+
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td><img src="images/avatar/avatar-12.png" width="48" height="48"
+                                    <td class="d-flex flex-wrap align-items-center"><img
+                                            src="images/avatar/avatar-12.png" width="48" height="48"
                                             class="bg-light rounded-circle me-2" alt="Avatar"> Bertha Martin</td>
                                     <td>BerthaMartin@gmail.com</td>
-                                    <td>+212688985544</td>
+                                    <td>(+212) 688985544</td>
                                     <td>El Jadida</td>
-                                   
+
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>
+                                    <td class="d-flex flex-wrap align-items-center">
                                         <img src="images/avatar/avatar-15.png" width="48" height="48"
                                             class="bg-light rounded-circle me-2" alt="Avatar"> Stacie Hall</td>
                                     <td>StacieHall@gmail.com</td>
-                                    <td>+212798097687</td>
+                                    <td>(+212) 798097687</td>
                                     <td>Casablanca</td>
-                                 
+
                                 </tr>
 
                                 <tr>
                                     <td>4</td>
-                                    <td>
+                                    <td class="d-flex flex-wrap align-items-center">
                                         <img src="images/avatar/avatar-15.png" width="48" height="48"
                                             class="bg-light rounded-circle me-2" alt="Avatar"> Stacie Hall</td>
                                     <td>StacieHall@gmail.com</td>
-                                    <td>+212798097687</td>
+                                    <td>(+212) 798097687</td>
                                     <td>Agadir</td>
-                                    
+
                                 </tr>
                                 <tr>
                                     <td>5</td>
-                                    <td>
+                                    <td class="d-flex flex-wrap align-items-center">
                                         <img src="images/avatar/avatar-15.png" width="48" height="48"
                                             class="bg-light rounded-circle me-2" alt="Avatar"> Stacie Hall</td>
                                     <td>StacieHall@gmail.com</td>
-                                    <td>+212798097687</td>
+                                    <td>(+212) 798097687</td>
                                     <td>Essaouira</td>
-                                   
+
                                 </tr>
                                 </tr>
                                 <tr>
                                     <td>6</td>
-                                    <td>
+                                    <td class="d-flex flex-wrap align-items-center">
                                         <img src="images/avatar/avatar-16.png" width="48" height="48"
                                             class="bg-light rounded-circle me-2" alt="Avatar"> Soufia Melk</td>
                                     <td>SoufiaMelk@gmail.com</td>
-                                    <td>+212795697687</td>
+                                    <td>(+212) 795697687</td>
                                     <td>Essaouira</td>
-                                   
+
                                 </tr>
                                 </tr>
 

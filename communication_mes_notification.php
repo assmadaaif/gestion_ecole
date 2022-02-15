@@ -5,7 +5,6 @@
        <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Admin</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                             <ol class="breadcrumb">
@@ -45,16 +44,16 @@
                                             <div class="w-p100 overflow-hidden">
                                                 <h5 class="mt-0 mb-0 fs-14 fw-600">
                                                     <span class="float-end text-muted fs-12 fw-400">1 heure</span>
-                                                   A :Ahmed Sefrioui
+                                                   A : Ahmed Sefrioui
                                                 </h5>
-                                                <h6 class="text-primary mt-5"> Ecole: Ibn Zohr</h6>
+                                                <h6 class="text-primary mt-5"> Ecole : Ibn Zohr</h6>
 
                                                 <p class="mt-1 mb-0 text-muted fs-14">
                                                     <span class="w-75">Par la présente, nous vous informons que nous avons décidé de prendre à votre encontre une mesure disciplinaire eu égard à votre comportement fautif que vous avez eu, à savoir (Préciser les faits). La sanction retenue à cet effet est un avertissement</span>
-                                                    <span class="w-25 float-end text-end">
+                                                    <span class="float-end text-end d-flex flex-wrap-nowrap mt-3">
                                                         <span class="badge badge-warning-light">Prévu</span>
-                                                        <span class="badge badge-success-light ">Rappel</span>
-                                                        <span class="badge badge-success-light me-4"><i class="fa fa-check"></i><i class=" fa fa-check"></i></span>
+                                                        <span class="badge badge-success-light mx-3">Rappel</span>
+                                                        <span class="badge badge-success-light  me-4"><i class="fa fa-check"></i><i class=" fa fa-check"></i></span>
 
 
 
@@ -71,15 +70,15 @@
                                             <div class="w-p100 overflow-hidden">
                                                 <h5 class="mt-0 mb-0 fs-14 fw-600">
                                                     <span class="float-end text-muted fs-12 fw-400">Vendredi</span>
-                                                   A :Mohammed Edrissi
+                                                   A : Mohammed Edrissi
                                                 </h5>
-                                                <h6 class="text-primary mt-5"> Ecole: Ibn Zohr</h6>
+                                                <h6 class="text-primary mt-5"> Ecole : Ibn Zohr</h6>
 
                                                 <p class="mt-1 mb-0 text-muted fs-14">
                                                     <span class="w-75">Par la présente, nous vous informons que nous avons décidé de prendre à votre encontre une mesure disciplinaire eu égard à votre comportement fautif que vous avez eu, à savoir (Préciser les faits). La sanction retenue à cet effet est un avertissement</span>
-                                                    <span class="w-25 float-end text-end">
+                                                    <span class=" d-flex flex-wrap-nowrap float-end text-end mt-3">
                                                         <span class="badge badge-warning-light">Urgent</span>
-                                                        <span class="badge badge-success-light ">Rappel</span>
+                                                        <span class="badge badge-success-light mx-3">Rappel</span>
                                                         <span class="badge badge-primary-light me-4"><i class=" fa fa-check"></i></span>
 
 
@@ -96,15 +95,15 @@
                                             <div class="w-p100 overflow-hidden">
                                                 <h5 class="mt-0 mb-0 fs-14 fw-600">
                                                     <span class="float-end text-muted fs-12 fw-400">Mercredi</span>
-                                                   A :Salma Ziouani
+                                                   A : Salma Ziouani
                                                 </h5>
-                                                <h6 class="text-primary mt-5"> Ecole: Ibn Zohr</h6>
+                                                <h6 class="text-primary mt-5"> Ecole : Ibn Zohr</h6>
 
                                                 <p class="mt-1 mb-0 text-muted fs-14">
                                                     <span class="w-75">Par la présente, nous vous informons que nous avons décidé de prendre à votre encontre une mesure disciplinaire eu égard à votre comportement fautif que vous avez eu, à savoir (Préciser les faits). La sanction retenue à cet effet est un avertissement</span>
-                                                    <span class="w-25 float-end text-end">
+                                                    <span class=" d-flex flex-wrap-nowrap float-end text-end mt-3">
                                                         <span class="badge badge-warning-light">Urgent</span>
-                                                        <span class="badge badge-success-light ">Observation</span>
+                                                        <span class="badge badge-success-light mx-3">Observation</span>
                                                         <span class="badge badge-primary-light me-4"><i class="fa fa-check"></i><i class=" fa fa-check"></i></span>
 
 
@@ -121,15 +120,15 @@
                                             <div class="w-p100 overflow-hidden">
                                                 <h5 class="mt-0 mb-0 fs-14 fw-600">
                                                     <span class="float-end text-muted fs-12 fw-400">Jeudi</span>
-                                                   A :Bassma Tahiri
+                                                   A : Bassma Tahiri
                                                 </h5>
-                                                <h6 class="text-primary mt-5"> Ecole: Ibn Zohr</h6>
+                                                <h6 class="text-primary mt-5"> Ecole : Ibn Zohr</h6>
 
                                                 <p class="mt-1 mb-0 text-muted fs-14">
                                                     <span class="w-75">Par la présente, nous vous informons que nous avons décidé de prendre à votre encontre une mesure disciplinaire eu égard à votre comportement fautif que vous avez eu, à savoir (Préciser les faits). La sanction retenue à cet effet est un avertissement</span>
-                                                    <span class="w-25 float-end text-end">
+                                                    <span class=" d-flex flex-wrap-nowrap float-end text-end mt-3">
                                                         <span class="badge badge-warning-light">Prévu</span>
-                                                        <span class="badge badge-success-light ">Evènement</span>
+                                                        <span class="badge badge-success-light mx-3">Évènement </span>
                                                         <span class="badge badge-primary-light me-4"><i class="fa fa-check"></i><i class=" fa fa-check"></i></span>
 
                                                     </span>
@@ -143,15 +142,15 @@
                                             <div class="w-p100 overflow-hidden">
                                                 <h5 class="mt-0 mb-0 fs-14 fw-600">
                                                     <span class="float-end text-muted fs-12 fw-400">Dimanche</span>
-                                                   A :Mostafa Hafidi
+                                                   A : Mostafa Hafidi
                                                 </h5>
-                                                <h6 class="text-primary mt-5"> Ecole: Ibn Zohr</h6>
+                                                <h6 class="text-primary mt-5"> Ecole : Ibn Zohr</h6>
 
                                                 <p class="mt-1 mb-0 text-muted fs-14">
                                                     <span class="w-75">Par la présente, nous vous informons que nous avons décidé de prendre à votre encontre une mesure disciplinaire eu égard à votre comportement fautif que vous avez eu, à savoir (Préciser les faits). La sanction retenue à cet effet est un avertissement</span>
-                                                    <span class="w-25 float-end text-end">
+                                                    <span class=" d-flex flex-wrap-nowrap float-end text-end mt-3">
                                                         <span class="badge badge-warning-light">Prévu</span>
-                                                        <span class="badge badge-success-light ">Rappel</span>
+                                                        <span class="badge badge-success-light mx-3">Rappel</span>
                                                         <span class="badge badge-success-light me-4"><i class="fa fa-check"></i><i class=" fa fa-check"></i></span>
 
 
@@ -175,17 +174,17 @@
                                                     <div class="w-p100  overflow-hidden">
                                                     
                                                         <p class="mt-1 mb-0 text-muted fs-14">
-                                                        <span class="text-danger  float-end text-end fs-12 fw-400  mt-10">5:30am</span>
-                                                            <span class="w-75 text-muted">Lorem ipsum dolor sit amet
+                                                        <span class="text-danger  float-end text-end fs-12 fw-400  ">5:30am</span>
+                                                            <span class="w-75 text-muted mt-5">Lorem ipsum dolor sit amet
                                                                 consectetur adipisicing elit. Beatae tempora nisi,
                                                                 laudantium, quidem magnam ipsum ad ab iste est
                                                                 doloremque adipisci impedit ipsam deleniti labore hic
                                                                 cupiditate reprehenderit perspiciatis obcaecati.</span>
                                                                 <h5 class="mt-0 mb-0 fs-14 fw-600">
                                                             
-                                                                <span class="w-25 float-end text-end">
+                                                                <span class=" d-flex flex-wrap-nowrap float-end text-end mt-3">
 
-                                                                <span class="badge badge-success-light">Prèvu</span>
+                                                                <span class="badge badge-success-light mx-3">Prèvu</span>
                                                                 <span
                                                                     class="badge badge-primary-light me-4">Observation</span>
 
@@ -200,12 +199,12 @@
                                             <p class="mt-20">
                                                 <a href="communication_type_utilisateur.php">
                                                     <button type="submit" class="btn btn-sm btn-success">
-                                                        <i class="fa fa-send"></i> envoyer</button>
+                                                        <i class="fa fa-send"></i> Envoyer</button>
 
                                                 </a>
                                                  <a href="communication_creer_nouvelle_notification.php">
                                                     <button type="submit" class="btn btn-sm btn-primary">
-                                                        <i class="fa fa-edit"></i> modifier</button>
+                                                        <i class="fa fa-edit"></i> Modifier</button>
 
                                                 </a> 
                                             </p>
@@ -216,17 +215,17 @@
                                                     <div class="w-p100  overflow-hidden">
 
                                                         <p class="mt-1 mb-0 text-muted fs-14">
-                                                        <span class="text-danger float-end text-end fs-12 fw-400  mt-10">9:00am</span>
-                                                            <span class="w-75 text-muted">Lorem ipsum dolor sit amet
+                                                        <span class="text-danger float-end text-end fs-12 fw-400  ">9:00am</span>
+                                                            <span class="w-75 text-muted mt-5">Lorem ipsum dolor sit amet
                                                                 consectetur adipisicing elit. Beatae tempora nisi,
                                                                 laudantium, quidem magnam ipsum ad ab iste est
                                                                 doloremque adipisci impedit ipsam deleniti labore hic
                                                                 cupiditate reprehenderit perspiciatis obcaecati.</span>
                                                                 <h5 class="mt-0 mb-0 fs-14 fw-600">
                                                             
-                                                                <span class="w-25 float-end text-end">
+                                                                <span class=" d-flex flex-wrap-nowrap float-end text-end mt-3">
 
-                                                                <span class="badge badge-success-light">Urgent</span>
+                                                                <span class="badge badge-success-light mx-3">Urgent</span>
                                                                 <span
                                                                     class="badge badge-primary-light me-4">Rappel</span>
 
@@ -240,12 +239,12 @@
                                             <p class="mt-20">
                                                 <a href="communication_type_utilisateur.php">
                                                     <button type="submit" class="btn btn-sm btn-success">
-                                                        <i class="fa fa-send"></i> envoyer</button>
+                                                        <i class="fa fa-send"></i> Envoyer</button>
 
                                                 </a>
                                              <a href="communication_creer_nouvelle_notification.php">
                                                     <button type="submit" class="btn btn-sm btn-primary">
-                                                        <i class="fa fa-edit"></i> modifier</button>
+                                                        <i class="fa fa-edit"></i> Modifier</button>
 
                                                 </a> </p>
 
@@ -256,18 +255,18 @@
 
                                                         <p class="mt-1 mb-0 text-muted fs-14">
                                                         
-                                                            <span class="float-end text-end text-danger fs-12 fw-400  mt-10">11:30am</span>
-                                                            <span class="w-75 text-muted">Lorem ipsum dolor sit amet
+                                                            <span class="float-end text-end text-danger fs-12 fw-400  ">11:30am</span>
+                                                            <span class="w-75 text-muted mt-5">Lorem ipsum dolor sit amet
                                                                 consectetur adipisicing elit. Beatae tempora nisi,
                                                                 laudantium, quidem magnam ipsum ad ab iste est
                                                                 doloremque adipisci impedit ipsam deleniti labore hic
                                                                 cupiditate reprehenderit perspiciatis obcaecati.</span>
                                                                 <h5 class="mt-0 mb-0 fs-14 fw-600">
                                                            
-                                                                <span class="w-25 float-end text-end ">
-                                                            <span class="badge badge-success-light">Prèvu</span>
+                                                                <span class=" d-flex flex-wrap-nowrap float-end text-end mt-3 ">
+                                                            <span class="badge badge-success-light mx-3">Prèvu</span>
                                                                 <span
-                                                                    class="badge badge-primary-light me-4">Evènement</span>
+                                                                    class="badge badge-primary-light me-4">Évènement </span>
 
                                                             </span>
                                                           
@@ -279,12 +278,12 @@
                                             <p class="mt-20">
                                                 <a href="communication_type_utilisateur.php">
                                                     <button type="submit" class="btn btn-sm btn-success">
-                                                        <i class="fa fa-send"></i> envoyer</button>
+                                                        <i class="fa fa-send"></i> Envoyer</button>
 
                                                 </a>
                                              <a href="communication_creer_nouvelle_notification.php">
                                                     <button type="submit" class="btn btn-sm btn-primary">
-                                                        <i class="fa fa-edit"></i> modifier</button>
+                                                        <i class="fa fa-edit"></i> Modifier</button>
 
                                                 </a> </p>
 
@@ -295,17 +294,17 @@
 
                                                         <p class="mt-1 mb-0 text-muted fs-14">
 
-                                                        <span class="float-end text-end text-danger fs-12 fw-400  mt-10">4:20am</span>
-                                                            <span class="w-75 text-muted">Lorem ipsum dolor sit amet
+                                                        <span class="float-end text-end text-danger fs-12 fw-400  ">4:20am</span>
+                                                            <span class="w-75 text-muted mt-5">Lorem ipsum dolor sit amet
                                                                 consectetur adipisicing elit. Beatae tempora nisi,
                                                                 laudantium, quidem magnam ipsum ad ab iste est
                                                                 doloremque adipisci impedit ipsam deleniti labore hic
                                                                 cupiditate reprehenderit perspiciatis obcaecati.</span>
                                                                 <h5 class="mt-0 mb-0 fs-14 fw-600">
                                                           
-                                                            <span class="w-25 float-end text-end">
+                                                            <span class=" d-flex flex-wrap-nowrap float-end text-end mt-3">
 
-                                                            <span class="badge badge-success-light">Dès que possible</span>
+                                                            <span class="badge badge-success-light mx-3">Dès que possible</span>
                                                             <span class="badge badge-primary-light me-4">Observation</span>
 
                                                          </span>
@@ -318,12 +317,12 @@
                                             <p class="mt-20">
                                                 <a href="communication_type_utilisateur.php">
                                                     <button type="submit" class="btn btn-sm btn-success">
-                                                        <i class="fa fa-send"></i> envoyer</button>
+                                                        <i class="fa fa-send"></i> Envoyer</button>
 
                                                 </a>
                                              <a href="communication_creer_nouvelle_notification.php">
                                                     <button type="submit" class="btn btn-sm btn-primary">
-                                                        <i class="fa fa-edit"></i> modifier</button>
+                                                        <i class="fa fa-edit"></i> Modifier</button>
 
                                                 </a> </p>
 

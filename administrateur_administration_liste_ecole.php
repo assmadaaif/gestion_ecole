@@ -11,8 +11,8 @@
 						<nav>
 							<ol class="breadcrumb">
 								<li class="breadcrumb-item"><a href="#"><i class="mdi mdi-home-outline"></i></a></li>
-								<li class="breadcrumb-item" aria-current="page"><a href="administrateur_administration_ecole.php">Ecole</a></li>
-								<li class="breadcrumb-item active" aria-current="page">Liste des Ecoles</li>
+								<li class="breadcrumb-item" aria-current="page"><a href="administrateur_administration_ecole.php">École</a></li>
+								<li class="breadcrumb-item active" aria-current="page">Liste des écoles</li>
 							</ol>
 						</nav>
 					</div>
@@ -36,7 +36,7 @@
 										<th>Email</th>
 										<th>Télephone</th>
 										<th>Ville</th>
-										<th>Action</th>
+										<th>Actions</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -46,7 +46,7 @@
                                             Idrisse Benasser
 										</td>
 										<td>IdrisseBenasser@gmail.com</td>
-										<td>+212677665544</td>
+										<td>(+212) 677665544</td>
 										<td>Safi</td>
 										<td class="table-action ">
                                             <a href="#" class="text-fade text-success "><i class="align-middle"
@@ -63,7 +63,7 @@
                                             Almotanabi
 										</td>
 										<td>Almotanabi@gmail.com</td>
-										<td>+212677665544</td>
+										<td>(+212) 677665544</td>
 										<td>Mohamadia</td>
 										<td class="table-action ">
                                             <a href="#" class="text-fade text-success "><i class="align-middle"
@@ -80,7 +80,7 @@
                                             Ibn Zohr
 										</td>
 										<td>IbnZohr@gmail.com</td>
-										<td>+212677665544</td>
+										<td>(+212) 677665544</td>
 										<td>Agadir</td>
 										<td class="table-action ">
                                             <a href="#" class="text-fade text-success "><i class="align-middle"
@@ -97,7 +97,7 @@
                                             Alquadi Ayyad
 										</td>
 										<td>AlquadiAyyad@gmail.com</td>
-										<td>+212788765437</td>
+										<td>(+212) 788765437</td>
 										<td>Safi</td>
 										<td class="table-action ">
                                             <a href="#" class="text-fade text-success "><i class="align-middle"
@@ -114,7 +114,7 @@
                                             Moulay Ismail
 										</td>
 										<td>MoulayIsmail@gmail.com</td>
-										<td>+212776655978</td>
+										<td>(+212) 776655978</td>
 										<td>Essaouira</td>
 										<td class="table-action ">
                                             <a href="#" class="text-fade text-success "><i class="align-middle"
@@ -134,8 +134,8 @@
 			<div class="row">
 				<div class="col-lg-2 ms-auto">
 					<a href="administrateur_administration_ajouter_ecole.php">
-						<button type="submit" class="btn btn-primary">
-							ajouter
+						<button type="submit" class="btn btn-primary ms-3 mb-3"> <i class="fa fa-plus" aria-hidden="true"></i>
+							Ajouter
 						</button></a>
 				</div>
 			</div>

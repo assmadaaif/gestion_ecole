@@ -8,7 +8,7 @@
         <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Parametre</h4>
+                    <h4 class="page-title">Paramètre</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                             <ol class="breadcrumb">
@@ -45,7 +45,7 @@
                                 <tr>
                                             <th>#</th>
                                             <th>Status</th>
-                                            <th>Action</th>
+                                            <th>Actions</th>
                                         </tr>
 								</thead>
                                 <tbody>
@@ -94,15 +94,13 @@
                     
                 </div>
             </div>
-            <div class="row  ">
+            <div class="row">
                 <div class=" d-flex flex-row justify-content-end ">
-                    <a href="ecole_parametrage_ajouter_type_message.php">
-                        <button type="submit" class="btn btn-primary me-3">
-                            Ajouter
+                    <a href="ecole_parametrage_ajouter_status_message.php">
+                        <button type="submit" class="btn btn-primary mt-3 mx-3">
+                           <i class="fa fa-plus" aria-hidden="true"></i> Ajouter
                         </button></a>
-
-                       
-                </div>
+              </div>
 
             </div>
         </section>

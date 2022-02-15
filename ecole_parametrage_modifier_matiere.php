@@ -10,7 +10,7 @@
         <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Paremetre</h4>
+                    <h4 class="page-title">Paramètre</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                             <ol class="breadcrumb">
@@ -47,11 +47,13 @@
 
 
                                     <div class="form-group">
-                                        <label class="form-label"> Ecole</label>
+                                        <label class="form-label"> École</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-book"></i></span>
                                             <select class="selectpicker form-select">
-                                                <option> ecole</option>
+                                                <option> Ibn Zohr</option>
+                                                <option> EL Idrissi</option>
+                                                <option> El Motanabi</option>
 
                                             </select>
                                         </div>

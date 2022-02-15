@@ -5,7 +5,6 @@
     <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Admin</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                             <ol class="breadcrumb">
@@ -85,7 +84,7 @@
 
                                         <button type="reset" class="btn btn-danger"><i class="fa fa-times"></i>
                                             Annuler</button>
-                                        <button type="submit" class="btn btn-success"><i class="fa fa-save"></i>
+                                        <button type="submit" class="btn btn-success "><i class="fa fa-save"></i>
                                             Créer</button>
                                     </div>
                                     </form>

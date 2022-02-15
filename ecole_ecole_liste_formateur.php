@@ -8,7 +8,7 @@
         <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Ecole</h4>
+                    <h4 class="page-title">École</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                             <ol class="breadcrumb">
@@ -55,13 +55,13 @@
                                         <th>Email</th>
                                         <th>Télephone</th>
                                         <th>Ville</th>
-                                        <th>Action</th>
+                                        <th>Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>1</td>
-                                        <td>
+                                        <td class="d-flex align-items-center flex-wrap">
                                             <img src="images/avatar/avatar-2.png" width="48" height="48"
                                                 class="bg-light rounded-circle me-2 " alt="Avatar"> Sara ELAOUAI
                                         </td>
@@ -82,7 +82,7 @@
                                     </tr>
                                     <tr>
                                         <td>2</td>
-                                        <td>
+                                        <td class="d-flex align-items-center flex-wrap">
                                             <img src="images/avatar/avatar-10.png" width="48" height="48"
                                                 class="bg-light rounded-circle me-2 " alt="Avatar"> Yssine RACHDI
                                         </td>
@@ -103,7 +103,7 @@
                                     </tr>
                                     <tr>
                                         <td>3</td>
-                                        <td>
+                                        <td class="d-flex align-items-center flex-wrap">
                                             <img src="images/avatar/avatar-1.png" width="48" height="48"
                                                 class="bg-light rounded-circle me-2 " alt="Avatar">Rania NASIRI
                                         </td>
@@ -122,7 +122,7 @@
                                     </tr>
                                     <tr>
                                         <td>4</td>
-                                        <td>
+                                        <td class="d-flex align-items-center flex-wrap">
                                             <img src="images/avatar/avatar-7.png" width="48" height="48"
                                                 class="bg-light rounded-circle me-2 " alt="Avatar">Lamia HADRI
                                         </td>
@@ -141,7 +141,7 @@
                                     </tr>
                                     <tr>
                                         <td>5</td>
-                                        <td>
+                                        <td class="d-flex align-items-center flex-wrap">
                                             <img src="images/avatar/avatar-5.png" width="48" height="48"
                                                 class="bg-light rounded-circle me-2 " alt="Avatar">Soufiane SAADI
                                         </td>
@@ -167,8 +167,8 @@
             <div class="row  ">
                 <div class=" d-flex flex-row justify-content-end ">
                     <a href="ecole_ecole_ajouter_formateur.php">
-                        <button type="submit" class="btn btn-primary me-3">
-                            Ajouter
+                        <button type="submit" class="btn btn-primary mt-3 mx-3">
+                          <i class="fa fa-plus" aria-hidden="true"></i>  Ajouter
                         </button></a>
 
                 </div>

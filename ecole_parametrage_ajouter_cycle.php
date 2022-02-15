@@ -10,13 +10,13 @@
         <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Paremetre</h4>
+                    <h4 class="page-title">Paramètre</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                         <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a></li>
                                 <li class="breadcrumb-item" aria-current="page"><a href="ecole_parametrage_liste_cycle.php">Cycles</a></li>
-                                <li class="breadcrumb-item active" aria-current="page"><a href="ecole_parametrage_ajouter_cycle.php">Ajouter cycle</a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><a href="ecole_parametrage_ajouter_cycle.php">Ajouter un cycle</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -37,7 +37,7 @@
                                     <div class="form-group">
                                         <label class="form-label mb-2">Nom de cycle</label>
                                         <div class="input-group mb-3">
-                                            <span class="input-group-text">Nom</span>
+                                            <span class="input-group-text"><i class="ti-book"></i></span>
                                             <input type="text" class="form-control">
                                         </div>
                                     </div>
@@ -45,7 +45,7 @@
                                     
                                    
                                     <div class="form-group">
-                                        <label class="form-label"> Ecole</label>
+                                        <label class="form-label"> École</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-book"></i></span>
                                             <select class="selectpicker form-select">

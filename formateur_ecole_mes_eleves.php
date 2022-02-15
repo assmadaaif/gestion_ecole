@@ -33,7 +33,8 @@
                     <div class="row my-5">
 
                         <div class="row  ">
-                            <div class=" d-flex flex-row  ">
+                         <form action="" method="">
+                         <div class=" d-flex flex-row  ">
                                 <div class="col-lg-2 me-3">
                                     <div class="form-group">
                                         <select class="selectpicker">
@@ -54,6 +55,7 @@
                                 
 
                             </div>
+                         </form>
                         </div>
 
                         <div class="row">
@@ -65,7 +67,7 @@
                                         <thead class="bg-success">
                                             <tr>
                                                 <th>#</th>
-                                                <th>Nom & Prenom</th>
+                                                <th >Nom & Prenom </th>
                                                 <th>Email</th>
                                                 <th>Télephone</th>
                                                 <th>Ville</th>
@@ -76,9 +78,8 @@
                                             <tr>
                                                 <td>1</td>
                                                 <td>
-                                                    <img src="images/avatar/avatar-2.png" width="48" height="48"
-                                                        class="bg-light rounded-circle me-2" alt="Avatar"> Hassna
-                                                    ELAOUAI
+                                                      Hassna   
+                                                        ELAOUAI  
                                                 </td>
                                                 <td>hassna_elaoui@gmail.com</td>
                                                 <td>(+212) 0677665544</td>
@@ -89,7 +90,7 @@
                                             </tr>
                                             <tr>
                                                 <td>2</td>
-                                                <td>
+                                                <td  class="d-flex flex-wrap align-items-center ">
                                                     <img src="images/avatar/avatar-10.png" width="48" height="48"
                                                         class="bg-light rounded-circle me-2" alt="Avatar"> Salma
                                                     RACHDI
@@ -103,7 +104,7 @@
                                             </tr>
                                             <tr>
                                                 <td>3</td>
-                                                <td>
+                                                <td  class="d-flex flex-wrap align-items-center ">
                                                     <img src="images/avatar/avatar-1.png" width="48" height="48"
                                                         class="bg-light rounded-circle me-2" alt="Avatar">Mohamed
                                                     NASIRI
@@ -115,7 +116,7 @@
                                             </tr>
                                             <tr>
                                                 <td>4</td>
-                                                <td>
+                                                <td  class="d-flex flex-wrap align-items-center ">
                                                     <img src="images/avatar/avatar-7.png" width="48" height="48"
                                                         class="bg-light rounded-circle me-2" alt="Avatar">Ismail
                                                     HADRI
@@ -127,7 +128,7 @@
                                             </tr>
                                             <tr>
                                                 <td>5</td>
-                                                <td>
+                                                <td  class="d-flex flex-wrap align-items-center ">
                                                     <img src="images/avatar/avatar-5.png" width="48" height="48"
                                                         class="bg-light rounded-circle me-2" alt="Avatar">Khadija
                                                     SAADI

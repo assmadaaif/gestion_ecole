@@ -6,7 +6,6 @@
         <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Admin</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                             <ol class="breadcrumb">
@@ -37,14 +36,14 @@
                                             <div class="w-p100 overflow-hidden">
                                                 <h5 class="mt-0 mb-0 fs-14 fw-600">
                                                     <span class="float-end text-muted fs-12 fw-400">1 heure</span>
-                                                   De :Ahmed Sefrioui <br>
+                                                   De : Ahmed Sefrioui <br>
                                                    
                                                 </h5>
-                                                <h6 class="text-primary mt-5"> Ecole: Ibn Zohr</h6>
+                                                <h6 class="text-primary mt-5"> Ecole : Ibn Zohr</h6>
                                                 <p class="mt-1 mb-0 text-muted fs-14">
                                                     <span class="w-75">Par la présente, nous vous informons que nous avons décidé de prendre à votre encontre une mesure disciplinaire eu égard à votre comportement fautif que vous avez eu, à savoir (Préciser les faits). La sanction retenue à cet effet est un avertissement</span>
-                                                    <span class="w-25 float-end text-end">
-                                                        <span class="badge badge-warning-light">Prévu</span>
+                                                    <span class=" d-flex flex-wrap-nowrap float-end text-end mt-3">
+                                                        <span class="badge badge-warning-light mx-3">Prévu</span>
                                                         <span class="badge badge-success-light ">Rappel</span>
 
 
@@ -61,13 +60,13 @@
                                             <div class="w-p100 overflow-hidden">
                                                 <h5 class="mt-0 mb-0 fs-14 fw-600">
                                                     <span class="float-end text-muted fs-12 fw-400">Vendredi</span>
-                                                   De :Mohammed Edris <br>
-                                                   <h6 class="text-primary mt-5"> Ecole: Ibn Zohr</h6>
+                                                   De : Mohammed Edris <br>
+                                                   <h6 class="text-primary mt-5"> Ecole : Ibn Zohr</h6>
                                                 </h5>
                                                 <p class="mt-1 mb-0 text-muted fs-14">
                                                     <span class="w-75">Par la présente, nous vous informons que nous avons décidé de prendre à votre encontre une mesure disciplinaire eu égard à votre comportement fautif que vous avez eu, à savoir (Préciser les faits). La sanction retenue à cet effet est un avertissement</span>
-                                                    <span class="w-25 float-end text-end">
-                                                        <span class="badge badge-warning-light">Dès que possible</span>
+                                                    <span class=" d-flex flex-wrap-nowrap float-end text-end mt-3">
+                                                        <span class="badge badge-warning-light mx-3">Dès que possible</span>
                                                         <span class="badge badge-success-light ">Rappel</span>
 
 
@@ -83,13 +82,13 @@
                                             <div class="w-p100 overflow-hidden">
                                                 <h5 class="mt-0 mb-0 fs-14 fw-600">
                                                     <span class="float-end text-muted fs-12 fw-400">Mercredi</span>
-                                                   De :Salma Ziouani
+                                                   De : Salma Ziouani
                                                 </h5>
-                                                <h6 class="text-primary mt-5"> Ecole: Ibn Zohr</h6>
+                                                <h6 class="text-primary mt-5"> Ecole : Ibn Zohr</h6>
                                                 <p class="mt-1 mb-0 text-muted fs-14">
                                                     <span class="w-75">Par la présente, nous vous informons que nous avons décidé de prendre à votre encontre une mesure disciplinaire eu égard à votre comportement fautif que vous avez eu, à savoir (Préciser les faits). La sanction retenue à cet effet est un avertissement</span>
-                                                    <span class="w-25 float-end text-end">
-                                                        <span class="badge badge-warning-light">Urgent</span>
+                                                    <span class=" d-flex flex-wrap-nowrap float-end text-end mt-3">
+                                                        <span class="badge badge-warning-light mx-3">Urgent</span>
                                                         <span class="badge badge-success-light ">Observation</span>
 
 
@@ -105,13 +104,13 @@
                                             <div class="w-p100 overflow-hidden">
                                                 <h5 class="mt-0 mb-0 fs-14 fw-600">
                                                     <span class="float-end text-muted fs-12 fw-400">Jeudi</span>
-                                                   De :Bassma Tahiri
+                                                   De : Bassma Tahiri
                                                  </h5>
-                                                 <h6 class="text-primary mt-5"> Ecole: Ibn Zohr</h6>
+                                                 <h6 class="text-primary mt-5"> Ecole : Ibn Zohr</h6>
                                                 <p class="mt-1 mb-0 text-muted fs-14">
                                                     <span class="w-75">Par la présente, nous vous informons que nous avons décidé de prendre à votre encontre une mesure disciplinaire eu égard à votre comportement fautif que vous avez eu, à savoir (Préciser les faits). La sanction retenue à cet effet est un avertissement</span>
-                                                    <span class="w-25 float-end text-end">
-                                                        <span class="badge badge-warning-light">Prévu</span>
+                                                    <span class=" d-flex flex-wrap-nowrap float-end text-end mt-3">
+                                                        <span class="badge badge-warning-light mx-3">Prévu</span>
                                                         <span class="badge badge-success-light ">Evènement</span>
                                                     </span>
                                                 </p>
@@ -124,13 +123,13 @@
                                             <div class="w-p100 overflow-hidden">
                                                 <h5 class="mt-0 mb-0 fs-14 fw-600">
                                                     <span class="float-end text-muted fs-12 fw-400">Dimanche</span>
-                                                   De :Mostafa Hafidi <br>
+                                                   De : Mostafa Hafidi <br>
                                                 </h5>
-                                                <h6 class="text-primary mt-5"> Ecole: Ibn Zohr</h6>
+                                                <h6 class="text-primary mt-5"> Ecole : Ibn Zohr</h6>
                                                 <p class="mt-1 mb-0 text-muted fs-14">
                                                     <span class="w-75">Par la présente, nous vous informons que nous avons décidé de prendre à votre encontre une mesure disciplinaire eu égard à votre comportement fautif que vous avez eu, à savoir (Préciser les faits). La sanction retenue à cet effet est un avertissement</span>
-                                                    <span class="w-25 float-end text-end">
-                                                        <span class="badge badge-warning-light">Prévu</span>
+                                                    <span class=" d-flex flex-wrap-nowrap float-end text-end mt-3">
+                                                        <span class="badge badge-warning-light mx-3">Prévu</span>
                                                         <span class="badge badge-success-light ">Rappel</span>
 
 

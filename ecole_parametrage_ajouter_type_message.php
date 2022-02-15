@@ -17,9 +17,9 @@
                                 <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a>
                                 </li>
                                 <li class="breadcrumb-item" aria-current="page"><a
-                                        href="ecole_parametrage_liste_filiere.php">Filières</a></li>
+                                        href="ecole_parametrage_liste_serie.php">Catégorie</a></li>
                                 <li class="breadcrumb-item active" aria-current="page"><a
-                                        href="ecole_parametrage_modifier_filiere.php">Modifier Filière</a></li>
+                                        href="ecole_parametrage_ajouter_serie.php">Ajouter une catégorie</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -38,40 +38,12 @@
                             <div class="box-body row ">
                                 <div class="col-lg-6 ">
                                     <div class="form-group">
-                                        <label class="form-label mb-2">Nom de Filière</label>
+                                        <label class="form-label mb-2">Nom de catégorie</label>
                                         <div class="input-group mb-3">
-                                            <span class="input-group-text">Nom</span>
                                             <input type="text" class="form-control ">
                                         </div>
                                     </div>
-
-
-
-                                    <div class="form-group">
-                                        <label class="form-label"> École</label>
-                                        <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-book"></i></span>
-                                            <select class="selectpicker form-select">
-                                                <option>Ibn Zohr</option>
-
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="form-label"> Série</label>
-                                        <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-book"></i></span>
-                                            <select class="selectpicker form-select">
-                                                <option>Lettre</option>
-
-                                            </select>
-                                        </div>
-                                    </div>
-
-
-
-
-                                </div>
+                                 </div>
 
 
 

@@ -30,12 +30,12 @@
                         <!-- /.box-header -->
                         <form class="form">
                             <div class="box-body row">
-                                <div class="col-lg-2">
+                                <div class="col-lg-4">
                                     <div class="form-group">
                                         <label class="form-label"> Langue</label>
                                         <div class="input-group mb-3">
                                             
-                                            <select class="selectpicker">
+                                            <select class="selectpicker form-select">
                                                 <option>Français</option>
                                                 <option>Anglais</option>
                                                 <option>Arabe</option>

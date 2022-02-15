@@ -46,19 +46,19 @@
                                         </div>
                                     </div>
                                     <div class="form-group ">
-                                        <label for="" class="form-label me-5">sexe</label>
+                                        <label for="" class="form-label me-5">Sexe</label>
 								  
 									  <input name="group1" type="radio" id="Option_1" >
-									  <label for="Option_1"> homme</label>                    
+									  <label for="Option_1"> Homme</label>                    
 								  
 								  
 									  <input name="group1" type="radio" id="Option_2">
-									  <label for="Option_2">femme</label>   
+									  <label for="Option_2">Femme</label>   
 								  
 								  
 								     </div>
                                     <div class="form-group">
-                                        <label class="form-label">date de naissance</label>
+                                        <label class="form-label">Date de naissance</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-calendar"></i></span>
                                             <input type="date" class="form-control">
@@ -92,17 +92,17 @@
                                 </div>
                                 <div class="col-lg-6">
                                 <div class="form-group">
-                                        <label class="form-label"> Eleve</label>
+                                        <label class="form-label"> Elève</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-user"></i></span>
                                             <select class="selectpicker form-select">
-                                            <option>Eleve</option>
+                                            <option>Elève</option>
 
                                         </select>
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label">adresse</label>
+                                        <label class="form-label">Adresse</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-location-pin"></i></span>
                                             <input type="text" class="form-control">
@@ -116,21 +116,21 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label">teléphone</label>
+                                        <label class="form-label">Teléphone</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-mobile"></i></span>
                                             <input type="tel" class="form-control">
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label"> Password</label>
+                                        <label class="form-label"> Mot de passe</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-lock"></i></span>
                                             <input type="password" class="form-control">
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label"> type parent</label>
+                                        <label class="form-label"> Type parent</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-user"></i></span>
                                             <input type="text" class="form-control">

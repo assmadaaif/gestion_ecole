@@ -11,8 +11,8 @@
                         <nav>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a></li>
-                                <li class="breadcrumb-item" aria-current="page"><a href="administrateur_administration_ecole.php">Ecole</a> </li>
-                                <li class="breadcrumb-item active" aria-current="page">gerant</li>
+                                <li class="breadcrumb-item" aria-current="page"><a href="administrateur_administration_ecole.php">École</a> </li>
+                                <li class="breadcrumb-item active" aria-current="page"> Ajouter gérant</li>
                             </ol>
                         </nav>
                     </div>
@@ -45,19 +45,19 @@
                                         </div>
                                     </div>
                                     <div class="form-group ">
-                                        <label for="" class="form-label me-5">sexe</label>
+                                        <label for="" class="form-label me-5">Sexe</label>
 								  
 									  <input name="group1" type="radio" id="Option_1" >
-									  <label for="Option_1"> homme</label>                    
+									  <label for="Option_1"> Homme</label>                    
 								  
 								  
 									  <input name="group1" type="radio" id="Option_2">
-									  <label for="Option_2">femme</label>   
+									  <label for="Option_2">Femme</label>   
 								  
 								  
 								     </div>
                                     <div class="form-group">
-                                        <label class="form-label">date de naissance</label>
+                                        <label class="form-label">Date de naissance</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-calendar"></i></span>
                                             <input type="date" class="form-control">
@@ -74,7 +74,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <label class="form-label">adresse</label>
+                                        <label class="form-label">Adresse</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-location-pin"></i></span>
                                             <input type="text" class="form-control">
@@ -88,25 +88,25 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label">teléphone</label>
+                                        <label class="form-label">Teléphone</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-mobile"></i></span>
                                             <input type="tel" class="form-control">
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label"> Password</label>
+                                        <label class="form-label"> Mot de passe</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-lock"></i></span>
                                             <input type="password" class="form-control">
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label"> type d'utlisateur</label>
+                                        <label class="form-label"> Type d'utlisateur</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-user"></i></span>
                                             <select class="form-select">
-                                            <option>gerant</option>
+                                            <option>Gérant</option>
 
                                         </select>
                                         </div>
@@ -124,7 +124,7 @@
                                 </button>
                                 <a href="administrateur_administration_inscrire_gerant.php" class="btn btn-primary">
                                
-                                    <i class="ti-save-alt"></i> inscrire
+                                    <i class="ti-save-alt"></i> Inscrire
                                 
                             </a>
                             </div>

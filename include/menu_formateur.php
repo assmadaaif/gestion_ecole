@@ -6,7 +6,7 @@
                 <!-- sidebar menu-->
                 <ul class="sidebar-menu" data-widget="tree">
                     <li>
-                        <a href="index.php"><i data-feather="home"></i><span>Acceuil</span></a>
+                        <a href="index.php"><i data-feather="home"></i><span>Accueil</span></a>
                     </li>
                     <li class="treeview">
                         <a href="#">
@@ -46,7 +46,7 @@
                     <li class="treeview">
                         <a href="#">
                             <i data-feather="book-open"></i>
-                            <span>Ecole</span>
+                            <span>École</span>
                             <span class="pull-right-container">
                                 <i class="fa fa-angle-right pull-right"></i>
                             </span>
@@ -74,7 +74,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="parametre_langue.php"><i data-feather="settings"></i><span>Parametre</span></a>
+                        <a href="parametre_langue.php"><i data-feather="settings"></i><span>Paramétrage</span></a>
                     </li>
                    
 

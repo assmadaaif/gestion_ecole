@@ -10,13 +10,13 @@
         <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Ecole</h4>
+                    <h4 class="page-title">École</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                         <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a></li>
                                 <li class="breadcrumb-item" aria-current="page"><a href="ecole_ecole_liste_classe.php">Classes</a></li>
-                                <li class="breadcrumb-item active" aria-current="page"><a href="ecole_ecole_modifier_classe.php">Modifier classe</a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><a href="ecole_ecole_modifier_classe.php">Modifier un classe</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -69,7 +69,7 @@
                                     <div class="form-group">
                                         <label class="form-label"> Niveau </label>
                                         <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-book"></i></span>
+                                            <span class="input-group-text"><i class="fa fa-edit"></i></span>
                                             <select class="selectpicker form-select" >
                                             <option>1 Bac</option>
                                             <option>2 Bac</option>
@@ -91,7 +91,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label">Filiere</label>
+                                        <label class="form-label">Filière</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-book"></i></span>
                                             <select class=" selectpicker form-select" >

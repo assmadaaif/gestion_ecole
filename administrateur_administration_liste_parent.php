@@ -33,7 +33,7 @@
 										<th>#</th>
 										<th>Nom & prenom</th>
 										<th>Email</th>
-										<th>Numearu de telephone</th>
+										<th>Télephone</th>
 										<th>Ville</th>
 										<th>Actions</th>
 
@@ -43,12 +43,12 @@
 								<tbody>
 									<tr>
 										<td>1</td>
-										<td>
+										<td class="d-flex flex-wrap align-items-center ">
 											<img src="images/avatar/avatar-10.png" width="48" height="48"
 												class="bg-light rounded-circle me-2" alt="Avatar"> Carl Jenkins
 										</td>
 										<td>CarlJenkins@gmail.com</td>
-										<td>+212677665544</td>
+										<td>(+212) 677665544</td>
 										<td>Safi</td>
 										<td class="table-action ">
                                             <a href="#" class="text-fade text-success "><i class="align-middle"
@@ -61,10 +61,10 @@
 									</tr>
 									<tr>
 										<td>2</td>
-										<td><img src="images/avatar/avatar-12.png" width="48" height="48"
+										<td  class="d-flex flex-wrap align-items-center "><img src="images/avatar/avatar-12.png" width="48" height="48"
 												class="bg-light rounded-circle me-2" alt="Avatar"> Bertha Martin</td>
 										<td>BerthaMartin@gmail.com</td>
-										<td>+212688985544</td>
+										<td>(+212) 688985544</td>
                                         <td>El Jadida</td>
 									    <td class="table-action ">
                                             <a href="#" class="text-fade text-danger"><i class="align-middle"
@@ -77,11 +77,11 @@
 									</tr>
 									<tr>
 										<td>3</td>
-										<td>
+										<td class="d-flex flex-wrap align-items-center ">
 											<img src="images/avatar/avatar-15.png" width="48" height="48"
 												class="bg-light rounded-circle me-2" alt="Avatar"> Stacie Hall</td>
 										<td>StacieHall@gmail.com</td>
-										<td>+212798097687</td>
+										<td>(+212) 798097687</td>
                                         <td>Casablanca</td>
 										 <td class="table-action ">
                                             <a href="#" class="text-fade text-success "><i class="align-middle"
@@ -95,11 +95,11 @@
 									
 																		<tr>
 										<td>4</td>
-										<td>
+										<td class="d-flex flex-wrap align-items-center ">
 											<img src="images/avatar/avatar-15.png" width="48" height="48"
 												class="bg-light rounded-circle me-2" alt="Avatar"> Stacie Hall</td>
 										<td>StacieHall@gmail.com</td>
-										<td>+212798097687</td>
+										<td>(+212) 798097687</td>
                                         <td>Agadir</td>
 										<td class="table-action ">
                                             <a href="#" class="text-fade text-success "><i class="align-middle"
@@ -112,11 +112,11 @@
 									</tr>
 																		<tr>
 										<td>5</td>
-										<td>
+										<td class="d-flex flex-wrap align-items-center ">
 											<img src="images/avatar/avatar-15.png" width="48" height="48"
 												class="bg-light rounded-circle me-2" alt="Avatar"> Stacie Hall</td>
 										<td>StacieHall@gmail.com</td>
-										<td>+212798097687</td>
+										<td>(+212) 798097687</td>
                                         <td>Essaouira</td>
 										 <td class="table-action ">
                                             <a href="#" class="text-fade text-success "><i class="align-middle"
@@ -130,11 +130,11 @@
                                     </tr>
 									<tr>
 										<td>6</td>
-										<td>
+										<td class="d-flex flex-wrap align-items-center ">
 											<img src="images/avatar/avatar-16.png" width="48" height="48"
 												class="bg-light rounded-circle me-2" alt="Avatar"> Soufia Melk</td>
 										<td>SoufiaMelk@gmail.com</td>
-										<td>+212795697687</td>
+										<td>(+212) 795697687</td>
                                         <td>Essaouira</td>
 										 <td class="table-action ">
                                             <a href="#" class="text-fade text-success "><i class="align-middle"
@@ -153,14 +153,14 @@
 						</div>
 					</div>
 			</div>
-			</div>
 			<div class="row">
 				<div class="col-lg-2 ms-auto">
 					<a href="administrateur_administration_ajouter_parent.php">
-						<button type="submit" class="btn btn-primary">
+						<button type="submit" class="btn btn-primary ms-3 mb-3"><i class="fa fa-plus" aria-hidden="true"></i>
 							Ajouter
 						</button></a>
 				</div>
+			</div>
 			</div>
 		</section>
 	</div>

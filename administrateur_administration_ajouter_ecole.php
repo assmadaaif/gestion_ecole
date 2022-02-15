@@ -12,8 +12,8 @@
                         <nav>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a></li>
-                                <li class="breadcrumb-item" aria-current="page"><a href="administrateur_administration_liste_ecole.php">Ecole</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Ajouter ecole</li>
+                                <li class="breadcrumb-item" aria-current="page"><a href="administrateur_administration_liste_ecole.php">École</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Ajouter école</li>
                             </ol>
                         </nav>
                     </div>
@@ -40,7 +40,7 @@
                                     </div>
 
                                     <div class="form-group">
-                                        <label class="form-label">adresse1</label>
+                                        <label class="form-label">Adresse1</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-location-pin"></i></span>
                                             <input type="text" class="form-control">
@@ -48,7 +48,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label">adresse2</label>
+                                        <label class="form-label">Adresse2</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-location-pin"></i></span>
                                             <input type="text" class="form-control">
@@ -97,14 +97,14 @@
                                     </div>
                                    
                                     <div class="form-group">
-                                        <label class="form-label">teléphone fixe</label>
+                                        <label class="form-label">Teléphone fixe</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-mobile"></i></span>
                                             <input type="tel" class="form-control">
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label">teléphone portable</label>
+                                        <label class="form-label">Teléphone portable</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-mobile"></i></span>
                                             <input type="tel" class="form-control">

@@ -38,8 +38,8 @@
                                     <thead class="bg-success">
                                         <tr>
                                             <th>#</th>
-                                            <th>Nom de classe</th>
-                                             <th class="text-center">Action</th>
+                                            <th>Nom de la classe</th>
+                                             <th class="text-center">Actions</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -113,9 +113,9 @@
             </div>
             <div class="row  ">
                 <div class=" d-flex flex-row justify-content-end ">
-                    <a href="ajouter_classe.php">
-                        <button type="submit" class="btn btn-primary me-3">
-                            Ajouter
+                    <a href="ecole_ecole_ajouter_classe.php">
+                        <button type="submit" class="btn btn-primary mx-3 mt-3">
+                          <i class="fa fa-plus" aria-hidden="true"></i>  Ajouter
                         </button></a>
 
                        

@@ -11,8 +11,8 @@
                         <nav>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a></li>
-                                <li class="breadcrumb-item" aria-current="page"><a href="administrateur_administration_ecole.php">Ecole</a> </li>
-                                <li class="breadcrumb-item active" aria-current="page"> ajouter l'inscription de gerant</li>
+                                <li class="breadcrumb-item" aria-current="page"><a href="administrateur_administration_ecole.php">École</a> </li>
+                                <li class="breadcrumb-item active" aria-current="page"> Ajouter l'inscription de gérant</li>
                             </ol>
                         </nav>
                     </div>
@@ -32,11 +32,11 @@
                                 <div class="col-lg-6">
                                   
                                     <div class="form-group">
-                                        <label class="form-label"> école</label>
+                                        <label class="form-label"> École</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-book"></i></span>
                                             <select class="select-picker form-select">
-                                            <option>Nom ecole</option>
+                                            <option>Nom de l'école</option>
 
                                         </select>
                                         </div>
@@ -56,7 +56,7 @@
                                 <div class="col-lg-6">
                                   
                                 <div class="form-group">
-                                        <label class="form-label">date d'inscription</label>
+                                        <label class="form-label">Date d'inscription</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-calendar"></i></span>
                                             <input type="date" class="form-control">
@@ -82,7 +82,7 @@
                                 </button>
                                 <a href="" class="btn btn-primary">
                                
-                                    <i class="ti-save-alt"></i> ajouter
+                                    <i class="ti-plus"></i> Ajouter
                                 
                             </a>
                             </div>

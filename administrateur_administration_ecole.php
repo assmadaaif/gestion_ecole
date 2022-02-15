@@ -14,7 +14,7 @@
                                 <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a>
                                 </li>
                                 <li class="breadcrumb-item" aria-current="page"><a
-                                        href="administrateur_administration_ecole.php">Ecole</a> </li>
+                                        href="administrateur_administration_ecole.php">École</a> </li>
 
                             </ol>
                         </nav>
@@ -31,7 +31,7 @@
                     <div class="row my-5">
                         <form action="" class="form">
                             <div class="form-group my-10 ">
-                                <label class="form-label">Langue utilisée par l'école:</label>
+                                <label class="form-label">Langue utilisée par l'école :</label>
                                 <div class="c-inputs-stacked">
                                     <input type="checkbox" id="checkbox_123">
                                     <label for="checkbox_123" class="me-30">Farnçais</label>
@@ -65,9 +65,10 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-lg-2 ">
-                                    <button type="submit" class="btn btn-primary">
-                                        valider
+                                <div class="col-lg-4 ">
+                                    <button type="submit" class="btn btn-primary"> <i class="fa fa-check"
+                                            aria-hidden="true"></i>
+                                        Valider
                                     </button>
                                 </div>
                             </div>
@@ -75,19 +76,22 @@
                     </div>
                 </div>
                 <div class="row mb-30 ">
-                <div class="col-lg-8 ms-5">
-                    <div class="row">
-                    <div class="col-lg-4">
-                        <a href="administrateur_administration_ajouter_gerant.php" class="btn btn-success"> Ajouter un gérant</a>
-                    </div>
-                    <div class="col-lg-4">
-                        <a href="administrateur_administration_liste_ecole.php" class="btn btn-warning"> liste des ecoles</a>
+                    <div class="col-lg-8  ">
+                        <div class="row ms-5">
+                            <div class="col-lg-4">
+                                <a href="administrateur_administration_ajouter_gerant.php"
+                                    class="btn btn-success mb-3"><i class="fa fa-plus" aria-hidden="true"></i> Ajouter
+                                    un gérant</a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="administrateur_administration_liste_ecole.php" class="btn btn-warning"> <i
+                                        class="fa fa-graduation-cap"></i> Liste des écoles</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
             </div>
-            </div>
-           
+
         </section>
     </div>
 </div>
