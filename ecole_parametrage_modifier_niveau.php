@@ -10,7 +10,7 @@
         <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Paramètre</h4>
+                    <h4 class="page-title">Paramétragre</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                             <ol class="breadcrumb">
@@ -19,7 +19,7 @@
                                 <li class="breadcrumb-item" aria-current="page"><a
                                         href="ecole_parametrage_liste_niveau.php">Niveaux</a></li>
                                 <li class="breadcrumb-item active" aria-current="page"><a
-                                        href="ecole_parametrage_modifier_niveau.php">Mdifier Niveau</a></li>
+                                        href="ecole_parametrage_modifier_niveau.php">Modifier Niveau</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -83,12 +83,9 @@
                     </div>
                     <!-- /.box-body -->
                     <div class="box-footer">
-                        <button type="button" class="btn btn-primary-light me-1">
-                            <i class="ti-trash"></i> Anuuler
-                        </button>
-                        <button type="submit" class="btn btn-primary">
-                            <i class="ti-save-alt"></i> Sauvgarder
-                        </button>
+                    <button type="submit" class="btn btn-primary">
+                                    <i class="fa fa-save"></i> Enregistrer
+                                </button>
                     </div>
                     </form>
                 </div>

@@ -19,19 +19,19 @@
                         <ul class="treeview-menu">
                             <li>
                                 <a href="communication_notificaion_recus.php"><i class="icon-Commit"><span class="path1"></span><span
-                                            class="path2"></span></i>Notifications Reçues </a>
+                                            class="path2"></span></i>Notifications reçues </a>
                             </li>
                          
                             <li>
-                                <a href="communication_mes_notification.php"><i class="icon-Commit"><span class="path1"></span><span
-                                            class="path2"></span></i> Mes Notifications </a>
+                                <a href="ecole_communication_mes_notification.php"><i class="icon-Commit"><span class="path1"></span><span
+                                            class="path2"></span></i> Mes notifications </a>
                             </li>
                             <li>
                                 <a href="communication_creer_nouvelle_notification.php"><i class="icon-Commit"><span class="path1"></span><span
-                                            class="path2"></span></i>Créer nouvelle notification </a>
+                                            class="path2"></span></i>Nouvelle notification </a>
                             </li>
                             <li>
-                                <a href="communication_chat.php"><i class="icon-Commit"><span class="path1"></span><span
+                                <a href="ecole_communication_chat.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i>Chat</a>
                             </li>
                          
@@ -67,7 +67,7 @@
                             </li>
                             <li>
                                 <a href="ecole_ecole_liste_staff.php"><i class="icon-Commit"><span class="path1"></span><span
-                                            class="path2"></span></i>Staff</a>
+                                            class="path2"></span></i>Staffs</a>
                             </li>
                          
                             <li>
@@ -83,6 +83,38 @@
                     </li>
                     <li class="treeview">
                         <a href="#">
+                            <i data-feather="map"></i>
+                            <span>Localisation</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-right pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            
+                            <li><a href="ecole_localisation_transport_list_transport.php"><i class="icon-Commit"><span
+                                            class="path1"></span><span class="path2"></span></i>Transport </a></li>
+                            <li><a href="ecole_localisation_emploi_du_temps.php"><i class="icon-Commit"><span
+                                            class="path1"></span><span class="path2"></span></i>Emploi du temps </a></li>
+                            <li><a href="ecole_localisation_calendrier.php"><i class="icon-Commit"><span
+                                            class="path1"></span><span class="path2"></span></i>Calendrier </a></li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i data-feather="book"></i>
+                            <span>Santé & Comportement</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-right pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="sante_et_comportement_list_comportement.php"><i class="icon-Commit"><span
+                                            class="path1"></span><span class="path2"></span></i>Évaluation et Comportement </a></li>
+                           
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
                             <i data-feather="settings"></i>
                             <span>Paramétrage</span>
                             <span class="pull-right-container">
@@ -91,7 +123,7 @@
                         </a>
                         <ul class="treeview-menu">
                             <li>
-                                <a href="parametre_langue.php"><i class="icon-Commit"><span class="path1"></span><span
+                                <a href="parametrage_langue.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i>Langue</a>
                             </li>
                             <li>

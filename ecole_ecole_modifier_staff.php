@@ -17,9 +17,9 @@
                                 <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a>
                                 </li>
                                 <li class="breadcrumb-item" aria-current="page"><a
-                                        href="ecole_ecole_liste_staff.php">Staff</a></li>
+                                        href="ecole_ecole_liste_staff.php">Staffs</a></li>
                                 <li class="breadcrumb-item active" aria-current="page"><a
-                                        href="ecole_ecole_modifier_staff.php">Modifier un staff</a></li>
+                                        href="ecole_ecole_modifier_staff.php">Modifier staff</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -86,75 +86,46 @@
                                             <input type="tel" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="form-group">
+
+                                 
+
+
+                                </div>
+
+                                <div class="col-lg-6">
+                                <div class="form-group">
                                         <label class="form-label"> Photo</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-image"></i></span>
                                             <input type="file" class="form-control">
                                         </div>
                                     </div>
-                                  
+
                                     <div class="form-group">
-                                        <label class="form-label"> Type de parent</label>
-                                        <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-user"></i></span>
-                                            <input type="text" class="form-control">
-                                        </div>
-                                    </div>
-                                  
-                                  
-                                </div>
-                                
-                                <div class="col-lg-6">
-                                <div class="form-group">
-                                        <label class="form-label">Date d'inscription</label>
+                                        <label class="form-label mt-3">Date d'inscription</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-calendar"></i></span>
                                             <input type="date" class="form-control">
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label">Date de naissance</label>
+                                        <label class="form-label mt-3">Date de naissance</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-calendar"></i></span>
                                             <input type="date" class="form-control">
                                         </div>
                                     </div>
-                                  
-                                   
                                     <div class="form-group">
-                                        <label class="form-label"> Type d'utilisateur</label>
-                                        <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-user"></i></span>
-                                            <select class="selectpicker form-select">
-                                            <option>Élève</option>
-
-                                        </select>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="form-label">Année scolaire</label>
+                                        <label class="form-label mt-3">Année scolaire</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-calendar"></i></span>
                                             <select class="selectpicker form-select">
-                                            <option>2021-2022</option>
+                                                <option>2021-2022</option>
 
-                                        </select>
+                                            </select>
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label class="form-label">Élève</label>
-                                        <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-user"></i></span>
-                                            <select class="selectpicker form-select" multiple>
-                                            <option>Sara MHAMDI</option>
-                                            <option>Moad NACIRI</option>
-                                            <option>Reda LKHALDI</option>
 
-                                        </select>
-                                        </div>
-                                    </div>
-                                    
                                     <div class="form-group">
                                         <label class="form-label"> Mot de passe</label>
                                         <div class="input-group mb-3">
@@ -162,20 +133,18 @@
                                             <input type="password" class="form-control">
                                         </div>
                                     </div>
-                                    
-                                   
-                                   
+
+
+
 
                                 </div>
 
                             </div>
                             <!-- /.box-body -->
                             <div class="box-footer">
-                                <button type="button" class="btn btn-primary-light me-1">
-                                    <i class="ti-trash"></i> Anuuler
-                                </button>
+                               
                                 <button type="submit" class="btn btn-primary">
-                                    <i class="ti-save-alt"></i> Sauvgarder
+                                    <i class="ti-save-alt"></i> Enregistrer
                                 </button>
                             </div>
                         </form>

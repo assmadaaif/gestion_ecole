@@ -77,9 +77,10 @@
                                         <tbody>
                                             <tr>
                                                 <td>1</td>
-                                                <td>
-                                                      Hassna   
-                                                        ELAOUAI  
+                                                <td  class="d-flex flex-wrap align-items-center ">
+                                                    <img src="images/avatar/avatar-10.png" width="48" height="48"
+                                                        class="bg-light rounded-circle me-2" alt="Avatar"> Hassna
+                                                    RACHDI
                                                 </td>
                                                 <td>hassna_elaoui@gmail.com</td>
                                                 <td>(+212) 0677665544</td>

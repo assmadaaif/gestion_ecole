@@ -6,12 +6,12 @@
 		<div class="content-header">
 			<div class="d-flex align-items-center">
 				<div class="me-auto">
-					<h4 class="page-title">Admin</h4>
+					<h4 class="page-title">Administration</h4>
 					<div class="d-inline-block align-items-center">
 						<nav>
 							<ol class="breadcrumb">
 								<li class="breadcrumb-item"><a href="#"><i class="mdi mdi-home-outline"></i></a></li>
-								<li class="breadcrumb-item" aria-current="page"><a href="administrateur_administration_ecole.php">École</a></li>
+								<li class="breadcrumb-item" aria-current="page"><a href="administrateur_administration_liste_ecole.php">École</a></li>
 								<li class="breadcrumb-item active" aria-current="page">Liste des écoles</li>
 							</ol>
 						</nav>
@@ -48,14 +48,21 @@
 										<td>IdrisseBenasser@gmail.com</td>
 										<td>(+212) 677665544</td>
 										<td>Safi</td>
-										<td class="table-action ">
-                                            <a href="#" class="text-fade text-success "><i class="align-middle"
-                                                    data-feather="check"></i></a>
-											<a href="administrateur_administration_modifier_ecole.php" class="text-fade text-primary "><i class="align-middle"
-													data-feather="edit-2"></i></a>
-											<a href="#" class="text-fade text-danger "><i class="align-middle"
-													data-feather="trash"></i></a>
-										</td>
+									<td class="table-action  d-flex  justify-content-center align-items-center">
+												<form action="">
+													<a href="#" class="text-fade text-danger me-2"><i
+															class="align-middle" data-feather="x"></i></a>
+												</form>
+												<form action="">
+													<a href="administrateur_administration_modifier_ecole.php"
+														class="text-fade text-primary me-2"><i class="align-middle"
+															data-feather="edit-2"></i></a>
+												</form>
+												<form action="">
+													<a href="#" class="text-fade text-danger me-2"><i
+															class="align-middle" data-feather="trash"></i></a>
+												</form>
+											</td>
 									</tr>
 									<tr>
 										<td>2</td>
@@ -65,14 +72,21 @@
 										<td>Almotanabi@gmail.com</td>
 										<td>(+212) 677665544</td>
 										<td>Mohamadia</td>
-										<td class="table-action ">
-                                            <a href="#" class="text-fade text-success "><i class="align-middle"
-                                                    data-feather="check"></i></a>
-											<a href="administrateur_administration_modifier_ecole.php" class="text-fade text-primary "><i class="align-middle"
-													data-feather="edit-2"></i></a>
-											<a href="#" class="text-fade text-danger "><i class="align-middle"
-													data-feather="trash"></i></a>
-										</td>
+									<td class="table-action  d-flex  justify-content-center align-items-center">
+												<form action="">
+													<a href="#" class="text-fade text-danger me-2"><i
+															class="align-middle" data-feather="x"></i></a>
+												</form>
+												<form action="">
+													<a href="administrateur_administration_modifier_ecole.php"
+														class="text-fade text-primary me-2"><i class="align-middle"
+															data-feather="edit-2"></i></a>
+												</form>
+												<form action="">
+													<a href="#" class="text-fade text-danger me-2"><i
+															class="align-middle" data-feather="trash"></i></a>
+												</form>
+											</td>
 									</tr>
 									<tr>
 										<td>3</td>
@@ -82,14 +96,21 @@
 										<td>IbnZohr@gmail.com</td>
 										<td>(+212) 677665544</td>
 										<td>Agadir</td>
-										<td class="table-action ">
-                                            <a href="#" class="text-fade text-success "><i class="align-middle"
-                                                    data-feather="check"></i></a>
-											<a href="administrateur_administration_modifier_ecole.php" class="text-fade text-primary "><i class="align-middle"
-													data-feather="edit-2"></i></a>
-											<a href="#" class="text-fade text-danger "><i class="align-middle"
-													data-feather="trash"></i></a>
-										</td>
+									<td class="table-action  d-flex  justify-content-center align-items-center">
+												<form action="">
+													<a href="#" class="text-fade text-danger me-2"><i
+															class="align-middle" data-feather="x"></i></a>
+												</form>
+												<form action="">
+													<a href="administrateur_administration_modifier_ecole.php"
+														class="text-fade text-primary me-2"><i class="align-middle"
+															data-feather="edit-2"></i></a>
+												</form>
+												<form action="">
+													<a href="#" class="text-fade text-danger me-2"><i
+															class="align-middle" data-feather="trash"></i></a>
+												</form>
+											</td>
 									</tr>
                                     <tr>
 										<td>4</td>
@@ -99,14 +120,21 @@
 										<td>AlquadiAyyad@gmail.com</td>
 										<td>(+212) 788765437</td>
 										<td>Safi</td>
-										<td class="table-action ">
-                                            <a href="#" class="text-fade text-success "><i class="align-middle"
-                                                    data-feather="check"></i></a>
-											<a href="administrateur_administration_modifier_ecole.php" class="text-fade text-primary "><i class="align-middle"
-													data-feather="edit-2"></i></a>
-											<a href="#" class="text-fade text-danger "><i class="align-middle"
-													data-feather="trash"></i></a>
-										</td>
+									<td class="table-action  d-flex  justify-content-center align-items-center">
+												<form action="">
+													<a href="#" class="text-fade text-success me-2"><i
+															class="align-middle" data-feather="check"></i></a>
+												</form>
+												<form action="">
+													<a href="administrateur_administration_modifier_ecole.php"
+														class="text-fade text-primary me-2"><i class="align-middle"
+															data-feather="edit-2"></i></a>
+												</form>
+												<form action="">
+													<a href="#" class="text-fade text-danger me-2"><i
+															class="align-middle" data-feather="trash"></i></a>
+												</form>
+											</td>
 									</tr>
                                     <tr>
 										<td>5</td>
@@ -116,14 +144,21 @@
 										<td>MoulayIsmail@gmail.com</td>
 										<td>(+212) 776655978</td>
 										<td>Essaouira</td>
-										<td class="table-action ">
-                                            <a href="#" class="text-fade text-success "><i class="align-middle"
-                                                    data-feather="check"></i></a>
-											<a href="administrateur_administration_modifier_ecole.php" class="text-fade text-primary "><i class="align-middle"
-													data-feather="edit-2"></i></a>
-											<a href="#" class="text-fade text-danger "><i class="align-middle"
-													data-feather="trash"></i></a>
-										</td>
+									<td class="table-action  d-flex  justify-content-center align-items-center">
+												<form action="">
+													<a href="#" class="text-fade text-danger me-2"><i
+															class="align-middle" data-feather="x"></i></a>
+												</form>
+												<form action="">
+													<a href="administrateur_administration_modifier_ecole.php"
+														class="text-fade text-primary me-2"><i class="align-middle"
+															data-feather="edit-2"></i></a>
+												</form>
+												<form action="">
+													<a href="#" class="text-fade text-danger me-2"><i
+															class="align-middle" data-feather="trash"></i></a>
+												</form>
+											</td>
 									</tr>
 								</tbody>
 							</table>

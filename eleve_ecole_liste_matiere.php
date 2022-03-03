@@ -27,9 +27,11 @@
         <!-- Main content -->
         <section class="content">
             <div class="box">
-                <div class="box-body pe-30">
-                    <div class="table-responsive">
-                        <table class="mx-auto my-4 text-fade table " style="width: 70%;">
+                <div class="box-body pe-30 row">
+                <div class="col-md-12 mx-auto">
+                    
+                    <div class="table-responsive ">
+                        <table class="mx-auto my-4 text-fade table " >
                                     <thead class="bg-success">
                                         <tr>
                                             <th>#</th>
@@ -62,6 +64,7 @@
                                 </table>
                             </div>
                         
+                </div>
                 </div>
             </div>
         </section>

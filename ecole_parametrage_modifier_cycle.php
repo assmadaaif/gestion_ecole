@@ -10,7 +10,7 @@
         <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Paremètre</h4>
+                    <h4 class="page-title">Paremétrage</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                         <ol class="breadcrumb">
@@ -45,9 +45,9 @@
                                     
                                    
                                     <div class="form-group">
-                                        <label class="form-label"> Ecole</label>
+                                        <label class="form-label">École</label>
                                         <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-book"></i></span>
+                                            <span class="input-group-text"><i class="fa fa-graduation-cap"></i></span>
                                             <select class="selectpicker form-select">
                                                 <option>El Motanabi</option>
 
@@ -69,11 +69,8 @@
                             </div>
                             <!-- /.box-body -->
                             <div class="box-footer">
-                                <button type="button" class="btn btn-primary-light me-1">
-                                    <i class="ti-trash"></i> Anuuler
-                                </button>
-                                <button type="submit" class="btn btn-primary">
-                                    <i class="ti-save-alt"></i> Sauvgarder
+                            <button type="submit" class="btn btn-primary">
+                                    <i class="fa fa-save"></i> Enregistrer
                                 </button>
                             </div>
                         </form>

@@ -1,12 +1,12 @@
 <?php include"include/header.php";?>
-<?php include"include/menu_admin.php";?>
+<?php include"include/menu.php";?>
 <div class="content-wrapper">
     <div class="container-full">
         <!-- Content Header (Page header) -->
         <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Admin</h4>
+                    <h4 class="page-title">Administration</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                             <ol class="breadcrumb">
@@ -27,16 +27,19 @@
                 <div class="col-lg-12 col-12">
                     <div class="box">
                         <!-- /.box-header -->
-                        <form class="form">
+                        <form>
                             <div class="box-body row">
-                                <div class="col-lg-6">
-                                   
-                                  
+                            <div class="col-lg-4">
                                     <div class="form-group">
-                                        <label class="form-label">Année scolaire</label>
+                                        <label class="form-label"> Année scolaire</label>
                                         <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-calendar"></i></span>
-                                            <input type="date" class="form-control" value="">
+                                            
+                                            <select class="selectpicker form-select">
+                                                <option>2020-2021</option>
+                                                <option>2021-2022</option>
+                                                <option>2022-2023</option>
+                                                <option>2023-2024</option>
+                                            </select>
                                         </div>
                                     </div>
                                 </div>
@@ -44,11 +47,9 @@
                             </div>
                             <!-- /.box-body -->
                             <div class="box-footer">
-                                <button type="button" class="btn btn-primary-light me-1">
-                                    <i class="ti-trash"></i> Anuuler
-                                </button>
+                               
                                 <button type="submit" class="btn btn-primary">
-                                    <i class="ti-save-alt"></i> Sauvgarder
+                                    <i class="fa fa-save"></i> Enregistrer
                                 </button>
                             </div>
                         </form>

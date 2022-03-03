@@ -8,7 +8,7 @@
         <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Paramètre</h4>
+                    <h4 class="page-title">Paramétrage</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                             <ol class="breadcrumb">
@@ -27,18 +27,7 @@
         <section class="content">
             <div class="box">
                 <div class="box-body">
-                    <div class="row my-5">
-
-
-                        <div class="col-lg-4 ms-auto">
-                            <div class="form-group">
-                                <div class="input-group">
-                                    <input type="search" class="form-control" placeholder="chercher">
-                                    <span class="input-group-text"><i class="fa fa-search"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  
                     <div class="card-body">
 							<table class="table table-bordered">
 								<thead>

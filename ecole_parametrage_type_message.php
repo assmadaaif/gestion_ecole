@@ -8,7 +8,7 @@
         <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Paramètre</h4>
+                    <h4 class="page-title">Paramétrage</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                             <ol class="breadcrumb">
@@ -31,17 +31,6 @@
             <div class="box">
                 <div class="box-body">
                     <div class="row my-5">
-
-
-                        <div class="col-lg-4 ms-auto">
-                            <div class="form-group">
-                                <div class="input-group">
-                                    <input type="search" class="form-control" placeholder="chercher">
-                                    <span class="input-group-text"><i class="fa fa-search"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="card-body">
                         <table class="table table-bordered">
                             <thead>
@@ -54,7 +43,7 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>évènement</td>
+                                    <td>Évènement</td>
                                     <td class="table-action ">
                                         <a href="#" class="text-fade text-danger me-2"><i class="align-middle"
                                                 data-feather="trash"></i></a>
@@ -109,7 +98,7 @@
             <div class="row  ">
                 <div class=" d-flex flex-row justify-content-end ">
                     <a href="ecole_parametrage_ajouter_type_message.php">
-                        <button type="submit" class="btn btn-primary mt-3 mx-3">
+                        <button type="submit" class="btn btn-primary mb-3 mx-3">
                            <i class="fa fa-plus" aria-hidden="true"></i> Ajouter
                         </button></a>
                 </div>

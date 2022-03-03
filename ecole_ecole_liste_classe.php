@@ -32,7 +32,7 @@
 
                     </div>
                     <div class="row d-flex justify-content-center">
-                        <div class="col-md-8">
+                        <div class="col-md-12">
                             <div class="table-responsive">
                             <table id ="complex_header " class="text-fade table table-bordered display" style="width: 100%;">
                                     <thead class="bg-success">

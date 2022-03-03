@@ -44,9 +44,9 @@
                                     
                                     
                                      <div class="form-group">
-                                        <label class="form-label"> Ecole</label>
+                                        <label class="form-label"> École</label>
                                         <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-book"></i></span>
+                                            <span class="input-group-text"><i class="fa fa-graduation-cap"></i></span>
                                              <select class="selectpicker form-select">
                                             <option>Ibn Zohr</option>
 
@@ -79,7 +79,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label">Serie</label>
+                                        <label class="form-label">Série</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-book"></i></span>
                                             <select class=" selectpicker form-select" >
@@ -116,11 +116,8 @@
                             </div>
                             <!-- /.box-body -->
                             <div class="box-footer">
-                                <button type="button" class="btn btn-primary-light me-1">
-                                    <i class="ti-trash"></i> Anuuler
-                                </button>
-                                <button type="submit" class="btn btn-primary">
-                                    <i class="ti-save-alt"></i> Sauvgarder
+                            <button type="submit" class="btn btn-primary">
+                                    <i class="fa fa-save"></i> Enregistrer
                                 </button>
                             </div>
                         </form>

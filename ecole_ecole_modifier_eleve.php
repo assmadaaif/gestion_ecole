@@ -77,26 +77,29 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label">teléphone</label>
+                                        <label class="form-label">Teléphone</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-mobile"></i></span>
                                             <input type="tel" class="form-control">
                                         </div>
+                                    </div>   
+                                     <div class="form-group">
+                                        <label class="form-label">Date de naissance</label>
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text"><i class="ti-calendar"></i></span>
+                                            <input type="date" class="form-control">
+                                        </div>
                                     </div>
-                                    <div class="form-group">
+                                </div>
+                                
+                                <div class="col-lg-6">
+                                <div class="form-group">
                                         <label class="form-label"> Photo</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-image"></i></span>
                                             <input type="file" class="form-control">
                                         </div>
                                     </div>
-                                  
-                                   
-                                  
-                                  
-                                </div>
-                                
-                                <div class="col-lg-6">
                                 <div class="form-group">
                                         <label class="form-label">Date d'inscription</label>
                                         <div class="input-group mb-3">
@@ -104,29 +107,11 @@
                                             <input type="date" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label class="form-label">Date de naissance</label>
-                                        <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-calendar"></i></span>
-                                            <input type="date" class="form-control">
-                                        </div>
-                                    </div>
-                                  
-                                   
-                                    <div class="form-group">
-                                        <label class="form-label"> Type d' utilisateur</label>
-                                        <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-user"></i></span>
-                                            <select class="selectpicker form-select">
-                                            <option>Elève</option>
-
-                                        </select>
-                                        </div>
-                                    </div>
+                                 
                                     <div class="form-group">
                                         <label class="form-label">Année scolaire</label>
                                         <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-calnedar"></i></span>
+                                            <span class="input-group-text"><i class="ti-user"></i></span>
                                             <select class="selectpicker form-select">
                                             <option>2021-2022</option>
 
@@ -161,11 +146,9 @@
                             </div>
                             <!-- /.box-body -->
                             <div class="box-footer">
-                                <button type="button" class="btn btn-primary-light me-1">
-                                    <i class="ti-trash"></i> Anuuler
-                                </button>
+                                
                                 <button type="submit" class="btn btn-primary">
-                                    <i class="ti-save-alt"></i> Sauvgarder
+                                    <i class="ti-save-alt"></i> Enregistrer
                                 </button>
                             </div>
                         </form>

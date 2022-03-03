@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="images/favicon.ico">
-    <title>edulearn - Dashboard</title>    
+    <title>edugo - Dashboard</title>    
 	<!-- Vendors Style-->
 	<link rel="stylesheet" href="src/css/vendors_css.css">	  
 	<!-- Style-->  

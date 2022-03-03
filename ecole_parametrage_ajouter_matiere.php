@@ -10,7 +10,7 @@
         <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Paramètre</h4>
+                    <h4 class="page-title">Paramétrage</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                             <ol class="breadcrumb">
@@ -19,7 +19,7 @@
                                 <li class="breadcrumb-item" aria-current="page"><a
                                         href="ecole_parametrage_liste_matiere.php">Matières</a></li>
                                 <li class="breadcrumb-item active" aria-current="page"><a
-                                        href="ecole_parametrage_ajouter_matiere.php">Ajouter un matière</a></li>
+                                        href="ecole_parametrage_ajouter_matiere.php">Ajouter  matière</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -49,7 +49,7 @@
                                     <div class="form-group">
                                         <label class="form-label"> École</label>
                                         <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-book"></i></span>
+                                            <span class="input-group-text"><i class="fa fa-graduation-cap"></i></span>
                                             <select class="selectpicker form-select">
                                                 <option> école</option>
 
@@ -70,12 +70,9 @@
                     </div>
                     <!-- /.box-body -->
                     <div class="box-footer">
-                        <button type="button" class="btn btn-primary-light me-1">
-                            <i class="ti-trash"></i> Anuuler
-                        </button>
-                        <button type="submit" class="btn btn-primary">
-                            <i class="ti-save-alt"></i> Sauvgarder
-                        </button>
+                    <button type="submit" class="btn btn-primary">
+                                    <i class="fa fa-save"></i> Enregistrer
+                                </button>
                     </div>
                     </form>
                 </div>

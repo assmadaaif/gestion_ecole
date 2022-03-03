@@ -14,7 +14,7 @@
                         <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a></li>
                                 <li class="breadcrumb-item" aria-current="page"><a href="ecole_ecole_liste_formateur.php">Formateurs</a></li>
-                                <li class="breadcrumb-item active" aria-current="page"><a href="ecole_ecole_ajouter_formateur.php">Ajouter un formateur</a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><a href="ecole_ecole_ajouter_formateur.php">Ajouter formateur</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -107,16 +107,7 @@
                                             <input type="date" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label class="form-label"> Type d'utilisateur</label>
-                                        <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-user"></i></span>
-                                            <select class="selectpicker form-select">
-                                            <option>Formateur</option>
-
-                                        </select>
-                                        </div>
-                                    </div>
+                                   
                                     <div class="form-group">
                                         <label class="form-label">Année scolaire</label>
                                         <div class="input-group mb-3">
@@ -179,11 +170,9 @@
                             </div>
                             <!-- /.box-body -->
                             <div class="box-footer">
-                                <button type="button" class="btn btn-primary-light me-1">
-                                    <i class="ti-trash"></i> Anuuler
-                                </button>
+                               
                                 <button type="submit" class="btn btn-primary">
-                                    <i class="ti-save-alt"></i> sauvgarder
+                                    <i class="ti-save-alt"></i> Enregistrer
                                 </button>
                             </div>
                         </form>

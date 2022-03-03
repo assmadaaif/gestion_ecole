@@ -1,19 +1,18 @@
 <?php include"include/header.php";?>
 <?php include"include/menu.php";?>
-
 <div class="content-wrapper">
     <div class="container-full">
         <!-- Content Header (Page header) -->
         <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Admin</h4>
+                    <h4 class="page-title">Administration</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a></li>
-                                <li class="breadcrumb-item" aria-current="page"> <a href="administrateur_administration_ajouter_langue.php"> Langue</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Ajouter Langue</li>
+                                <li class="breadcrumb-item" aria-current="page"><a href="administrateur_administration_liste_langue.php">Langues</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Ajouter langue</li>
                             </ol>
                         </nav>
                     </div>
@@ -28,9 +27,10 @@
                 <div class="col-lg-12 col-12">
                     <div class="box">
                         <!-- /.box-header -->
-                        <form class="form">
+                        <form>
                             <div class="box-body row">
-                                <div class="col-lg-4">
+                            <div class="col-lg-4">
+                          
                                     <div class="form-group">
                                         <label class="form-label"> Langue</label>
                                         <div class="input-group mb-3">
@@ -43,16 +43,17 @@
                                             </select>
                                         </div>
                                     </div>
+                               
                                 </div>
-                                <!-- /.box-body -->
-                                <div class="box-footer">
-                                    <button type="button" class="btn btn-primary-light me-1">
-                                        <i class="ti-trash"></i> Anuuler
-                                    </button>
-                                    <button type="submit" class="btn btn-primary">
-                                        <i class="ti-save-alt"></i> Ajouter
-                                    </button>
-                                </div>
+
+                            </div>
+                            <!-- /.box-body -->
+                            <div class="box-footer">
+                               
+                            <button type="submit" class="btn btn-primary">
+                                    <i class="fa fa-save"></i> Enregistrer
+                                </button>
+                            </div>
                         </form>
                     </div>
                     <!-- /.box -->
@@ -62,6 +63,4 @@
         <!-- /.content -->
     </div>
 </div>
-
-
 <?php include"include/footer.php";?>

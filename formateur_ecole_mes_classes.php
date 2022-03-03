@@ -32,7 +32,7 @@
                 <div class="box-body">
                     
                     <div class="card-body row">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <table class="table table-bordered ">
                                 <thead>
                                     <tr>

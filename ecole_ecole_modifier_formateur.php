@@ -107,16 +107,7 @@
                                             <input type="date" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label class="form-label"> type d'utilisateur</label>
-                                        <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-user"></i></span>
-                                            <select class="selectpicker form-select">
-                                            <option>Formateur</option>
-
-                                        </select>
-                                        </div>
-                                    </div>
+                                   
                                     <div class="form-group">
                                         <label class="form-label">Année scolaire</label>
                                         <div class="input-group mb-3">
@@ -134,7 +125,7 @@
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-book"></i></span>
                                             <select class="selectpicker form-select ">
-                                            <option>Nom de l'école</option>
+                                            <option>Ibn Zohr</option>
 
                                         </select>
                                         </div>
@@ -156,7 +147,7 @@
                                     <div class="form-group">
                                         <label class="form-label"> Classes </label>
                                         <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-"></i></span>
+                                            <span class="input-group-text"><i class="ti-book"></i></span>
                                             <select class="selectpicker form-select" multiple>
                                             <option>Classe 1</option>
                                             <option>Classe 2</option>
@@ -179,11 +170,9 @@
                             </div>
                             <!-- /.box-body -->
                             <div class="box-footer">
-                                <button type="button" class="btn btn-primary-light me-1">
-                                    <i class="ti-trash"></i> Anuuler
-                                </button>
+                               
                                 <button type="submit" class="btn btn-primary">
-                                    <i class="ti-save-alt"></i> sauvgarder
+                                    <i class="ti-save-alt"></i> Enregistrer
                                 </button>
                             </div>
                         </form>

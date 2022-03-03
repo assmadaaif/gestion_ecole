@@ -16,7 +16,7 @@
                         <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a></li>
                                 <li class="breadcrumb-item" aria-current="page"><a href="ecole_ecole_liste_parent.php">Parents</a></li>
-                                <li class="breadcrumb-item active" aria-current="page"><a href="ecole_ecole_ajouter_parent.php">Ajouter un  parent</a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><a href="ecole_ecole_ajouter_parent.php">Ajouter  parent</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -83,33 +83,8 @@
                                             <input type="tel" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label class="form-label"> Photo</label>
-                                        <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-image"></i></span>
-                                            <input type="file" class="form-control">
-                                        </div>
-                                    </div>
+                                 
                                   
-                                    <div class="form-group">
-                                        <label class="form-label"> Type de parent</label>
-                                        <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-user"></i></span>
-                                            <input type="text" class="form-control">
-                                        </div>
-                                    </div>
-                                  
-                                  
-                                </div>
-                                
-                                <div class="col-lg-6">
-                                <div class="form-group">
-                                        <label class="form-label">Date d'inscription</label>
-                                        <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-calendar"></i></span>
-                                            <input type="date" class="form-control">
-                                        </div>
-                                    </div>
                                     <div class="form-group">
                                         <label class="form-label">Date de naissance</label>
                                         <div class="input-group mb-3">
@@ -118,15 +93,22 @@
                                         </div>
                                     </div>
                                   
-                                   
-                                    <div class="form-group">
-                                        <label class="form-label"> Type d'utilisateur</label>
+                                  
+                                </div>
+                                
+                                <div class="col-lg-6">
+                                <div class="form-group">
+                                        <label class="form-label"> Photo</label>
                                         <div class="input-group mb-3">
-                                            <span class="input-group-text"><i class="ti-user"></i></span>
-                                            <select class="selectpicker form-select">
-                                            <option>Parent</option>
-
-                                        </select>
+                                            <span class="input-group-text"><i class="ti-image"></i></span>
+                                            <input type="file" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    <label class="form-label">Date d'inscription</label>
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text"><i class="ti-calendar"></i></span>
+                                            <input type="date" class="form-control">
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -140,7 +122,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label">Élève</label>
+                                        <label class="form-label">Élèves</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-user"></i></span>
                                             <select class="selectpicker form-select" multiple>
@@ -168,11 +150,9 @@
                             </div>
                             <!-- /.box-body -->
                             <div class="box-footer">
-                                <button type="button" class="btn btn-primary-light me-1">
-                                    <i class="ti-trash"></i> Anuuler
-                                </button>
+                                
                                 <button type="submit" class="btn btn-primary">
-                                    <i class="ti-save-alt"></i> Sauvgarder
+                                    <i class="ti-save-alt"></i> Enregistrer
                                 </button>
                             </div>
                         </form>
