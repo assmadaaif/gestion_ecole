@@ -30,11 +30,11 @@
                   
                     <div class="card-body row">
                         <div class="col-md-12">
-                        <table class="table table-bordered ">
-                            <thead>
-                                <tr>
+                        <table id ="example" class="text-fade table table-bordered display" style="width: 100%;">
+                                <thead class="bg-primary">
+                                    <tr>
                                    
-                                    <th class="text-primary">Nom de matière</th>
+                                    <th >Nom de matière</th>
                                 </tr>
                             </thead>
                             <tbody>

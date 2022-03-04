@@ -15,7 +15,7 @@
                                 <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a>
                                 </li>
                                 <li class="breadcrumb-item" aria-current="page"><a
-                                        href="ecole_mes_eleves.php">Elèves</a></li>
+                                        href="formateur_ecole_mes_eleves.php">Elèves</a></li>
                                 <li class="breadcrumb-item active" aria-current="page"><a
                                         href="ecole_mes_eleves.php">Liste de mes elèves</a></li>
                             </ol>
@@ -60,7 +60,7 @@
 
                         <div class="row">
                             <div class="table-responsive">
-                            <table id ="complex_header" class="text-fade table table-bordered display" style="width: 100%;">
+                            <table id ="example" class="text-fade table table-bordered display" style="width: 100%;">
                                     <div id="example_wrapper"
                                         class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer">
 

@@ -15,7 +15,7 @@
                                 <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a>
                                 </li>
                                 <li class="breadcrumb-item" aria-current="page"><a
-                                        href="ecole_mes_classes.php">Classes</a></li>
+                                        href="formateur_ecole_mes_classes.php">Classes</a></li>
                                 <li class="breadcrumb-item active" aria-current="page"><a
                                         href="ecole_mes_classes.php">Liste de mes classes</a></li>
                             </ol>
@@ -33,11 +33,11 @@
                     
                     <div class="card-body row">
                         <div class="col-md-12">
-                            <table id="example" class="table table-bordered ">
-                                <thead>
+                        <table id ="example" class="text-fade table table-bordered display" style="width: 100%;">
+                                <thead class="bg-primary">
                                     <tr>
-                                      
-                                        <th class="text-primary">Nom de classe</th>
+                                    
+                                        <th class="">Nom de classe</th>
                                     </tr>
                                 </thead>
                                 <tbody>

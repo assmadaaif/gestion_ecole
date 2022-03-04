@@ -6,7 +6,7 @@
         <div class="content-header">
             <div class="d-flex align-items-center">
                 <div class="me-auto">
-                    <h4 class="page-title">Elève</h4>
+                    <h4 class="page-title">Élève</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
                         <ol class="breadcrumb">
@@ -31,33 +31,32 @@
                 <div class="col-md-12 mx-auto">
                     
                     <div class="table-responsive ">
-                        <table class="mx-auto my-4 text-fade table " >
-                                    <thead class="bg-success">
-                                        <tr>
-                                            <th>#</th>
+                    <table id ="example" class="text-fade table table-bordered display" style="width: 100%;">
+                                <thead class="bg-primary">
+                                    <tr>
                                             <th>Nom de matière</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>1</td>
+                                    
                                             <td>Mathématique</td>
 
                                         </tr>
                                         <tr>
-                                            <td>2</td>
+                                    
                                             <td>Arabe</td>
                                         </tr>
                                         <tr>
-                                            <td>3</td>
+                                    
                                             <td>Physique</td>
                                         </tr>
                                         <tr>
-                                            <td>4</td>
+                                    
                                             <td>Géographie</td>
                                         </tr>
                                         <tr>
-                                            <td>5</td>
+                                    
                                             <td>SVT</td>
                                         </tr>
                                     </tbody>
