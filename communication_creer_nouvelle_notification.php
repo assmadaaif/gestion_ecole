@@ -11,7 +11,7 @@
                                 <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a>
                                 </li>
                                 <li class="breadcrumb-item" aria-current="page"><a href="">Communication</a> </li>
-                                <li class="breadcrumb-item active" aria-current="page">Créer nouvelle Notifiation</li>
+                                <li class="breadcrumb-item active" aria-current="page">Nouvelle notifiation</li>
                             </ol>
                         </nav>
                     </div>
@@ -57,13 +57,21 @@
                                                     </select>
 
                                                 </div>
+                                                <div class="col-lg-12 ">
+                                                    <h6 class="my-10 fs-14">Le droit de répondre </h6>
+                                                    <select class="selectpicker">
+                                                        <option>Vous avez le droit de répondre</option>
+                                                        <option>Vous n'avez pas le droit de répondre</option>
+                                                    </select>
+
+                                                </div>
 
                                             </div>
 
                                             <div class="mt-30 mb-30">
 
-                                              <a href="communication_mes_notification.php">  <button type="submit" class="btn btn-success "><i
-                                                        class="fa fa-save"></i>
+                                              <a href="communication_mes_notification.php">  <button type="submit" class="btn btn-primary "><i
+                                                        class="fa fa-plus"></i>
                                                     Créer</button></a>
                                             </div>
                                         </form>

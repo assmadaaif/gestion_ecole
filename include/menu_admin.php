@@ -18,11 +18,11 @@
                                 <ul class="treeview-menu">
                                     <li><a href="communication_notificaion_recus.php"><i class="icon-Commit"><span class="path1"></span><span
                                                     class="path2"></span></i>Notifications reçues </a></li>
-                                    <li><a href="administrateur_communication_mes_notification.php"><i class="icon-Commit"><span class="path1"></span><span
+                                    <li><a href="communication_mes_notification.php"><i class="icon-Commit"><span class="path1"></span><span
                                                     class="path2"></span></i>Mes notifications</a></li>
                                     <li><a href="communication_creer_nouvelle_notification.php"><i class="icon-Commit"><span class="path1"></span><span
                                                     class="path2"></span></i>Nouvelle notification</a></li>
-                                    <li><a href="administrateur_communication_chat.php"><i class="icon-Commit"><span class="path1"></span><span
+                                    <li><a href="communication_chat.php"><i class="icon-Commit"><span class="path1"></span><span
                                                     class="path2"></span></i>Chat</a></li>
                                 </ul>
                             </li>
@@ -36,14 +36,14 @@
 							</span>
 						</a>
 						<ul class="treeview-menu">
-							<li><a href="administrateur_administration_liste_langue.php"><i class="icon-Commit"><span
+							<li><a href="administration_liste_langue.php"><i class="icon-Commit"><span
 											class="path1"></span><span class="path2"></span></i>Langues</a></li>
-							<li><a href="administrateur_administration_liste_annees.php"><i class="icon-Commit"><span
+							<li><a href="administration_liste_annees.php"><i class="icon-Commit"><span
 											class="path1"></span><span class="path2"></span></i>Années scolaires </a>
 							</li>
-							<li><a href="administrateur_administration_liste_type_parent.php"><i class="icon-Commit"><span
+							<li><a href="administration_liste_type_parent.php"><i class="icon-Commit"><span
 											class="path1"></span><span class="path2"></span></i>Types parents </a></li>
-							<li><a href="administrateur_administration_liste_ecole.php"><i class="icon-Commit"><span
+							<li><a href="administration_liste_ecole.php"><i class="icon-Commit"><span
 											class="path1"></span><span class="path2"></span></i>École</a></li>
 
 						</ul>

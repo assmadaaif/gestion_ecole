@@ -11,7 +11,7 @@
                                 <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a>
                                 </li>
                                 <li class="breadcrumb-item" aria-current="page"><a href="">Communication</a> </li>
-                                <li class="breadcrumb-item active" aria-current="page">Traduire la Notifiation</li>
+                                <li class="breadcrumb-item active" aria-current="page">Traduire la notifiation</li>
                             </ol>
                         </nav>
                     </div>
@@ -41,11 +41,11 @@
 
                                                             <div class="w-p100  overflow-hidden">
 
+                                                                <p
+                                                                    class="text-muted ">Le
+                                                                    Mardi 11 janvier 2022 à 12h 30min 17s</p>
                                                                 <p class="mt-1 mb-0 text-muted fs-14">
 
-                                                                    <span
-                                                                        class="float-end text-end text-danger fs-12 fw-400  ">Le
-                                                                        Mardi 11 janvier 2022 à 12h 30min 17s</span>
                                                                     <span class="w-75 text-muted mt-5">Lorem ipsum dolor
                                                                         sit
                                                                         amet
@@ -60,11 +60,11 @@
                                                                     <h5 class="mt-0 mb-0 fs-14 fw-600">
 
                                                                         <span
-                                                                            class=" d-flex flex-wrap-nowrap float-end text-end mt-3 ">
+                                                                            class="d-flex flex-wrap-nowrap float-start  mt-3 ">
                                                                             <span
-                                                                                class="badge badge-success-light mx-3">Prèvu</span>
+                                                                                class="badge badge-success-light me-3 min-w-100">Prèvu</span>
                                                                             <span
-                                                                                class="badge badge-primary-light me-4">Évènement
+                                                                                class="badge badge-primary-light min-w-100">Évènement
                                                                             </span>
 
                                                                         </span>
@@ -74,9 +74,12 @@
                                                             </div>
                                                         </div>
                                                     </a>
+                                                    <div>
+                                                        <textarea class="form-control" name="" id="" cols="30" rows="8" placeholder="Notification"></textarea>
+                                                    </div>
                                         
                                                                     <div class="col-lg-4 ms-10">
-                                                <h6 class="m-10 fs-15 text-primary">Traduire en : </h6>
+                                                <h6 class="m-10 fs-15 ">la langue de traduction : </h6>
                                                 <select class="selectpicker mb-3">
                                                     <option>Fraçais</option>
                                                     <option>Arabe</option>
@@ -93,8 +96,8 @@
                                             <div class="mt-30 mb-30">
 
                                                 <a href="communication_mes_notification.php"> <button type="submit"
-                                                        class="btn btn-success "><i class="fa fa-pencil"></i>
-                                                        Traduire</button></a>
+                                                        class="btn btn-primary "><i class="fa fa-plus"></i>
+                                                        Ajouter</button></a>
                                             </div>
                                         </form>
                                     </div>

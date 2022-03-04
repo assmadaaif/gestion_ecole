@@ -22,7 +22,7 @@
                             </li>
                          
                             <li>
-                                <a href="parent_communication_mes_notification.php"><i class="icon-Commit"><span class="path1"></span><span
+                                <a href="communication_mes_notification.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i> Mes Notifications </a>
                             </li>
                             <li>
@@ -30,7 +30,7 @@
                                             class="path2"></span></i>Nouvelle notification </a>
                             </li>
                             <li>
-                                <a href="parent_communication_chat.php"><i class="icon-Commit"><span class="path1"></span><span
+                                <a href="communication_chat.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i>Chat</a>
                             </li>
                          

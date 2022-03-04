@@ -23,7 +23,7 @@
                             </li>
                          
                             <li>
-                                <a href="ecole_communication_mes_notification.php"><i class="icon-Commit"><span class="path1"></span><span
+                                <a href="communication_mes_notification.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i> Mes notifications </a>
                             </li>
                             <li>
@@ -31,7 +31,7 @@
                                             class="path2"></span></i>Nouvelle notification </a>
                             </li>
                             <li>
-                                <a href="ecole_communication_chat.php"><i class="icon-Commit"><span class="path1"></span><span
+                                <a href="communication_chat.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i>Chat</a>
                             </li>
                          
@@ -53,25 +53,25 @@
                         </a>
                         <ul class="treeview-menu">
                             <li>
-                                <a href="ecole_ecole_liste_eleve.php"><i class="icon-Commit"><span class="path1"></span><span
+                                <a href="ecole_liste_eleve.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i>Elèves</a>
                             </li>
                          
                             <li>
-                                <a href="ecole_ecole_liste_parent.php"><i class="icon-Commit"><span class="path1"></span><span
+                                <a href="ecole_liste_parent.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i>Parents</a>
                             </li>
                             <li>
-                                <a href="ecole_ecole_liste_formateur.php"><i class="icon-Commit"><span class="path1"></span><span
+                                <a href="ecole_liste_formateur.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i>Formateurs</a>
                             </li>
                             <li>
-                                <a href="ecole_ecole_liste_staff.php"><i class="icon-Commit"><span class="path1"></span><span
+                                <a href="ecole_liste_staff.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i>Staffs</a>
                             </li>
                          
                             <li>
-                                <a href="ecole_ecole_liste_classe.php"><i class="icon-Commit"><span class="path1"></span><span
+                                <a href="ecole_liste_classe.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i>Classes</a>
                             </li>
                          
@@ -91,11 +91,11 @@
                         </a>
                         <ul class="treeview-menu">
                             
-                            <li><a href="ecole_localisation_transport_list_transport.php"><i class="icon-Commit"><span
+                            <li><a href="localisation_transport_list_transport.php"><i class="icon-Commit"><span
                                             class="path1"></span><span class="path2"></span></i>Transport </a></li>
-                            <li><a href="ecole_localisation_emploi_du_temps.php"><i class="icon-Commit"><span
+                            <li><a href="localisation_emploi_du_temps.php"><i class="icon-Commit"><span
                                             class="path1"></span><span class="path2"></span></i>Emploi du temps </a></li>
-                            <li><a href="ecole_localisation_calendrier.php"><i class="icon-Commit"><span
+                            <li><a href="localisation_calendrier.php"><i class="icon-Commit"><span
                                             class="path1"></span><span class="path2"></span></i>Calendrier </a></li>
                         </ul>
                     </li>
@@ -127,40 +127,40 @@
                                             class="path2"></span></i>Langue</a>
                             </li>
                             <li>
-                                <a href="ecole_parametrage_liste_cycle.php"><i class="icon-Commit"><span class="path1"></span><span
+                                <a href="parametrage_liste_cycle.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i>Cycles</a>
                             </li>
                             <li>
-                                <a href="ecole_parametrage_liste_niveau.php"><i class="icon-Commit"><span class="path1"></span><span
+                                <a href="parametrage_liste_niveau.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i>Niveaux</a>
                             </li>
                             <li>
-                                <a href="ecole_parametrage_liste_serie.php"><i class="icon-Commit"><span class="path1"></span><span
+                                <a href="parametrage_liste_serie.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i>Séries</a>
                             </li>
                             <li>
-                                <a href="ecole_parametrage_liste_filiere.php"><i class="icon-Commit"><span class="path1"></span><span
+                                <a href="parametrage_liste_filiere.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i>Filières</a>
                             </li>
                             <li>
-                                <a href="ecole_parametrage_liste_matiere.php"><i class="icon-Commit"><span class="path1"></span><span
+                                <a href="parametrage_liste_matiere.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i>Matières</a>
                             </li>
                             <li>
-                                <a href="ecole_parametrage_type_message.php"><i class="icon-Commit"><span class="path1"></span><span
+                                <a href="parametrage_type_message.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i>Types des messages  </a>
                             </li>
                             <li>
-                                <a href="ecole_parametrage_statut_message.php"><i class="icon-Commit"><span class="path1"></span><span
+                                <a href="parametrage_statut_message.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i>Statuts des messages </a>
                             </li>
                             
                             <li>
-                                <a href="ecole_parametrage_notifications.php"><i class="icon-Commit"><span class="path1"></span><span
+                                <a href="parametrage_notifications.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i>Notifications  </a>
                             </li>
                             <li>
-                                <a href="ecole_parametrage_chat.php"><i class="icon-Commit"><span class="path1"></span><span
+                                <a href="parametrage_chat.php"><i class="icon-Commit"><span class="path1"></span><span
                                             class="path2"></span></i>Chat  </a>
                             </li>
                           
