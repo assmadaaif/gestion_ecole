@@ -59,7 +59,7 @@
 															data-feather="edit-2"></i></a>
 												</form>
 												<form action="">
-													<a class="text-danger" class="me-3 " data-bs-toggle="modal"
+													<a href="" class="text-danger" class="me-3 " data-bs-toggle="modal"
 														data-bs-target="#bs-example-modal-sm"><i class="align-middle"
 															data-feather="trash"></i></button>
 														<div class="modal fade" id="bs-example-modal-sm" tabindex="-1"
@@ -110,7 +110,7 @@
 															data-feather="edit-2"></i></a>
 												</form>
 												<form action="">
-													<a class="text-danger" class="me-3 " data-bs-toggle="modal"
+													<a href="" class="text-danger" class="me-3 " data-bs-toggle="modal"
 														data-bs-target="#bs-example-modal-sm"><i class="align-middle"
 															data-feather="trash"></i></button>
 														<div class="modal fade" id="bs-example-modal-sm" tabindex="-1"
@@ -161,7 +161,7 @@
 															data-feather="edit-2"></i></a>
 												</form>
 												<form action="">
-													<a class="text-danger" class="me-3 " data-bs-toggle="modal"
+													<a href="" class="text-danger" class="me-3 " data-bs-toggle="modal"
 														data-bs-target="#bs-example-modal-sm"><i class="align-middle"
 															data-feather="trash"></i></button>
 														<div class="modal fade" id="bs-example-modal-sm" tabindex="-1"
@@ -212,7 +212,7 @@
 															data-feather="edit-2"></i></a>
 												</form>
 												<form action="">
-													<a class="text-danger" class="me-3 " data-bs-toggle="modal"
+													<a href="" class="text-danger" class="me-3 " data-bs-toggle="modal"
 														data-bs-target="#bs-example-modal-sm"><i class="align-middle"
 															data-feather="trash"></i></button>
 														<div class="modal fade" id="bs-example-modal-sm" tabindex="-1"
@@ -263,7 +263,7 @@
 															data-feather="edit-2"></i></a>
 												</form>
 												<form action="">
-													<a class="text-danger" class="me-3 " data-bs-toggle="modal"
+													<a href="" class="text-danger" class="me-3 " data-bs-toggle="modal"
 														data-bs-target="#bs-example-modal-sm"><i class="align-middle"
 															data-feather="trash"></i></button>
 														<div class="modal fade" id="bs-example-modal-sm" tabindex="-1"
@@ -300,14 +300,14 @@
 						</div>
 					</div>
 				</div>
+				<div class="row">
+					<div class="col-lg-2 ms-auto">
+						<a href="administration_ajouter_ecole.php">
+							<button type="submit" class="btn btn-primary ms-3 mb-3"> <i class="fa fa-plus" aria-hidden="true"></i>
+								Ajouter
+							</button></a>
+					</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-2 ms-auto">
-					<a href="administration_ajouter_ecole.php">
-						<button type="submit" class="btn btn-primary ms-3 mb-3"> <i class="fa fa-plus" aria-hidden="true"></i>
-							Ajouter
-						</button></a>
-				</div>
 			</div>
 		</section>
 	</div>
