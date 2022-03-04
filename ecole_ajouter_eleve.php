@@ -16,7 +16,7 @@
                         <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a></li>
                                 <li class="breadcrumb-item" aria-current="page"><a href="ecole_liste_eleve.php">Élèves</a></li>
-                                <li class="breadcrumb-item active" aria-current="page"><a href="ecole_ajouter_eleve.php">Ajouter un élève</a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><a href="ecole_ajouter_eleve.php">Ajouter élève</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -51,15 +51,13 @@
                                     <div class="form-group  ">
                                         <label for="" class="form-label ">Sexe</label>
 
-
-                                        <div class="input-group mb-3">
                                             <input name="group1" type="radio" id="Option_1">
                                             <label for="Option_1"> Homme</label>
 
 
                                             <input name="group1" type="radio" id="Option_2">
                                             <label for="Option_2">Femme</label>
-                                        </div>
+                                        
 
                                     </div>
                                     <div class="form-group">

@@ -19,7 +19,7 @@
                                 <li class="breadcrumb-item" aria-current="page"><a
                                         href="parametrage_liste_matiere.php">Matières</a></li>
                                 <li class="breadcrumb-item active" aria-current="page"><a
-                                        href="parametrage_ajouter_matiere.php">Ajouter  matière</a></li>
+                                        href="parametrage_ajouter_matiere.php">Ajouter matière</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -37,7 +37,7 @@
                         <form class="form">
                             <div class="box-body row ">
                                 <div class="col-lg-6 ">
-                                <div class="form-group">
+                                    <div class="form-group">
                                         <label class="form-label">Nom de Matière </label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="ti-book"></i></span>
@@ -66,15 +66,16 @@
 
 
                             </div>
-
-                    </div>
-                    <!-- /.box-body -->
-                    <div class="box-footer">
-                    <button type="submit" class="btn btn-primary">
+                            <div class="box-footer">
+                                <button type="submit" class="btn btn-primary">
                                     <i class="fa fa-save"></i> Enregistrer
                                 </button>
+                            </div>
+
+                        </form>
                     </div>
-                    </form>
+                    <!-- /.box-body -->
+
                 </div>
                 <!-- /.box -->
             </div>

@@ -64,7 +64,7 @@
                                             <select class="selectpicker form-select">
                                                 <option></option>
                                                 <option>2ème Bac</option>
-                                                
+
 
                                             </select>
                                         </div>
@@ -80,15 +80,16 @@
 
 
                             </div>
-
-                    </div>
-                    <!-- /.box-body -->
-                    <div class="box-footer">
-                    <button type="submit" class="btn btn-primary">
+                            <div class="box-footer">
+                                <button type="submit" class="btn btn-primary">
                                     <i class="fa fa-save"></i> Enregistrer
                                 </button>
+                            </div>
+
+                        </form>
                     </div>
-                    </form>
+                    <!-- /.box-body -->
+
                 </div>
                 <!-- /.box -->
             </div>

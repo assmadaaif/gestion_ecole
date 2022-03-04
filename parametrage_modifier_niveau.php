@@ -19,7 +19,7 @@
                                 <li class="breadcrumb-item" aria-current="page"><a
                                         href="parametrage_liste_niveau.php">Niveaux</a></li>
                                 <li class="breadcrumb-item active" aria-current="page"><a
-                                        href="parametrage_modifier_niveau.php">Modifier Niveau</a></li>
+                                        href="parametrage_modifier_niveau.php">Modifier niveau</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -79,15 +79,16 @@
 
 
                             </div>
-
-                    </div>
-                    <!-- /.box-body -->
-                    <div class="box-footer">
-                    <button type="submit" class="btn btn-primary">
+                            <div class="box-footer">
+                                <button type="submit" class="btn btn-primary">
                                     <i class="fa fa-save"></i> Enregistrer
                                 </button>
+                            </div>
+
+                        </form>
                     </div>
-                    </form>
+                    <!-- /.box-body -->
+
                 </div>
                 <!-- /.box -->
             </div>

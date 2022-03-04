@@ -13,10 +13,13 @@
                     <h4 class="page-title">Paramétrage</h4>
                     <div class="d-inline-block align-items-center">
                         <nav>
-                        <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a></li>
-                                <li class="breadcrumb-item" aria-current="page"><a href="parametrage_liste_cycle.php">Cycles</a></li>
-                                <li class="breadcrumb-item active" aria-current="page"><a href="parametrage_ajouter_cycle.php">Ajouter cycle</a></li>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.php"><i class="mdi mdi-home-outline"></i></a>
+                                </li>
+                                <li class="breadcrumb-item" aria-current="page"><a
+                                        href="parametrage_liste_cycle.php">Cycles</a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><a
+                                        href="parametrage_ajouter_cycle.php">Ajouter cycle</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -33,7 +36,7 @@
                         <!-- /.box-header -->
                         <form class="form">
                             <div class="box-body row ">
-                                <div class="col-lg-6 " >
+                                <div class="col-lg-6 ">
                                     <div class="form-group">
                                         <label class="form-label mb-2">Nom de cycle</label>
                                         <div class="input-group mb-3">
@@ -41,9 +44,9 @@
                                             <input type="text" class="form-control">
                                         </div>
                                     </div>
-                                    
-                                    
-                                   
+
+
+
                                     <div class="form-group">
                                         <label class="form-label"> École</label>
                                         <div class="input-group mb-3">
@@ -54,35 +57,35 @@
                                             </select>
                                         </div>
                                     </div>
-                                   
-                                   
-                                   
-                                  
-                                </div>
-                              
-                                  
-                                   
-                                   
+
+
+
 
                                 </div>
+
+
+
+
 
                             </div>
-                            <!-- /.box-body -->
                             <div class="box-footer">
-                            <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-primary">
                                     <i class="fa fa-save"></i> Enregistrer
                                 </button>
                             </div>
+
                         </form>
                     </div>
-                    <!-- /.box -->
+                    <!-- /.box-body -->
+
                 </div>
+                <!-- /.box -->
             </div>
-        </section>
-        <!-- /.content -->
     </div>
+    </section>
+    <!-- /.content -->
+</div>
 </div>
 
 
 <?php include"include/footer.php";?>
-

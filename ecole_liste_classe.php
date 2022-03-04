@@ -38,14 +38,14 @@
                                     <thead class="bg-primary">
                                         <tr>
                                             
-                                            <th>Nom de la classe</th>
+                                            <th  class="text-center">Nom de la classe</th>
                                              <th class="text-center">Actions</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             
-                                            <td>Classe 1</td>
+                                            <td class="text-center">Classe 1</td>
                                             <td class="table-action  d-flex  justify-content-center align-items-center">
 												<form action="">
 													<a href="#" class="text-fade text-success me-2"><i
@@ -91,7 +91,7 @@
                                         </tr>
                                         <tr>
                                             
-                                            <td>Classe 2</td>
+                                            <td class="text-center">Classe 2</td>
                                             <td class="table-action  d-flex  justify-content-center align-items-center">
 												<form action="">
 													<a href="#" class="text-fade text-success me-2"><i
@@ -137,7 +137,7 @@
                                         </tr>
                                         <tr>
                                             
-                                            <td>Classe 3</td>
+                                            <td class="text-center">Classe 3</td>
                                             <td class="table-action  d-flex  justify-content-center align-items-center">
 												<form action="">
 													<a href="#" class="text-fade text-success me-2"><i
@@ -183,7 +183,7 @@
                                         </tr>
                                         <tr>
                                             
-                                            <td>Classe 4</td>
+                                            <td class="text-center">Classe 4</td>
                                             <td class="table-action  d-flex  justify-content-center align-items-center">
 												<form action="">
 													<a href="#" class="text-fade text-success me-2"><i
@@ -229,7 +229,7 @@
                                         </tr>
                                         <tr>
                                             
-                                            <td>Classe 5</td>
+                                            <td class="text-center">Classe 5</td>
                                             <td class="table-action  d-flex  justify-content-center align-items-center">
 												<form action="">
 													<a href="#" class="text-fade text-success me-2"><i
@@ -279,18 +279,17 @@
                             </div>
                     </div>
                 </div>
+				<div class="row">
+					<div class="col-lg-2 ms-auto">
+						<a href="ecole_ajouter_classe.php">
+							<button type="submit" class="btn btn-primary ms-3 mb-3"> <i class="fa fa-plus"
+									aria-hidden="true"></i>
+								Ajouter
+							</button></a>
+					</div>
+				</div>
             </div>
-            <div class="row  ">
-                <div class=" d-flex flex-row justify-content-end ">
-                    <a href="ecole_ajouter_classe.php">
-                        <button type="submit" class="btn btn-primary mx-3 mt-3">
-                          <i class="fa fa-plus" aria-hidden="true"></i>  Ajouter
-                        </button></a>
-
-                       
-                </div>
-
-            </div>
+        
         </section>
     </div>
 </div>

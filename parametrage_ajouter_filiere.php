@@ -77,15 +77,15 @@
 
 
 
-                            </div>
-
-                    </div>
-                    <!-- /.box-body -->
-                    <div class="box-footer">
+                            </div><div class="box-footer">
                     <button type="submit" class="btn btn-primary">
                                     <i class="fa fa-save"></i> Enregistrer
                                 </button>
                     </div>
+
+                    </div>
+                    <!-- /.box-body -->
+                    
                     </form>
                 </div>
                 <!-- /.box -->

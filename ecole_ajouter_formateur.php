@@ -50,14 +50,13 @@
                                         <label for="" class="form-label ">Sexe</label>
 
 
-                                        <div class="input-group mb-3">
                                             <input name="group1" type="radio" id="Option_1">
                                             <label for="Option_1"> Homme</label>
 
 
                                             <input name="group1" type="radio" id="Option_2">
                                             <label for="Option_2">Femme</label>
-                                        </div>
+                                      
 
                                     </div>
                                     <div class="form-group">

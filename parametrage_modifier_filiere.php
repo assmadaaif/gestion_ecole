@@ -78,15 +78,16 @@
 
 
                             </div>
-
-                    </div>
-                    <!-- /.box-body -->
-                    <div class="box-footer">
-                    <button type="submit" class="btn btn-primary">
+                            <div class="box-footer">
+                                <button type="submit" class="btn btn-primary">
                                     <i class="fa fa-save"></i> Enregistrer
                                 </button>
+                            </div>
+
+                        </form>
                     </div>
-                    </form>
+                    <!-- /.box-body -->
+
                 </div>
                 <!-- /.box -->
             </div>

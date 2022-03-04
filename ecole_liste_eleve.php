@@ -65,7 +65,7 @@
                                             <tr>
 
                                                 <td class="d-flex align-items-center flex-wrap">
-                                                    <img src="images/avatar/avatar-2.png" width="48" height="48"
+                                                    <img src="images/avatar/avatar-2.png" width="48" height=""
                                                         class="bg-light rounded-circle me-2" alt="Avatar"> Hassna
                                                     ELAOUAI
                                                 </td>
@@ -74,50 +74,53 @@
                                                 <td>Safi</td>
 
 
-                                                <td
-                                                    class="table-action d-flex  justify-content-center align-items-center">
-                                                    <form action="">
-                                                        <a href="#" class="text-fade text-success me-2"><i
-                                                                class="align-middle" data-feather="check"></i></a>
-                                                    </form>
-                                                    <form action="">
-                                                        <a href="ecole_modifier_eleve.php"
-                                                            class="text-fade text-primary me-2"><i class="align-middle"
-                                                                data-feather="edit-2"></i></a>
-                                                    </form>
-                                                    <form action="">
-                                                        <a href="" class="text-danger" class="me-3 "
-                                                            data-bs-toggle="modal"
-                                                            data-bs-target="#bs-example-modal-sm"><i
-                                                                class="align-middle" data-feather="trash"></i></button>
-                                                            <div class="modal fade" id="bs-example-modal-sm"
-                                                                tabindex="-1" role="dialog"
-                                                                aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                                                                <div class="modal-dialog modal-sm">
-                                                                    <div class="modal-content">
-                                                                        <div class="modal-header">
-                                                                            <h4 class="modal-title"
-                                                                                id="mySmallModalLabel">
-                                                                                Avertissement</h4>
-                                                                            <button type="button" class="btn-close"
-                                                                                data-bs-dismiss="modal"
-                                                                                aria-hidden="true"></button>
-                                                                        </div>
-                                                                        <div class="modal-body text-danger">
-                                                                            Voulez-vous vraiment supprimer ?
-                                                                        </div>
-                                                                        <div class="modal-footer">
-                                                                            <button type="button"
-                                                                                class="btn btn-primary-light"
-                                                                                data-bs-dismiss="modal">Non</button>
-                                                                            <button type="button"
-                                                                                class="btn btn-primary">Oui
-                                                                            </button>
+                                                <td class="table-action ">
+                                                    <div class="d-flex justify-content-center align-items-center">
+                                                        <form action="">
+                                                            <a href="#" class="text-fade text-success me-2"><i
+                                                                    class="align-middle" data-feather="check"></i></a>
+                                                        </form>
+                                                        <form action="">
+                                                            <a href="ecole_modifier_eleve.php"
+                                                                class="text-fade text-primary me-2"><i
+                                                                    class="align-middle" data-feather="edit-2"></i></a>
+                                                        </form>
+                                                        <form action="">
+                                                            <a href="" class="text-danger" class="me-3 "
+                                                                data-bs-toggle="modal"
+                                                                data-bs-target="#bs-example-modal-sm"><i
+                                                                    class="align-middle"
+                                                                    data-feather="trash"></i></button>
+                                                                <div class="modal fade" id="bs-example-modal-sm"
+                                                                    tabindex="-1" role="dialog"
+                                                                    aria-labelledby="mySmallModalLabel"
+                                                                    aria-hidden="true">
+                                                                    <div class="modal-dialog modal-sm">
+                                                                        <div class="modal-content">
+                                                                            <div class="modal-header">
+                                                                                <h4 class="modal-title"
+                                                                                    id="mySmallModalLabel">
+                                                                                    Avertissement</h4>
+                                                                                <button type="button" class="btn-close"
+                                                                                    data-bs-dismiss="modal"
+                                                                                    aria-hidden="true"></button>
+                                                                            </div>
+                                                                            <div class="modal-body text-danger">
+                                                                                Voulez-vous vraiment supprimer ?
+                                                                            </div>
+                                                                            <div class="modal-footer">
+                                                                                <button type="button"
+                                                                                    class="btn btn-primary-light"
+                                                                                    data-bs-dismiss="modal">Non</button>
+                                                                                <button type="button"
+                                                                                    class="btn btn-primary">Oui
+                                                                                </button>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                    </form>
+                                                        </form>
+                                                    </div>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -132,48 +135,54 @@
                                                 <td>Casablanca</td>
 
 
-                                                <td class="table-action  d-flex  justify-content-center align-items-center">
-												<form action="">
-													<a href="#" class="text-fade text-success me-2"><i
-															class="align-middle" data-feather="check"></i></a>
-												</form>
-												<form action="">
-													<a href="ecole_modifier_classe.php"
-														class="text-fade text-primary me-2"><i class="align-middle"
-															data-feather="edit-2"></i></a>
-												</form>
-												<form action="">
-													<a href="" class="text-danger" class="me-3 " data-bs-toggle="modal"
-														data-bs-target="#bs-example-modal-sm"><i class="align-middle"
-															data-feather="trash"></i></button>
-														<div class="modal fade" id="bs-example-modal-sm" tabindex="-1"
-															role="dialog" aria-labelledby="mySmallModalLabel"
-															aria-hidden="true">
-															<div class="modal-dialog modal-sm">
-																<div class="modal-content">
-																	<div class="modal-header">
-																		<h4 class="modal-title" id="mySmallModalLabel">
-																			Avertissement</h4>
-																		<button type="button" class="btn-close"
-																			data-bs-dismiss="modal"
-																			aria-hidden="true"></button>
-																	</div>
-																	<div class="modal-body text-danger">
-																		Voulez-vous vraiment supprimer ?
-																	</div>
-																	<div class="modal-footer">
-																		<button type="button"
-																			class="btn btn-primary-light"
-																			data-bs-dismiss="modal">Non</button>
-																		<button type="button"
-																			class="btn btn-primary">Oui
-																		</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-												</form>
-											</td>
+                                                <td class="table-action ">
+                                                    <div class="d-flex justify-content-center align-items-center">
+                                                        <form action="">
+                                                            <a href="#" class="text-fade text-success me-2"><i
+                                                                    class="align-middle" data-feather="check"></i></a>
+                                                        </form>
+                                                        <form action="">
+                                                            <a href="ecole_modifier_eleve.php"
+                                                                class="text-fade text-primary me-2"><i
+                                                                    class="align-middle" data-feather="edit-2"></i></a>
+                                                        </form>
+                                                        <form action="">
+                                                            <a href="" class="text-danger" class="me-3 "
+                                                                data-bs-toggle="modal"
+                                                                data-bs-target="#bs-example-modal-sm"><i
+                                                                    class="align-middle"
+                                                                    data-feather="trash"></i></button>
+                                                                <div class="modal fade" id="bs-example-modal-sm"
+                                                                    tabindex="-1" role="dialog"
+                                                                    aria-labelledby="mySmallModalLabel"
+                                                                    aria-hidden="true">
+                                                                    <div class="modal-dialog modal-sm">
+                                                                        <div class="modal-content">
+                                                                            <div class="modal-header">
+                                                                                <h4 class="modal-title"
+                                                                                    id="mySmallModalLabel">
+                                                                                    Avertissement</h4>
+                                                                                <button type="button" class="btn-close"
+                                                                                    data-bs-dismiss="modal"
+                                                                                    aria-hidden="true"></button>
+                                                                            </div>
+                                                                            <div class="modal-body text-danger">
+                                                                                Voulez-vous vraiment supprimer ?
+                                                                            </div>
+                                                                            <div class="modal-footer">
+                                                                                <button type="button"
+                                                                                    class="btn btn-primary-light"
+                                                                                    data-bs-dismiss="modal">Non</button>
+                                                                                <button type="button"
+                                                                                    class="btn btn-primary">Oui
+                                                                                </button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                        </form>
+                                                    </div>
+                                                </td>
                                             </tr>
                                             <tr>
 
@@ -185,50 +194,53 @@
                                                 <td>mohamed_naciri@gmail.com</td>
                                                 <td>(+212) 0698346612</td>
                                                 <td>Marakech</td>
-                                                <td
-                                                    class="table-action  d-flex  justify-content-center align-items-center">
-                                                    <form action="">
-                                                        <a href="#" class="text-fade text-success me-2"><i
-                                                                class="align-middle" data-feather="check"></i></a>
-                                                    </form>
-                                                    <form action="">
-                                                        <a href="ecole_modifier_eleve.php"
-                                                            class="text-fade text-primary me-2"><i class="align-middle"
-                                                                data-feather="edit-2"></i></a>
-                                                    </form>
-                                                    <form action="">
-                                                        <a href="" class="text-danger" class="me-3 "
-                                                            data-bs-toggle="modal"
-                                                            data-bs-target="#bs-example-modal-sm"><i
-                                                                class="align-middle" data-feather="trash"></i></button>
-                                                            <div class="modal fade" id="bs-example-modal-sm"
-                                                                tabindex="-1" role="dialog"
-                                                                aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                                                                <div class="modal-dialog modal-sm">
-                                                                    <div class="modal-content">
-                                                                        <div class="modal-header">
-                                                                            <h4 class="modal-title"
-                                                                                id="mySmallModalLabel">
-                                                                                Avertissement</h4>
-                                                                            <button type="button" class="btn-close"
-                                                                                data-bs-dismiss="modal"
-                                                                                aria-hidden="true"></button>
-                                                                        </div>
-                                                                        <div class="modal-body text-danger">
-                                                                            Voulez-vous vraiment supprimer ?
-                                                                        </div>
-                                                                        <div class="modal-footer">
-                                                                            <button type="button"
-                                                                                class="btn btn-primary-light"
-                                                                                data-bs-dismiss="modal">Non</button>
-                                                                            <button type="button"
-                                                                                class="btn btn-primary">Oui
-                                                                            </button>
+                                                <td class="table-action ">
+                                                    <div class="d-flex justify-content-center align-items-center">
+                                                        <form action="">
+                                                            <a href="#" class="text-fade text-success me-2"><i
+                                                                    class="align-middle" data-feather="check"></i></a>
+                                                        </form>
+                                                        <form action="">
+                                                            <a href="ecole_modifier_eleve.php"
+                                                                class="text-fade text-primary me-2"><i
+                                                                    class="align-middle" data-feather="edit-2"></i></a>
+                                                        </form>
+                                                        <form action="">
+                                                            <a href="" class="text-danger" class="me-3 "
+                                                                data-bs-toggle="modal"
+                                                                data-bs-target="#bs-example-modal-sm"><i
+                                                                    class="align-middle"
+                                                                    data-feather="trash"></i></button>
+                                                                <div class="modal fade" id="bs-example-modal-sm"
+                                                                    tabindex="-1" role="dialog"
+                                                                    aria-labelledby="mySmallModalLabel"
+                                                                    aria-hidden="true">
+                                                                    <div class="modal-dialog modal-sm">
+                                                                        <div class="modal-content">
+                                                                            <div class="modal-header">
+                                                                                <h4 class="modal-title"
+                                                                                    id="mySmallModalLabel">
+                                                                                    Avertissement</h4>
+                                                                                <button type="button" class="btn-close"
+                                                                                    data-bs-dismiss="modal"
+                                                                                    aria-hidden="true"></button>
+                                                                            </div>
+                                                                            <div class="modal-body text-danger">
+                                                                                Voulez-vous vraiment supprimer ?
+                                                                            </div>
+                                                                            <div class="modal-footer">
+                                                                                <button type="button"
+                                                                                    class="btn btn-primary-light"
+                                                                                    data-bs-dismiss="modal">Non</button>
+                                                                                <button type="button"
+                                                                                    class="btn btn-primary">Oui
+                                                                                </button>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                    </form>
+                                                        </form>
+                                                    </div>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -241,50 +253,53 @@
                                                 <td>ismail_hadri@gmail.com</td>
                                                 <td>(+212) 0695646610</td>
                                                 <td>Tanger</td>
-                                                <td
-                                                    class="table-action  d-flex  justify-content-center align-items-center">
-                                                    <form action="">
-                                                        <a href="#" class="text-fade text-success me-2"><i
-                                                                class="align-middle" data-feather="check"></i></a>
-                                                    </form>
-                                                    <form action="">
-                                                        <a href="ecole_modifier_eleve.php"
-                                                            class="text-fade text-primary me-2"><i class="align-middle"
-                                                                data-feather="edit-2"></i></a>
-                                                    </form>
-                                                    <form action="">
-                                                        <a href="" class="text-danger" class="me-3 "
-                                                            data-bs-toggle="modal"
-                                                            data-bs-target="#bs-example-modal-sm"><i
-                                                                class="align-middle" data-feather="trash"></i></button>
-                                                            <div class="modal fade" id="bs-example-modal-sm"
-                                                                tabindex="-1" role="dialog"
-                                                                aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                                                                <div class="modal-dialog modal-sm">
-                                                                    <div class="modal-content">
-                                                                        <div class="modal-header">
-                                                                            <h4 class="modal-title"
-                                                                                id="mySmallModalLabel">
-                                                                                Avertissement</h4>
-                                                                            <button type="button" class="btn-close"
-                                                                                data-bs-dismiss="modal"
-                                                                                aria-hidden="true"></button>
-                                                                        </div>
-                                                                        <div class="modal-body text-danger">
-                                                                            Voulez-vous vraiment supprimer ?
-                                                                        </div>
-                                                                        <div class="modal-footer">
-                                                                            <button type="button"
-                                                                                class="btn btn-primary-light"
-                                                                                data-bs-dismiss="modal">Non</button>
-                                                                            <button type="button"
-                                                                                class="btn btn-primary">Oui
-                                                                            </button>
+                                                <td class="table-action ">
+                                                    <div class="d-flex justify-content-center align-items-center">
+                                                        <form action="">
+                                                            <a href="#" class="text-fade text-success me-2"><i
+                                                                    class="align-middle" data-feather="check"></i></a>
+                                                        </form>
+                                                        <form action="">
+                                                            <a href="ecole_modifier_eleve.php"
+                                                                class="text-fade text-primary me-2"><i
+                                                                    class="align-middle" data-feather="edit-2"></i></a>
+                                                        </form>
+                                                        <form action="">
+                                                            <a href="" class="text-danger" class="me-3 "
+                                                                data-bs-toggle="modal"
+                                                                data-bs-target="#bs-example-modal-sm"><i
+                                                                    class="align-middle"
+                                                                    data-feather="trash"></i></button>
+                                                                <div class="modal fade" id="bs-example-modal-sm"
+                                                                    tabindex="-1" role="dialog"
+                                                                    aria-labelledby="mySmallModalLabel"
+                                                                    aria-hidden="true">
+                                                                    <div class="modal-dialog modal-sm">
+                                                                        <div class="modal-content">
+                                                                            <div class="modal-header">
+                                                                                <h4 class="modal-title"
+                                                                                    id="mySmallModalLabel">
+                                                                                    Avertissement</h4>
+                                                                                <button type="button" class="btn-close"
+                                                                                    data-bs-dismiss="modal"
+                                                                                    aria-hidden="true"></button>
+                                                                            </div>
+                                                                            <div class="modal-body text-danger">
+                                                                                Voulez-vous vraiment supprimer ?
+                                                                            </div>
+                                                                            <div class="modal-footer">
+                                                                                <button type="button"
+                                                                                    class="btn btn-primary-light"
+                                                                                    data-bs-dismiss="modal">Non</button>
+                                                                                <button type="button"
+                                                                                    class="btn btn-primary">Oui
+                                                                                </button>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                    </form>
+                                                        </form>
+                                                    </div>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -297,50 +312,53 @@
                                                 <td>khadija_saadi@gmail.com</td>
                                                 <td>(+212) 0654213305</td>
                                                 <td>EL jadida</td>
-                                                <td
-                                                    class="table-action  d-flex  justify-content-center align-items-center">
-                                                    <form action="">
-                                                        <a href="#" class="text-fade text-success me-2"><i
-                                                                class="align-middle" data-feather="check"></i></a>
-                                                    </form>
-                                                    <form action="">
-                                                        <a href="ecole_modifier_eleve.php"
-                                                            class="text-fade text-primary me-2"><i class="align-middle"
-                                                                data-feather="edit-2"></i></a>
-                                                    </form>
-                                                    <form action="">
-                                                        <a href="" class="text-danger" class="me-3 "
-                                                            data-bs-toggle="modal"
-                                                            data-bs-target="#bs-example-modal-sm"><i
-                                                                class="align-middle" data-feather="trash"></i></button>
-                                                            <div class="modal fade" id="bs-example-modal-sm"
-                                                                tabindex="-1" role="dialog"
-                                                                aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                                                                <div class="modal-dialog modal-sm">
-                                                                    <div class="modal-content">
-                                                                        <div class="modal-header">
-                                                                            <h4 class="modal-title"
-                                                                                id="mySmallModalLabel">
-                                                                                Avertissement</h4>
-                                                                            <button type="button" class="btn-close"
-                                                                                data-bs-dismiss="modal"
-                                                                                aria-hidden="true"></button>
-                                                                        </div>
-                                                                        <div class="modal-body text-danger">
-                                                                            Voulez-vous vraiment supprimer ?
-                                                                        </div>
-                                                                        <div class="modal-footer">
-                                                                            <button type="button"
-                                                                                class="btn btn-primary-light"
-                                                                                data-bs-dismiss="modal">Non</button>
-                                                                            <button type="button"
-                                                                                class="btn btn-primary">Oui
-                                                                            </button>
+                                                <td class="table-action ">
+                                                    <div class="d-flex justify-content-center align-items-center">
+                                                        <form action="">
+                                                            <a href="#" class="text-fade text-success me-2"><i
+                                                                    class="align-middle" data-feather="check"></i></a>
+                                                        </form>
+                                                        <form action="">
+                                                            <a href="ecole_modifier_eleve.php"
+                                                                class="text-fade text-primary me-2"><i
+                                                                    class="align-middle" data-feather="edit-2"></i></a>
+                                                        </form>
+                                                        <form action="">
+                                                            <a href="" class="text-danger" class="me-3 "
+                                                                data-bs-toggle="modal"
+                                                                data-bs-target="#bs-example-modal-sm"><i
+                                                                    class="align-middle"
+                                                                    data-feather="trash"></i></button>
+                                                                <div class="modal fade" id="bs-example-modal-sm"
+                                                                    tabindex="-1" role="dialog"
+                                                                    aria-labelledby="mySmallModalLabel"
+                                                                    aria-hidden="true">
+                                                                    <div class="modal-dialog modal-sm">
+                                                                        <div class="modal-content">
+                                                                            <div class="modal-header">
+                                                                                <h4 class="modal-title"
+                                                                                    id="mySmallModalLabel">
+                                                                                    Avertissement</h4>
+                                                                                <button type="button" class="btn-close"
+                                                                                    data-bs-dismiss="modal"
+                                                                                    aria-hidden="true"></button>
+                                                                            </div>
+                                                                            <div class="modal-body text-danger">
+                                                                                Voulez-vous vraiment supprimer ?
+                                                                            </div>
+                                                                            <div class="modal-footer">
+                                                                                <button type="button"
+                                                                                    class="btn btn-primary-light"
+                                                                                    data-bs-dismiss="modal">Non</button>
+                                                                                <button type="button"
+                                                                                    class="btn btn-primary">Oui
+                                                                                </button>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                    </form>
+                                                        </form>
+                                                    </div>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -350,17 +368,15 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row  ">
-                <div class=" d-flex flex-row justify-content-end ">
-                    <a href="ecole_ajouter_eleve.php">
-                        <button type="submit" class="btn btn-primary mx-3 mt-3">
-                            <i class="fa fa-plus" aria-hidden="true"></i> Ajouter
-                        </button></a>
-
-
+                <div class="row">
+                    <div class="col-lg-2 ms-auto">
+                        <a href="ecole_ajouter_eleve.php">
+                            <button type="submit" class="btn btn-primary ms-3 mb-3"> <i class="fa fa-plus"
+                                    aria-hidden="true"></i>
+                                Ajouter
+                            </button></a>
+                    </div>
                 </div>
-
             </div>
         </section>
 
