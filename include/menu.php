@@ -1,5 +1,5 @@
 <?php
-$menu=2;
+$menu=1;
 switch ($menu) {
     case 1:
          include"include/menu_admin.php"; 
